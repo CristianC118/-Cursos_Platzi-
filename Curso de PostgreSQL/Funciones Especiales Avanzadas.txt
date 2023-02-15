@@ -1,0 +1,46 @@
+            Funciones Especiales Avanzadas
+            
+    COALESCE: te permite comparar 2 valores y retornar el que no es nulo. Pero la función acepta un número ilimitado de argumentos. Cuando son más de 2 argumentos devuelve el primero no NULL (en sentido de izquierda a derecha). Si todos los argumentos son NULL, devuelve NULL.
+Se utiliza para evitar devolver valores nulos. Esto es útil cuando el valor devuelto tiene que ser usado dentro de una función. Para que esta función no tenga un argumento nulo.
+https://www.postgresqltutorial.com/postgresql-coalesce/
+    Ejemplo:
+SELECT id_pasajero, COALESCE (nombre, 'No Aplica') as nombre, fecha
+	FROM public.pasajeros where id_pasajero= '1';
+
+    NULLIF: te permite comparar 2 valores y retorna NULL si son iguales. Si no son iguales retorna el argumento de la izquierda. Esta función se puede usar como denominador de una división con el argumento de la izquierda igual a cero. La división siempre se dividirá por el argumento de la izquierda salvo cuando sea cero. Para ese caso NULLIF devuelve NULL, haciendo que el resultado de la división sea NULL y no indefinido.
+https://www.postgresqltutorial.com/postgresql-nullif/
+    Ejemplo:
+select nullif ('0','0');
+
+    GREATEST: te permite comparar un arreglo de valores y te retorna el mayor
+    Ejemplo:
+select greatest ('0', '1', '2', '3', '4')
+
+    LEAST: idem anterior pero para este caso retorna el menor
+    Ejemplo:
+select least ('0', '1', '2', '3', '4')
+
+    BLOQUES ANÓNIMOS: al igual que el desarrollo de software te permite ingresar condicionales pero dentro de una consulta de base de datos. Se agrega más información a una misma tabla sin agregar ningún tipo de consulta
+    Ejemplo:
+SELECT id_pasajero, nombre, fecha,
+CASE
+WHEN fecha< '1998-01-01' THEN
+'Niño'
+ELSE
+'Mayor'
+END
+	FROM public.pasajeros;
+	
+	
+    Ejercicio: Consulta información de los pasajeros agregando una columna adicional que nos diga quienes comiecen su nombre con una letra X y además de ellos quienes tienen más de X edad.
+
+select id_pasajero, nombre, fecha,
+	case
+		when nombre ilike 'a%' then 'Comienza con A'
+		else 'No se'
+		end as "letra",
+	case
+		when fecha>= '2005-01-01' then 'Menor de Edad'
+		else 'Mayor de Edad'
+		end as "edad"
+from public.pasajeros;

@@ -1,0 +1,30 @@
+                  Crear Visualizaciones
+
+Elegir la visualización correcta es una de las partes más importantes de nuestro proyecto. Una buena visualización permite comunicar nuestras ideas o descubrimientos a un público más amplio y de forma dinámica.
+
+            Tips para una buena visualización
+Menos es más
+Los colores son importantes, úsalos bien
+Mantén tus elementos bien alineados
+No siempre es bueno mostrar todo en una cifra
+Muestra solo información relacionada
+Una mala elección de un visual puede ocasionar que la información no se transmita de manera correcta, llegando incluso a tergiversar el entendimiento de la misma
+
+                        Práctica
+Conéctate al archivo de Ventas - Fundamentos, cargando solo la tabla de ventas. Primero, crea una tabla de medidas. En la tabla de medidas, crea una medida llamada Total Ventas, que sea la suma de la columna Precio Venta sin IGV (como en las clases del módulo pasado). Crea también una tabla de calendario con CALENDARAUTO y relaciónala con la tabla de ventas.
+
+            Total de ventas en el tiempo
+A continuación, insertamos un gráfico de columnas agrupadas, colocando la medida Total Ventas en “Eje Y”, y el campo Date de la tabla calendario en “Eje X”. Expandimos entonces dos niveles de jerarquía, para que quede el total de ventas por mes y año. Nos queda así:
+
+
+Para mejorar el formato del eje x, nos vamos al segundo ícono de la pestaña de “Visualizaciones” (ícono de pincel o rodillo). Hacemos clic en “Eje X”, donde podemos ajustar el tamaño de la fuente, así como quitar el título del eje y la concatenación de etiquetas. Así queda:
+
+
+     Mapa de total de ventas por ubicación y sede
+Deselecciona el gráfico de columnas y dale clic al ícono de mapa (globo terráqueo) para insertar un mapa. Lleva el campo Ubicación de tabla_ventas a “Ubicación”, la medida Total Ventas a “Tamaño de burbuja”, y el campo Sede a “Leyenda”. Opcionalmente, ve a la pestaña de formato (ícono de pincel) y en “Burbujas” ajusta el tamaño de las mismas. Nos queda así.
+
+
+                    Ventas por canal
+Inserta un gráfico circular. Lleva Canal a detalles y Total Ventas a valores. Gracias a las etiquetas de detalles, podemos ver el total de ventas para cada canal. Sin embargo, si desactivamos estas etiquetas, la información se vuelve más confusa. Por esto, se recomiendan los gráficos circulares (pie charts) para un máximo de 3 categorías.
+
+En este caso, puedes cambiar el gráfico de pie por uno de barras. Compáralos y dime en los comentarios cuál transmite mejor la información.

@@ -1,0 +1,18 @@
+                Tipos de Mapas.
+Las visualizaciones de datos en forma de mapas pueden tener un sin fin de representaciones pero lo importante es entender que nos referimos a una gráfica que representa una proporción de un área sobre una superficie plana.
+
+Por lo general, estos mapas utilizan referencias de medición en los costados para poder entender la proporción en la cual fueron diseñados, por ejemplo: 1 cm = 1 km. Es importante recalcar que estas mediciones se utilizan para dar mayor fidelidad en la representación de información.
+
+Entre los distintos tipos de representación en mapas que existe, podemos encontrar los más conocidos y utilizados:
+
+    Mapas de Isolíneas
+Utilizan líneas para poder unir áreas que determinen cierta similitud relacionada con alguna variable. Estos espacios suelen colorearse para mostrar distinción entre ellos. Este tipo de mapas son muy utilizados en el ámbito meteorológico, en el caso de la imagen podemos observar un mapa isobárico para medir la presión atmosférica.
+
+    Mapas Coropléticos
+Son mapas que representan con color los lugares donde ocurrieron ciertos sucesos (variable). Durante las elecciones presidenciales de los Estados Unidos, esos mapas se utilizaron para demostrar el partido político que ganó en determinados estados.
+
+    Mapas de Diagramas
+Estos mapas pueden considerarse como mapas combinados, ya que por lo general utilizan el color para hacer una distinción de variable y alguna otra visualización sobre cada segmento para mostrar una variable adicional. Generalmente estos mapas son utilizados en estadística geográfica, reportes económicos, de salud, etc.
+
+    Mapas Anamórfico
+Estos mapas utilizan distintos tipos de figuras geométricas para identificar sucesos en determinadas ubicaciones geográficas.

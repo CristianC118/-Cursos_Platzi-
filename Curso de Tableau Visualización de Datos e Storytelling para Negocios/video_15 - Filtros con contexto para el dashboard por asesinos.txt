@@ -1,0 +1,33 @@
+   Filtros con contexto para el dashboard por asesinos
+
+            Tarjeta de la casa del asesino
+    
+Duplicamos la tarjeta de arma favorita
+Eliminamos el filtro y los valores
+Agregamos la casa del asesino a nuestra hoja de trabajo
+Agregamos un filtro para que nos muestre máximo 2, ya que los asesinos pueden tener 1 o más casas
+Cambiamos el nombre de nuestra DataViz a “Casa”
+
+            Creación de nuestro dashboard
+Cambiamos el tamaño a automático
+Y arrastramos todas nuestras hojas de trabajo que creamos (tablas y tarjetas)
+Agregamos un título a nuestro dashboard
+Eliminamos los títulos de nuestras gráficas de barras y en la casa del asesino
+
+ Agregar interactividad con nuestra gráfica como filtro
+Apartado de dashboard -> Acciones -> Filtro
+En hoja de origen dejamos seleccionada nuestra gráfica de barras
+Marcamos que se filtre al seleccionar
+En la sección de hojas de destino deseleccionamos nuestra gráfica de barras
+Y aceptamos
+
+Con esto parece funcionar bien nuestro filtro, pero si te das cuenta, con algunos personajes no muestra ni casa, ni arma favorita, esto es porque agregamos otro filtro en las tarjetas.
+
+Para solucionar esto, necesitamos agregar un contexto para el filtro.
+
+            Contexto de filtro en las tarjetas
+Seleccionamos cualquier personaje, para que el filtro dinámico también aparezca en nuestra tarjeta
+Vamos a nuestra tarjeta
+Ahí aparecerá también el filtro de la acción del asesino, hacemos clic en la flechita, y clic en “Añadir a contexto”
+
+Con esto nuestras acciones ya funcionan perfectamente en nuestro dashboard.

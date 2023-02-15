@@ -1,0 +1,20 @@
+        Cómo estructurar un caso de negocio
+        
+Desglosar un problema de negocio en una hipótesis estructurada:
+    ¿Qué? > Problema de negocio -> Hipótesis: Partir de una pregunta específica.
+    ¿Por qué? > Clasificar todos los motivos y sistematizarlo en pocas categorías, ejemplo:
+- Motivaciones económicas
+- Preguntas
+- Problemas tecnológicos (relacionado con problema de como comunica la empresa).
+- Política de la empresa.
+
+    ¿Cómo? > Estrategia de cómo vamos a diseñar y organizar todo el análisis:
+1- Análisis cuantitativo: Debe ir siempre primero ya que es toda la información. Hacer una clasificación numérica.
+
+2- Análisis cualitativo: Buscar categorías en función de texto. Nos ayuda a identificar características, tipos, relacionados con el problema.
+
+3- Matriz cuantitativa-cualitativa: Poner en conjunto la información, entender los números y explicarlos más a profundidad.
+
+4- Acciones de prevención: Definir acciones con la información que tenemos. Pasar de los insights a acciones.
+
+5- Validación: Verificar si nuestro análisis ha servido y si nuestras acciones de prevención están teniendo efecto.

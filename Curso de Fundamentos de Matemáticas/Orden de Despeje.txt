@@ -1,0 +1,15 @@
+            Orden de Despeje
+iniciando por las sumas y terminando en los paréntesis.
+
+    Orden de resolución aritmética
+Paréntesis
+Exponentes
+Multiplicación División
+Adición y sustracción
+    Orden de despeje algebraico
+Paréntesis
+Exponentes
+Multiplicación y división
+Edición y sustracción
+
+Respetar este orden de resolución y despeje, nos ayuda a llevar nuestras operaciones con un poco más de orden y garantizando que no vamos a tener todavía más complicaciones.

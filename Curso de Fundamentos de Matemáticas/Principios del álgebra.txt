@@ -1,0 +1,13 @@
+            Principios del álgebra
+            
+Cuando tenemos una operación cuyo resultado no sabemos, este resultado lo representaremos con la letra x y se llamara variable.
+
+Una ecuación es una igualdad entre dos expresiones que contienen una o más variables.
+
+Si tenemos dos ecuaciones distintas, sus valores de x van a ser distintos. Sin embargo, en un sistema de ecuaciones tendremos más de dos ecuaciones cuyo valor de x será igual.
+
+En una ecuación donde tenemos una misma variable x, no puede tomar valores distintos, en cambio si tenemos una variable x y una variable y estas pueden tener mismos valores y también distintos.
+
+
+El algebra es la rama de las matemáticas que estudia los números, sus propiedades y de la estructura/conformación de los conjuntos numéricos en relación con las propiedades establecidas sobre ellos, utilizando la “abstracción” mediante el uso de letras y símbolos que permiten representar y construir expresiones algebraicas.
+Ecuación: Igualdad entre dos expresiones que contiene una o más variable

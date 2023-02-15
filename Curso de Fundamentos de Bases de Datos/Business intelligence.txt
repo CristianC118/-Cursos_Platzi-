@@ -1,0 +1,18 @@
+                                                Business intelligence
+                                                
+Business Intelligence es una parte muy importante de las carreras de datos ya que es el punto final del manejo de estos. Su razón de ser es tener la información lista, clara y que tenga todos los elementos para tomar decisiones en una empresa.
+Es necesario tener una buena sensibilidad por entender el negocio, sus necesidades y la información que puede llevar a tomar decisiones en el momento adecuado al momento de realizar business intelligence.
+
+    En definitiva, una solución BI completa permite:
+Observar ¿qué está ocurriendo?
+Comprender ¿por qué ocurre?
+Predecir ¿qué ocurriría?
+Colaborar ¿qué debería hacer el equipo?
+Decidir ¿qué camino se debe seguir?
+
+
+Una peluquería de Santiago de Compostela llevaba dos años abierta al público. Durante todo ese tiempo, las dueñas, dos chicas jóvenes y emprendedoras, habían trabajado todos los días de la semana (a excepción, naturalmente, de los domingos) para sacar adelante su negocio.
+
+Al haber estabilizado su cartera de clientes decidieron descansar un día más a la semana. Su primera opción fue cerrar los lunes, como las demás peluquerías de la zona. No obstante, decidieron basar su decisión en la información histórica que habían recogido en su pequeña aplicación de citas.
+
+Los resultados obtenidos fueron contudentes, ya que el lunes resultó ser el cuarto día más rentable de la semana (probablemente como consecuencia del cierre de la competencia). Finalmente el día elegido para descansar fue el martes.

@@ -1,0 +1,19 @@
+                Plano Cartesiano
+                
+Una vez que hemos realizado nuestra tabulación de la función, podemos proceder a graficar la misma en un plano cartesiano.
+
+¿Qué es un plano cartesiano?
+Un plano cartesiano es un espacio delimitado por dos líneas perpendiculares, nombradas Abscisa y Ordenada. Estas rectas están divididas en fragmentos equidistantes que se encuentran numerados. Este plano nos sirve para graficar puntos y encontrar patrones, ecuaciones y relaciones.
+
+El punto de intersección del plano cartesiano se llama origen
+
+Abscisa y Ordenada
+El eje de las ordenadas es el eje y , es decir, el eje vertical. El eje de las abcisas es el eje x y es el eje horizontal.
+
+¿Cómo se grafica en un plano cartesiano?
+Tomando una tabla de datos, seleccionamos uno a uno, los pares de datos y los colocamos en su coordenada correspondiente.
+
+Cuadrante I: x y y son positivos.
+Cuadrante II: x es negativo y y es positivo.
+Cuadrante III: x y y son negativos.
+Cuadrante IV: x es positivo y y es negativo.

@@ -1,0 +1,14 @@
+		     Archivos de Configuración
+
+Los archivos de configuración son tres principales:
+
+    - postgresql.conf: Configuración general de postgres, múltiples opciones referentes a direcciones de conexión de entrada, memoria, cantidad de hilos de pocesamiento, replica, etc.
+
+    - pg_hba.conf: Muestra los roles así como los tipos de acceso a la base de datos.
+
+    - pg_ident.conf: Permite realizar el mapeo de usuarios. Permite definir roles a usuarios del sistema operativo donde se ejecuta postgres.
+
+La ruta de los mismos depende del sistema Operarivo, para saber que que ruta estan, basta con hacer una Query
+    SHOW config_file;
+
+NOTA: siempre es bueno hacer una copia original de los archivos antes de modificarlos por si movemos algo que no.

@@ -1,0 +1,13 @@
+                Equipos orientados a datos
+
+DBA (Dabta Base Administrator) Mantener y administrar el motor de base de datos
+
+Data Warehouse (Almacén de datos). Guardar datos pensando a futuro para poder trabajarse
+
+ETL/ Data Pipelines Llevar datos de un lado a otro
+
+BI (Business Intelligence) Precursores del DataScience, empezar a extraer datos y entender los datos y sus repercusiones, encontrar patrones
+
+Data Science Entender a la organización e impactarla de forma positiva
+
+ML (Machine Learning) Técnica para clasificar información o realizar predicciones con datos historicos

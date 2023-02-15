@@ -1,0 +1,19 @@
+                              Colecciones vs subcolecciones
+                              
+La particularidad de las top level collections es que existen en el primer nivel de manera intrínseca. Las subcolecciones ya no vivirán al inicio de la base de datos.
+
+Si tienes una entidad separada que vas a referenciar desde muchos lugares es recomendado usar un top level collection. Por el otro lado si se necesita hacer algo intrínseco al documento es aconsejable usar subcolecciones.
+
+Un top level collection se utilizaria para relaciones de tipo “agregacion”. Mientras que una sub collection se utilizaria para relaciones tipo “composicion”.
+
+    Por ejemplo:
+
+Tenemos Estudiantes, Cursos y Notas. Los estudiantes tiene cursos y los cursos tiene estudiantes. Si se elimina un curso los estudiantes no deben ser eliminados. Lo mismo si se elimina un estudiante los cursos no deben ser elimiandos. Esto es una relacion de agregacion. Aqui se usaria top level collection para estudiantes y cursos.
+
+Los estudiantes tienen notas y las notas pertenecen a un estudiante. Si se elimina un estudiante, tiene sentido eliminar las notas. Esto es una relacion de composicion. Aqui se usarian las subcollections. El estudiante tendría una subcollection de notas.
+
+
+    Notas:
+El uso de sub-colecciones es mas recomendado para cuando requieres de acceder a esa información o esos documentos cuando accedes al documento padre y no requieres de referenciar desde otro documento padre
+
+Cuando se requiere de listar de forma independiente esa colección es mejor usar de colección de Top Level y hacer reference dentro de los documentos que la requieren

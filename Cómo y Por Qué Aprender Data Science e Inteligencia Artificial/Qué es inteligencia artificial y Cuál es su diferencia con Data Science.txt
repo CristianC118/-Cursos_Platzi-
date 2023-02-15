@@ -1,0 +1,46 @@
+¿Qué es inteligencia artificial? ¿Cuál es su diferencia con Data Science?
+
+Inteligencia artificial (A.I. por sus siglas en inglés) se trata de enseñarles a las máquinas a emular o imitar la inteligencia naturalde los seres humanos.
+
+Esto lo hacen por medio de algoritmos que modelan cómo aprendemos, tomamos decisiones e identificamos patrones. Algunos ejemplos son: identificar gatitos de perritos o jugar videojuegos.
+
+Una de las grandes hazañas que ha podido lograr la inteligencia artificial fue ganarle a campeones mundiales en Go, Ajedrez y League of Legends por nombrar algunos. Por supuesto, no fue la misma máquina.
+
+Además, una aclaración importante es que la inteligencia artificial está limitada de cierto modo, porque no puede tener consciencia de sí misma y por ende no puede tomar sus propias decisiones.
+
+Machine Learning
+Es una rama de la inteligencia artificial, que tiene como objetivo hacer que las computadoras aprendan determinada habilidad.
+
+Esto se hace por medio de pasarle muchos datos a un algoritmo, que posteriormente nos va a arrojar un modelo, el cual podrá resolver problemas por medio de predicciones que este haga o también implementarlo a un software para solucionar determinadas situaciones.
+
+Datos de entrenamiento
+Son los datos utilizados para entrenar un algoritmo y obtener un modelo que pueda hacer predicciones para resolver problemas e implementarse en un software para un mejor rendimiento en el negocio.
+
+Datos de entrada
+Son los datos que se le dan al modelo obtenido luego de ser entrenado, que son del mismo contexto que los de entrenamiento, pero con diferentes detalles. Para los cuales va a generar predicciones que serán evaluadas para garantizar la eficacia del modelo.
+
+Utilidad del Machine Learning
+Por ejemplo, si queremos saber cuándo tendremos una perdida masiva de clientes, podríamos hacer un modelo que haga dicha predicción. Además, saber cuándo y qué producto ofrecerles para no perder un cliente.
+
+Por otra parte, si queremos saber si un paciente es propenso a una enfermedad específica en el futuro, podemos hacer un modelo que realice una predicción para detectar dicha enfermedad en las primeras etapas o prevenirla.
+
+Proceso de integración de Machine Learning al producto
+Hay equipos encargados de implementar modelos de Machine Learning al producto, como por ejemplo: el algoritmo de recomendaciones de Netflix o YouTube, quienes por medio de los datos que el usuario crea al interactuar con la plataforma, predice cuáles son los videos que más podrían interesarle.
+
+Los pasos para la integración del Machine Learning al producto son:
+
+Ingesta de datos.
+Validación de los datos.
+Preparación de datos.
+Entrenamiento de modelo.
+Evaluación de modelo.
+Validación de modelo.
+Despliegue de modelo.
+Interfaz de usuario.
+Diferencias entre Data Science e inteligencia artificial
+Data Science es el proceso para analizar datos y generar predicciones valiosas para la toma de decisiones y creación de productos.
+
+La inteligencia artificial se refiere a los algoritmos que sirven para predecir eventos en el futuro, imitando la inteligencia humana.
+
+Relación entre Data Science e inteligencia artificial
+En Data Science se utiliza como herramienta la inteligencia artificial para predecir el futuro, por medio de modelos evaluados que hacen pronósticos emulando cierta habilidad del ser humano, al analizar grandes cantidades de datos.

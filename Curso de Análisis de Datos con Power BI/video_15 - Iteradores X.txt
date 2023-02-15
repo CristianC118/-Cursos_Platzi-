@@ -1,0 +1,26 @@
+                        Iteradores X
+
+Las funciones iterativas son especiales dentro de DAX. Nos permiten crear operaciones a nivel de fila y calcular el resultado. A las funciones iterativas también se les conoce como funciones X. Algunas de estas funciones son: SUMX, AVERAGEX, MAXX, MINX, STDEVX.S, PERCENTILEX.EXC y CONCATENATEX.
+
+Un caso de uso es multiplicar dos valores dentro de una misma fila y sumar los resultados de cada multiplicación. Esto lo hacemos con la función SUMX.
+
+                    Práctica de SUMX
+Veamos esto de forma práctica. Desde Power BI, conéctate al archivo SUMX.xlsx (está en la carpeta del curso). Carga la Hoja1.
+
+Mediante “Especificar datos”, crea una tabla_medidas. Ahora añádele 2 medidas, una llamada Total Ventas, que sea la suma de Precio Venta sin IGV. La otra medida será Margen de Utilidad, que corresponde a la suma de la columna Margen Utilidad.
+
+Ahora genera una tabla donde puedas ver el total de ventas y margen de utilidad por Sede. Quedaría de la siguiente forma:
+
+
+Supongamos que queremos obtener la ganancia por sede. La intuición nos indica que simplemente debemos multiplicar el total de ventas por el margen de utilidad. Esto lo haríamos con una expresión DAX así:
+
+Ganancia DAX = Tabla_medidas[Total Ventas]*Tabla_medidas[Margen de utilidad]
+
+
+Sin embargo, llevar esta expresión a la tabla no da el resultado correcto, ya que estamos multiplicando las sumas de total de ventas y margen de utilidad. En realidad, debemos iterar las filas, multiplicar las ventas por el margen de utilidad de cada fila, y sumar el resultado de esa multiplicación para cada Sede.
+
+Para ello, creamos una nueva medida con la siguiente expresión:
+
+Ganancia = SUMX(Hoja1, Tabla_medidas[Total Ventas]*Tabla_medidas[Margen de utilidad])
+
+La función SUMX recibe dos parámetros. El primero es la tabla a iterar, el segundo es la expresión a sumar por cada fila de la tabla. Al final nos queda:

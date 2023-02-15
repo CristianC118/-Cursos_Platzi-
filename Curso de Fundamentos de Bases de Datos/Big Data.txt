@@ -1,0 +1,15 @@
+                                                          Big Data
+
+Big Data es un concepto que nace de la necesidad de manejar grandes cantidades de datos. La tendencia comenzó con compañías como YouTube al tener la necesidad de guardar y consultar mucha información de manera rápida.
+Es un gran movimiento que consiste en el uso de diferentes tipos de bases de datos.
+Grandes cantidades de datos procesada de manera rápida (millones de datos por segundo o menos) y eficiente para ser soportados por la BDD
+
+    PASOS PARA INGRESAR AL MUNDO DEL MACHINE LEARNING
+1.- ALGORITMOS
+2.- BASE DE DATOS
+3.- ALGEBRA
+4.- PROBABILIDAD Y ESTADISTICA
+5.- CAlLCULO
+6.- ECUACIONES DIFERENCIALES
+
+Es importantisimo saber de matematicas. Si conoces como funciona el machine learning por dentro lo dominas y no al revez

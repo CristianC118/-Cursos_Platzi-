@@ -1,0 +1,9 @@
+Variación de comportamientos a partir de la geolocalización
+
+Relevancia del comportamiento de acuerdo al origen geográfico por país, ciudad, distrito.
+
+En el caso de top offenders se creó un gráfico que compara las quejas vs compras de acuerdo al origen geográfico de las mismas, a nivel de ciudad. Se espera obtener una línea de 45º si el comportamiento de los resultados es normal como se observa en el gráfico.
+
+En geolocalización sería también importante pensar en la distribución de tipo de clientes por ciudad. Es decir, uno puede tener una ciudad cercana al eje x ("con muchos top offenders) pero es posible que la distribución de clientes en esta ciudad esté sesgada hacia clientes plata u oro. Es importante validar esto para no llegar a una conclusión errónea.
+
+Este apartado me gusta mucho, ir desmenuzando cada pieza de información, En el caso de las ciudades, si son las pequeñas las que se quejan más puede deberse a que no hay buen servicio esa zona, su cultura es diferente, hay una competencia más fuerte en ciertas ciudades, su nivel socio-económico es diferente, etc.

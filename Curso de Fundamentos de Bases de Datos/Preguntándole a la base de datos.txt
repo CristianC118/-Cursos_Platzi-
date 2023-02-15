@@ -1,0 +1,13 @@
+                        Preguntándole a la base de datos
+                        
+GROUP_CONCAT toma el resultado del query y lo pone como campo separado por comas.
+
+GROUP_CONCAT si bien acepta un solo parámetro, se puede personalizar al gusto mediante estas tres opciones
+DISTINCT, ORDER BY, SEPARATOR
+
+GROUP_CONCAT. Sirve para concatenar todos los registros afectados por un GROUP BY en un solo campo.
+'
+    Criterios.
+DISTINCT. Evita duplicidad en los valores.
+ORDER BY. Sirve para decidir el orden de concatenación del campo.
+SEPARATOR. Es el separador a utilizar para separar los valores (por defecto, el separador es una coma “,”).

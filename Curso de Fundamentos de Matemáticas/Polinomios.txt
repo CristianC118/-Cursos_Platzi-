@@ -1,0 +1,32 @@
+                Polinomios
+
+Cuando empezamos a trabajar con funciones algebraicas, debemos acostumbrarnos a usar los términos como monomio y polinomio que son las que van a dar orden y sentido a nuestras ecuaciones.
+
+¿Qué es un monomio?
+Monomio es un solo término, proviene de la unión de los vocablos mono que significa mono y nomio y termino. Significa que solo existe un termino en la ecuación, por ejemplo 2x.
+
+¿Qué es un polinomio?
+Un polinomio es cuando una ecuación tiene más de un término, por ejemplo 2x +3y.
+
+¿Cómo saber el grado de un polinomio?
+El grado de un polinomio estará determinado por el grado máximo de los exponentes. Mientras más grande sea el grado de un polinomio mayor será su complejidad. Así que si nuestra ecuación tiene su mayor exponente al cuadrado, nuestra ecuación será de grado dos, si tuviera un término elevado a la cuarta potencia y este fuera el mayor de la ecuación, entonces seria un polinomio de grado cuatro.
+
+¿Que es un Polinomio?
+Un polinomio es una expresión hecha con constantes, variables y exponentes, que están combinados usando sumas, restas y multiplicaciones, … pero no divisiones.
+Los exponentes
+Los exponentes sólo pueden ser 0,1,2,3,… etc.
+No puede tener un número infinito de términos.
+
+Existen distintos tipos de polinomios:
+
+Polinomio de un término: monomio, por ejemplo, 8xy.
+Polinomio de dos términos: binomio, por ejemplo, 8xy - 2y.
+Polinomio de tres términos: trinomio, por ejemplo, 8xy - 2y + 4.
+Cuando tenemos más de 3 términos lo llamamos polinomio directamente.
+¿Qué es el grado de un polinomio?
+El grado de un polinomio de una sola variable es el exponente más grande. El grado de un polinomio con más de una variable es determinado por el término con el exponente más grande (también se conoce como exponente mayor). La complejidad de un polinomio está indicada por su grado. Miremos algunos ejemplos:
+3x: grado 1
+8xy: grado 2 (x:1 + y:1= 2)
+
+Apuntes extra:
+Los polinomios deben estar ordenados. Por ejemplo, si tenemos el polinomio 3x3 + 5x4, debemos ordenarlo por el valor de su exponente: 5x4 + 3x3. Además, debemos agregar los demás términos ordenándolos por el valor de su exponente, por lo que quedaría: 5x4 + 3x3 + 0x2 + 0x + 0

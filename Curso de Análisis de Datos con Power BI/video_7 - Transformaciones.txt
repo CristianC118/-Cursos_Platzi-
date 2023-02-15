@@ -1,0 +1,116 @@
+                    Transformaciones
+
+Las transformaciones más comunes que podemos realizar en Power Query son:
+
+Cambiar tipo de dato
+Anexar consultas
+Dividir columnas
+Combinar consultas
+Reemplazar valores
+También podemos hacer combinaciones:
+
+Combinar binarios
+Agregar columnas
+Filtrar datos
+De manera similar a como ocurre en las bases de datos relacionales, en Power BI los tipos de datos se necesitan definir bien antes de utilizarlos.
+
+Práctica de transformación de datos
+A continuación, cambiaremos los tipos de datos de un dataset y quitaremos filas que causan problemas.
+
+Pasos a seguir
+En Power BI Desktop, para conectar a la fuente de información, dar clic en “Obtener datos”. Se desplegará un menú, donde seleccionamos “Texto o CSV”.
+
+Abrir el archivo Tipo de dato.txt, el cual puedes descargar de Drive
+
+Seleccionar “Cargar” para cargar la tabla, o bien “Transformar datos” para realizar cambios en la tabla antes de cargarlos.
+
+Al seleccionar “Transformar datos”, se inicia el Editor de Power Query, con una vista representativa de la tabla.
+
+Limpia los datos para corregir los errores. Para dar forma a los datos, se utiliza el Editor de Power Query, donde podemos ver errores en los tipos de datos.
+
+Tenemos cuatro columnas (Fecha, Cuenta, Departamento y Suma de importe) a las cuales se le asignó de forma automática un tipo de dato.
+Para eliminar el tipo de dato vamos a los “Pasos aplicados” y debemos eliminar el paso “Tipo cambiado.” Entonces todas las columnas pasan a ser tipo texto.
+
+
+Cambia el tipo de dato de la columna Fecha, dando clic sobre “ABC”. Se desplegará un menú para seleccionar el tipo de dato. Selecciona la última opción “Usar configuración regional”. Se abrirá una nueva ventana emergente donde seleccionas el tipo de dato: “Fecha” y “Configuración regional: Inglés (Estados Unidos)” y finalmente Aceptar.
+
+
+Cambia el tipo de dato de la columna Suma de Importe, dando clic sobre “ABC” y en “Usar configuración regional”. Se abrirá una ventana donde seleccionas el tipo de dato: “Número decimal” y “Configuración regional: Inglés (Estados Unidos)” y finalmente Aceptar.
+Power Query muestra las primeras mil filas de datos; podemos tener errores en filas más abajo. Hay que validarlo en la sección de consulta, haciendo clic nos mostrará un nuevo error en la fila 2134.
+Para solucionar este error, ve a la pestaña Inicio, haz clic en “Reducir filas”-> “Quitar filas”, selecciona “Quitar filas inferiores” y luego en la ventana emergente en número de filas escribe 1 y da clic en “Aceptar”.
+
+
+Para guardar todo el trabajo realizado en Power Query, en la pestaña Inicio le damos clic en “Cerrar y Aplicar”.
+
+        Visualizar la información transformada
+Para realizar una visualización en Power BI Desktop, en “Visualizaciones” haz clic sobre “Segmentación de datos” y se generará un cuadro en la página de informe. Debes seleccionar o arrastrar el campo Fecha para rellenar el objeto visual. Esta segmentación de datos nos permitirá filtrar interactivamente la siguiente visualización.
+En “Visualizaciones”, haz clic sobre “Gráfico de columnas agrupadas” y se generará el gráfico en la página de informe. Debes seleccionar o arrastrar el campo Fecha a “Eje” y el campo Suma de importe a “Valores” y se rellena el objeto visual.
+Cuando usamos el comando “Expandir todo un nivel de jerarquía”, permitirá pasar de Año a Trimestre, luego a Mensual y Diario.
+
+
+ Pasar un archivo en formato de matriz a formato tabular
+Ahora transformaremos un archivo con formato incorrecto para Power BI, de manera tal que pueda ser usado en la plataforma.
+
+En Power BI, añadimos una nueva página haciendo clic en el botón “+” en la parte de abajo.
+
+Nos conectamos al archivo Matriz a Tabular.csv. Veremos que este no tiene una estructura adecuada para Power BI, pero damos clic en Cargar igualmente.
+
+Verás en la sección derecha en campos “Matriz a Tabular”, para ver la tabla selecciona en la barra lateral el segundo ícono que corresponde a Datos.
+Notarás que no tiene la estructura correcta porque la primera fila hace referencia al nombre de la columna. La fila 2 podría ser la cabecera.
+
+Inicia el editor de Power Query haciendo clic en “Transformar datos”. En “Otras consultas”, dale clic sobre “Matriz a Tabular”.
+
+Necesitamos llevar la fila 2 a la cabecera, pero primero hay que eliminar la fila 1. Ve a la pestaña Inicio, luego clic sobre “Reducir filas”, luego clic sobre “Quitar filas”, selecciona “Quitar filas superiores” y luego en la ventana emergente en número de filas: 1 y da clic en “Aceptar”.
+
+
+Para llevar ahora la primera fila como encabezado, en la pestaña inicio usamos el botón “Usar la primera fila como encabezado”. En “Pasos Aplicados” se genera el paso “Encabezados promovidos”.
+
+La estructura quedó más limpia, pero tenemos aún el error del Total, ya que Power Query no lo reconoce. Haz clic en “Reducir filas”, luego clic sobre “Quitar filas”. Selecciona “Quitar filas inferiores” y luego en la ventana emergente en número de filas: 1 y haz clic en “Aceptar”.
+
+Guarda el trabajo dando clic en “Cerrar y Aplicar” para pasar a Power BI.
+
+            Visualizando las transformaciones
+Veamos si los datos están listos para el análisis, o si hay alguna otra transformación que debamos realizar.
+
+En “Visualizaciones”, haz clic sobre “Tabla”. Se generará un cuadro en la página de informe.
+Selecciona o arrastra el campo Producto a “Valores”, también selecciona enero-16, enero-17 y enero-18.
+
+
+Responderemos a dos preguntas:
+
+Primera pregunta: ¿Con esta estructura de datos puedes hacer que este gráfico sea dinámico con respecto a las fechas?
+
+No. La fecha como campo no existe, tenemos columnas que hacen referencias al contenido de ellas nada más.
+Segunda pregunta: ¿Podrías darme en un indicador (tarjeta) el monto total de la venta de enero-16, enero-17 y enero-18?
+
+En “Visualizaciones”, haz clic sobre “Tarjeta”. Se generará un cuadro en la página de informe.
+Vamos a generar una fórmula DAX para calcular el total de ventas de enero-16, enero-17 y enero-18. Sobre el campo Matriz a tabular, da clic derecho y selecciona “Nueva medida”.
+En la barra de fórmulas, reemplaza la palabra Medida con lo siguiente:
+Total de Ventas = SUM ('Matriz a Tabular'[enero-16])+ SUM ('Matriz a Tabular'[enero-17])+ SUM ('Matriz a Tabular'[enero-18])
+Selecciona la marca de verificación en la barra de fórmulas o presiona Enter para validar la fórmula y agregarla al modelo.
+La nueva medida genera un campo llamado Total de ventas, que debemos arrastrar a “Campos” para que nos genere la tarjeta con el valor correspondiente a la suma total de ventas de los meses seleccionados.
+¿Qué pasará cuando llegue la venta de enero-19? La fórmula va a estar limitada a lo que inicialmente hemos puesto. ¿Esto es trabajar de forma automatizada?
+¿Para qué vamos a migrar de una plataforma Excel a una como Power Bi si vamos a hacer el trabajo manual?
+
+           Transformando las columnas de fechas
+Vuelve al editor de Power Query y selecciona la consulta de Matriz a Tabular, a continuación:
+
+Da clic derecho en la columna de Producto y selecciona la opción “Anulación de dinamización de otras columnas”. Esto nos va a generar dos columnas: Atributo y Valor.
+
+
+Da doble clic sobre Atributo y renombralo como Fechas. Luego, da doble clic sobre Valor y renombralo como Importe.
+Cambia el tipo de dato de Fechas a tipo “Fecha”.
+
+
+Cierra y aplica los cambios.
+Elimina la fórmula Total de Ventas dando clic derecho, selecciona “Eliminar del modelo”.
+Respondemos la pregunta: ¿Se puede hacer una tabla que muestre los campos, productos e importe y sea dinámica con respecto a las fechas?
+
+Creamos una tabla en “Visualizaciones”.
+
+Seleccionamos o arrastramos los campos Producto e Importe a “Valores”.
+
+En “Visualizaciones”, haz clic sobre “Segmentación de datos” y se generará un cuadro en la página de informe. Luego arrastra el campo Fechas.
+
+
+Ahora la tabla es dinámica con respecto a la fecha. Solo debemos deslizar sobre la línea y ver cómo se modifica.

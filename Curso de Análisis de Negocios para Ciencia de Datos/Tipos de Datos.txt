@@ -1,0 +1,14 @@
+                Tipos de Datos
+
+            Tipología de datos:
+
+    Personas: La generamos nosotros por medios de Likes, contenido compartido y/o comentado, favoritos, etc.
+    
+        Transacciones:
+    Monetarias: transacciones: Cuanto Pagas, en qué establecimiento, Que producto o servicio obtienes, con que tipo de servicio pagas.
+    No monetarias: por ejemplos tus llamadas telefónicas, cuánto duran, a quién le marcas, etc.
+    
+    Navegación web: tipo cookies, estas incluyen términos y condiciones de la página, advierten el registro y la información que se va a recolectar (De qué país te visitan, cuánto tiempo  gastan la página, cuál es el promedio de edad de los que miran la página).
+        Machine 2 Machine: conexión de una máquina a otra máquina. Por ejemplo el GPS de tu teléfono para ubicar al conductor de Uber más cercano.
+        
+        Biométricos: datos que te identifican como persona única, huella dactilar, tipo de sangre, tu voz, tu rostro para desbloquear tu smartphone, iris.

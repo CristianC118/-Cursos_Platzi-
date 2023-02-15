@@ -1,0 +1,11 @@
+       Por qué las consultas son tan importantes
+       
+Las consultas o queries a una base de datos son una parte fundamental ya que esto podría salvar un negocio o empresa.
+Alrededor de las consultas a las bases de datos se han creado varias especialidades como ETL o transformación de datos, business intelligence e incluso machine learning.
+
+    ETL
+La palabra ETL correspondería al acrónimo de:
+Extract (Extraer)
+Transform (Transformar)
+Load (Cargar)
+ETL hace parte del proceso de integración de datos, mas aun es un componente muy importante que completa el resultado final en la relación de aplicaciones y sistemas.

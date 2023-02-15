@@ -1,0 +1,22 @@
+            Analítica de datos con Python / R
+
+Power BI nos da la posibilidad de implementar herramientas de analítica con los lenguajes R y Python. En este caso haremos uso de R dentro de Power BI.
+
+                    Instalando R
+Debemos instalar R Studio, que a su vez nos pide instalar R. En la página de instalación, escogemos “R for Windows” → “install R for the first time” y le damos al enlace de descarga. Luego, simplemente ejecutamos el instalador.
+
+Una vez instalado R, instalamos R Studio.
+
+      Práctica con R y Python dentro de Power BI
+Nos conectamos al archivo Business Analytics R.csv (está en la carpeta del curso). Creamos una Tabla_medidas y, dentro de ella, la medida SumaLinea = SUM('Business Analyticis R'[LINEA_CREDITO]).
+
+Comprobamos la medida funciones creando una visualización de tabla con las columnas EDAD y SumaLinea. Desglosamos SumaLinea por EDAD haciendo clic en la flecha de abajo en EDAD y en la opción “No resumir”, que evita que la columna de EDAD se agregue.
+
+
+               Insertar visualización de R
+Hacemos clic en el ícono de R. Nos va a aparecer una alerta de “Habilitar objetos visuales de script”. Le damos a habilitar. Ahora arrastramos los campos EDAD y SumaLinea a “Valores”.
+
+Luego, copiamos y pegamos el código del archivo Scripts en R.txt. Finalmente, le damos al botón de play para generar la visualización.
+
+
+Ahora sabes como implementar una visualización con un script de R en Power BI. Esto expande nuestras opciones de analítica en Power BI, lo que le da un valor agregado sobre otras herramientas.

@@ -1,0 +1,9 @@
+        Creando Platziblog: tablas transitivas
+        
+Las tablas transitivas sirven como puente para unir dos tablas. No tienen contenido semántico.
+Reverse Engineer nos reproduce el esquema del cual nos basamos para crear nuestras tablas. Es útil cuando llegas a un nuevo trabajo y quieres entender cuál fue la mentalidad que tuvieron al momento de crear las bases de datos.
+
+Con el diagrama fisico que es la representacion grafica de nuestra base de datos se procede a crear la base de datos propiamente dicha para esto se puede usar el lenguaje SQL, o para su mayor comodidad herramientas como MysqlWorkbench, PhpMyAdmin, Sequel, Heidi, Navicat, etc, etc, etc.
+Por logica se debe empezar por las tablas que no tienen llaves foraneas (es decir que no tienen relaciones en su tabla) ya que de no ser asi no se pueden referenciar las llaves a tablas no existentes.
+Lo siguiente es crear ya las tablas que tienen relaciones y indicar los campos que son llaves foraneas (foreing keys) y a que tabla y campo hacen referencia.
+

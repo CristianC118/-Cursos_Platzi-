@@ -1,0 +1,9 @@
+Cómo estructurar un caso de negocio
+		
+Valida la hipótesis que planteaste en el reto anterior, encuentra sus variables cuantitativas y cualitativas.
+
+- Mi hipóteis fue... desconexión y/o problemas técnicos de internet
+
+- Variables cuantitativas:... clasificar personas que se quejan por desconexción y por problemas técnicos
+
+- Variables cualitativas:... sacar un porcentaje de las personas que llaman por quejas y cuantas de ellas lo hacen por desconexión y problemas técnicos.

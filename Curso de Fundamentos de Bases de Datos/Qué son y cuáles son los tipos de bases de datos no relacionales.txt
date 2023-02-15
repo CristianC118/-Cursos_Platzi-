@@ -1,0 +1,36 @@
+    ¿Qué son y cuáles son los tipos de bases de datos no relacionales?
+    
+BASES DE DATOS NO RELACIONES*
+
+Solo responden diferentes necesidades cada una, ya que con las RDB surgen problemas al ir creciendo
+
+        Clave - valor:
+- Son ideales para almacenar y extraer datos con una clave unica.
+- Manejan diccionarios de manera excepcional
+- Se basan en algoritmos de hash o hashmap
+- EJEMPLOS: DynamoDB (maneja AWS), Cassandra (Los usa FB)
+
+        Basadas en documentos:
+- Basadas en objetos de tipo JSON. Ideal para almacenar datos JSON y XML
+- Son las más utilizadas despues de los RDBMS
+- Son una implementación de clave valor que varía en la forma semiestructurada en que se trata la información
+- Guarda la forma actual de una aplicación, no son buenas para hacer consulta complejas.
+- EJEMPLOS: MongoDB, Firestore (servicio en la nube, es un ambiente grafico)
+
+        Basadas en grafos:
+- Nodos o entidades que tienen multiples relaciones. Estan relacionadas TODOS CON TODOS
+- Se usan en el mundo de la inteligencia artificial, para formar redes neuronales
+- EJEMPLOS: neo4j, TITAN DB
+
+        En memoria:
+- Su mayor ventaja es que son sumamente rapidas
+- La respuesta llega en el minimo de tiempo
+- Su desventaja es que son limitadas y hay que guardar cosas en disco
+- Otra desventaja es que son volatiles (si se reinicia, hay que indexar, volver a traer la información del disco)
+- EJEMPLOS: Memcached, Redis
+
+        Optimizadas para búsqueda:
+- Se usa para hacer queries complejos
+- Sirven como grandes repositorios de datos, muchas veces historicos
+- Son utilizadas en Business Inteligent y Machine learning
+- EJEMPLOS: Elasticsearch BigQuery (la ofrece Google)

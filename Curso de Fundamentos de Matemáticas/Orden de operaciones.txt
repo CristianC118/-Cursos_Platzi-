@@ -1,0 +1,9 @@
+            Orden de operaciones
+            
+Las operaciones se deben resolver siguiendo un orden:
+
+Las que se encuentren dentro de paréntesis y corchetes.
+Las operaciones de potencias y raíz.
+Las operaciones de multiplicación y división.
+Por último, las operaciones de suma y resta.
+

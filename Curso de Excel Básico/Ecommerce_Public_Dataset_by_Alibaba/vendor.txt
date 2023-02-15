@@ -1,0 +1,8 @@
+vendor_id 	vendor_name 	vendor_phone 	vender_email			vendor_id 	5000	5100	5200	5300	5400	5500	5600
+5000	Apple 	2569561656	apple@gmail.com			vendor_name 	Apple 	 Microsoft 	Lenovo 	Asus 	Dell 	Monoprice 	Sony 
+5100	 Microsoft 	6165486561	microsoft@gmail.com			vendor_phone 	2569561656	6165486561	3215689466	9568484613	8465473132	3189831684	4846531876
+5200	Lenovo 	3215689466	lenovo@gmail.com			vender_email	apple@gmail.com	microsoft@gmail.com	lenovo@gmail.com	asus@gmail.com	dell@gmail.com	monoprice@gmail.com	sony@gmail.com
+5300	Asus 	9568484613	asus@gmail.com										
+5400	Dell 	8465473132	dell@gmail.com										
+5500	Monoprice 	3189831684	monoprice@gmail.com										
+5600	Sony 	4846531876	sony@gmail.com										

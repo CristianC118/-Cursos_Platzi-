@@ -1,0 +1,16 @@
+                Factorización
+                
+La factorización es una técnica que consiste en la descomposición de una expresión matemática (que puede ser un número, una suma o resta, una matriz, un polinomio, etc.) en forma de producto.
+                
+     Para el test de divisibilidad.
+Para 1: Todo número es divisible entre 1.
+Para 2: Todo número terminado en cero o dígito par es divisible entre 2.
+Para 3: Si la suma de los dígitos que forman a un número es divisible entre 3, entonces, todo el número es divisible entre 3.
+Para 4: Si los dos últimos dígitos de un número son ceros o la cifra que forman estos es divisible entre 4, entonces, todo el número es divisible entre 4.
+Para 5: Todo número terminado en 0 o 5 es divisible entre 5.
+Para 6: Todo número divisible entre 2 y 3 es divisible entre 6.
+Para 7: Si la diferencia de las decenas de un número menos el doble de sus unidades es 0 o divisible entre 7 entonces todo el número es divisible entre 7.
+Para 8: Si los tres últimos dígitos de un número son ceros o la cifra que forman estos, son divisibles entre 8, entonces todo el número es divisible entre 8.
+Para 9: Si la suma de todos los dígitos que forman a un numero es divisible entre 9, entonces todo el número es divisible entre 9.
+Para 10: Todo número terminado en 0 es divisible entre 10.
+Para 11: Si la diferencia de los dígitos de rango, par e impar que forman a un número es 0 o divisible entre 11, entonces todo el número es divisible entre 11.

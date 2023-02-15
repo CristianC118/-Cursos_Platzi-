@@ -1,0 +1,37 @@
+order_id	product_id	product_name	vendor_id	nombre_proveedor	option_id	quantity	shipping_fee	tax 	total_cost	order_date	delivery_date	ship_name 	ship_address 	tracking_number	delivery_status
+1000	1200	Macbook Pro (2017)	5000	Apple 	1201	2	 $7.00 	 $0.09 	 $50.02 	17/10/2018	20/10/2018	Anna Addison	"1325 Candy Rd, San Francisco, CA 96123"	ZW60001 	1
+1000	1200	Macbook Pro (2017)	5000	Apple 	1202	1	 $7.00 	 $0.09 	 $50.02 	17/10/2018	20/10/2018	Anna Addison	"1325 Candy Rd, San Francisco, CA 96123"	ZW60001 	1
+1000	1300	Macbook Air (2015) 	5000	Apple 	1301	3	 $7.00 	 $0.09 	 $50.02 	17/10/2018	20/10/2018	Anna Addison	"1325 Candy Rd, San Francisco, CA 96123"	ZW60001 	1
+1000	1300	Macbook Air (2015) 	5000	Apple 	1302	2	 $7.00 	 $0.09 	 $50.02 	17/10/2018	20/10/2018	Anna Addison	"1325 Candy Rd, San Francisco, CA 96123"	ZW60001 	1
+1001	1400	Iphone X	5100	 Microsoft 	1401	1	 $8.00 	 $0.06 	 $62.45 	15/10/2018	18/10/2018	Carol Campbell	"1931 Brown St, Gainesville, FL 85321"	AB61001 	0
+1001	1400	Iphone X	5100	 Microsoft 	1402	1	 $8.00 	 $0.06 	 $62.45 	15/10/2018	18/10/2018	Carol Campbell	"1931 Brown St, Gainesville, FL 85321"	AB61001 	0
+1001	1500	Iphone 7	5100	 Microsoft 	1501	2	 $8.00 	 $0.06 	 $62.45 	15/10/2018	18/10/2018	Carol Campbell	"1931 Brown St, Gainesville, FL 85321"	AB61001 	0
+1001	1500	Iphone 7	5100	 Microsoft 	1502	3	 $8.00 	 $0.06 	 $62.45 	15/10/2018	18/10/2018	Carol Campbell	"1931 Brown St, Gainesville, FL 85321"	AB61001 	0
+1002	1600	Iphone 8	5100	 Microsoft 	1601	2	 $10.00 	 $0.09 	 $40.33 	14/10/2018	17/10/2018	Julia Jones 	"1622 Seaside St, Seattle, WA 32569 "	CD62001 	1
+1002	1600	Iphone 8	5100	 Microsoft 	1602	1	 $10.00 	 $0.09 	 $40.33 	14/10/2018	17/10/2018	Julia Jones 	"1622 Seaside St, Seattle, WA 32569 "	CD62001 	1
+1002	1700	Ipad Air	5200	Lenovo 	1701	1	 $10.00 	 $0.09 	 $40.33 	14/10/2018	17/10/2018	Julia Jones 	"1622 Seaside St, Seattle, WA 32569 "	CD62001 	1
+1002	1700	Ipad Air	5200	Lenovo 	1702	3	 $10.00 	 $0.09 	 $40.33 	14/10/2018	17/10/2018	Julia Jones 	"1622 Seaside St, Seattle, WA 32569 "	CD62001 	1
+1003	1800	Ipad Mini 3th gen	5200	Lenovo 	1801	1	 $20.00 	 $0.06 	 $70.98 	12/10/2018	15/10/2018	Irene Everly 	"1756 East Dr, Houston, TX 28562"	KB63001 	0
+1003	1800	Ipad Mini 3th gen	5200	Lenovo 	1802	2	 $20.00 	 $0.06 	 $70.98 	12/10/2018	15/10/2018	Irene Everly 	"1756 East Dr, Houston, TX 28562"	KB63001 	0
+1003	1900	ESC8000 G3	5300	Asus 	1901	1	 $20.00 	 $0.06 	 $70.98 	12/10/2018	15/10/2018	Irene Everly 	"1756 East Dr, Houston, TX 28562"	KB63001 	0
+1003	1900	ESC8000 G3	5300	Asus 	1902	2	 $20.00 	 $0.06 	 $70.98 	12/10/2018	15/10/2018	Irene Everly 	"1756 East Dr, Houston, TX 28562"	KB63001 	0
+1004	2000	ESC8000 G4	5300	Asus 	2001	2	 $7.00 	 $0.06 	 $30.45 	16/10/2018	19/10/2018	Rachel Rose	"1465 River Dr, Boston, MA 43625 "	IK64001 	1
+1004	2000	ESC8000 G4	5300	Asus 	2002	3	 $7.00 	 $0.06 	 $30.45 	16/10/2018	19/10/2018	Rachel Rose	"1465 River Dr, Boston, MA 43625 "	IK64001 	1
+1004	2100	XPS 13 - 5080	5400	Dell 	2101	1	 $7.00 	 $0.06 	 $30.45 	16/10/2018	19/10/2018	Rachel Rose	"1465 River Dr, Boston, MA 43625 "	IK64001 	1
+1004	2100	XPS 13 - 5080	5400	Dell 	2102	3	 $7.00 	 $0.06 	 $30.45 	16/10/2018	19/10/2018	Rachel Rose	"1465 River Dr, Boston, MA 43625 "	IK64001 	1
+1004	2200	XPS 15 - 5070	5400	Dell 	2201	2	 $7.00 	 $0.06 	 $30.45 	16/10/2018	19/10/2018	Rachel Rose	"1465 River Dr, Boston, MA 43625 "	IK64001 	1
+1004	2200	XPS 15 - 5070	5400	Dell 	2202	3	 $7.00 	 $0.06 	 $30.45 	16/10/2018	19/10/2018	Rachel Rose	"1465 River Dr, Boston, MA 43625 "	IK64001 	1
+1005	2300	Monoprice Ultra Slim Series High Speed HDMI Cable	5500	Monoprice 	2301	1	 $8.00 	 $0.06 	 $100.20 	13/10/2018	16/10/2018	Sophie Sutton	"1896 West Dr, Portland, OR 65842"	OP65001 	0
+1005	2300	Monoprice Ultra Slim Series High Speed HDMI Cable	5500	Monoprice 	2302	1	 $8.00 	 $0.06 	 $100.20 	13/10/2018	16/10/2018	Sophie Sutton	"1896 West Dr, Portland, OR 65842"	OP65001 	0
+1005	2400	Monoprice Ultra Slim Series High Speed HDMI Cable - 4K	5500	Monoprice 	2401	3	 $8.00 	 $0.06 	 $100.20 	13/10/2018	16/10/2018	Sophie Sutton	"1896 West Dr, Portland, OR 65842"	OP65001 	0
+1006	2400	Monoprice Ultra Slim Series High Speed HDMI Cable - 4K	5500	Monoprice 	2402	2	 $5.00 	 $0.10 	 $58.52 	21/10/2018	24/10/2018	Wendy West	"1252 Vine St, Chicago, IL 73215"	XH66001 	1
+1006	2500	Avantree HT3189 Wireless Headphones	5600	Sony 	2501	3	 $5.00 	 $0.10 	 $58.52 	21/10/2018	24/10/2018	Wendy West	"1252 Vine St, Chicago, IL 73215"	XH66001 	1
+1006	2500	Avantree HT3189 Wireless Headphones	5600	Sony 	2502	1	 $5.00 	 $0.10 	 $58.52 	21/10/2018	24/10/2018	Wendy West	"1252 Vine St, Chicago, IL 73215"	XH66001 	1
+1006	2600	COWIN E7 PRO	5600	Sony 	2601	2	 $5.00 	 $0.10 	 $58.52 	21/10/2018	24/10/2018	Wendy West	"1252 Vine St, Chicago, IL 73215"	XH66001 	1
+1006	2600	COWIN E7 PRO	5600	Sony 	2602	1	 $5.00 	 $0.10 	 $58.52 	21/10/2018	24/10/2018	Wendy West	"1252 Vine St, Chicago, IL 73215"	XH66001 	1
+															
+															
+															
+															
+															
+															

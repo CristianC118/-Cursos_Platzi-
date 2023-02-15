@@ -1,0 +1,2 @@
+            Simbología en el álgebra
+En el álgebra seguiremos usando la simbología de la suma y resta, pero para la división y multiplicación habrá unos ligeros cambios. Para la división ya no se usará tanto el símbolo ÷, en su lugar usaremos una línea -. La multiplicación seguirá teniendo los símbolos x, . y *, pero se le va a añadir el poder representar una multiplicación encerrando sus factores en paréntesis: (2)(5) = 10

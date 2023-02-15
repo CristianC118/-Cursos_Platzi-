@@ -1,0 +1,18 @@
+                    Modelado de datos
+
+El modelado de datos en Power BI consiste en realizar análisis complejos entre varias tablas conectadas por un campo en común. El modelado de datos se realiza con Power Pivot.
+
+             Práctica de Modelado de Datos
+Conéctate en Power BI Desktop al archivo Ventas - Fundamentos.xlsx, en la carpeta del curso
+Carga las tablas, tabla_vehiculos y tabla_ventas
+Para ver las tablas en mayor detalle, dale clic en el lado izquierdo sobre la pestaña “Datos” y selecciona tabla_ventas o tabla_vehiculos
+Selecciona la pestaña de informe. En “Visualizaciones” haz clic sobre “Gráfico de barras agrupadas”.
+Selecciona o arrastra el campo Precio de venta sin IGV (de tabla_ventas) a “Eje Y” y el campo Sede a “Eje X”.
+En “Visualizaciones” selecciona la pestaña de formato (icono con un pincel, o ícono de rodillo). Para mostrar las etiquetas, activa la opción de “Etiquetas de datos”. Luego, en “Mostrar unidades” selecciona “Millones” y en “Posiciones decimales de valores” escribe 1.
+
+Para conocer las ventas por marcas de vehículos, crea otro gráfico de barras agrupadas, de la tabla_ventas selecciona o arrastra el campo Precio de venta sin IGV a “Eje Y” y de la tabla_vehículos el campo Marca a “Eje X”. Dale el mismo formato que el gráfico anterior (paso 6)
+Nota que la información se repite para cada una de las marcas, los datos son incoherentes porque aún no has modelado los datos. Hay que conectar la tabla_ventas y la tabla_vehículos con un campo en común.
+
+Ve a la pestaña de “Modelo” para establecer una relación mediante un campo en común. Desde la tabla_ventas, arrastra el campo ID_vehículos hasta el campo ID_vehículos de la tabla_vehículos para crear la relación entre las tablas.
+
+Regresa a la pestaña de Informe y observa que la información ya se muestra en forma correcta en el gráfico.

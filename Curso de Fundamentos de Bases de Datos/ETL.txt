@@ -1,0 +1,7 @@
+                                                              ETL
+                                                              
+ETL son las siglas de Extract, Transform, Load (extraer, transformar y cargar). Se trata de tomar datos de archivos muertos y convertirlos en algo que sea de utilidad para el negocio.
+También ayuda a tomar los datos vivos de la aplicación, transformarlos y guardarlos en un data warehouse periódicamente.
+
+No necesariamente etl toma datos de origen como bases de datos como Oracle, SQL, MySQL (bds relacionales) o alguna que otra BD no relacional. También puede tomar o extraer información desde archivos planos, csv, Excel o desde otro DTW.
+

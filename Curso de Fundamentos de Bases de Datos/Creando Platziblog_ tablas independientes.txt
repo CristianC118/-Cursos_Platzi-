@@ -1,0 +1,6 @@
+        Creando Platziblog: tablas independientes
+        
+Una buena práctica es comenzar creando las entidades que no tienen una llave foránea.
+Generalmente en los nombres de bases de datos se evita usar eñes o acentos para evitar problemas en los manejadores de las bases de datos.
+Recuerda que a la hora de crear una entidad, está por convención se escribe en plural, puesto que denota un grupo de datos.
+A menos que se vayan a loguear con el email, login debe ser unique, no pueden haber dos usuarios con la misma información.

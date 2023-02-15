@@ -1,0 +1,10 @@
+                    ORDER BY y HAVING
+                    
+La sentencia ORDER BY tiene que ver con el ordenamiento de los datos dependiendo de los criterios que quieras usar.
+
+ASC sirve para ordenar de forma ascendente.
+DESC sirve para ordenar de forma descendente.
+LIMIT se usa para limitar la cantidad de resultados que arroja el query.
+HAVING tiene una similitud muy grande con WHERE, sin embargo el uso de ellos depende del orden. Cuando se quiere seleccionar tuplas agrupadas únicamente se puede hacer con HAVING.
+
+En pocas palabras un HAVING es el WHERE del GROUP BY, por que puedes usar WHERE para filtrar los datos antes de agrupar y el HAVING para filtrar los resultados de la agrupación

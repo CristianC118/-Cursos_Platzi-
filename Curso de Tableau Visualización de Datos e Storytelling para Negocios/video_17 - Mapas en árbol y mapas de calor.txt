@@ -1,0 +1,25 @@
+              Mapas en árbol y mapas de calor
+
+Ahora veremos cómo podemos crear mapas en árbol y mapas de calor en Tableau.
+
+        Asesinatos por locación: mapa en árbol
+Arrastramos la propiedad locación a las filas.
+Arrastramos el número de muertes a la información de las filas.
+Acomodamos la información de mayor a menor.
+Cambiamos la medida a recuento distintivo.
+En el apartado de “Mostrarme” seleccionamos “mapas en árbol”.
+
+El tamaño de cada cuadrado de la gráfica de árbol representa la cantidad de sus datos.
+
+    Tabla de muertes por episodio a mapa de calor
+Vamos al apartado de Mostrarme.
+Seleccionamos la opción de mapas de calor.
+Arrastramos la marca del número de muertes a la marca de color.
+Cambiamos el color azul por uno naranja.
+Cambiamos el nombre a Mapa de calor por episodios.
+
+Los valores (cantidades) que se quiere representar se pasa al apartado “Color”.
+
+   Agregando el nuevo DataViz a nuestra vista general
+Agregamos nuestro mapa en árbol al lado de nuestra gráfica de burbujas.
+Eliminamos la leyenda de nuestro mapa en árbol.

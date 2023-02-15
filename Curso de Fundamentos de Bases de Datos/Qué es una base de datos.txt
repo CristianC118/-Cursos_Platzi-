@@ -1,0 +1,111 @@
+           Qué es una base de datos
+            
+Una base de datos es una colección organizada y estructurada de información que se puede acceder y gestionar fácilmente. Los datos se administran a través de un sistema de gestión de base de datos (DataBase Management System o DBMS).
+
+Si lo analizamos de esa manera, incluso el famoso Microsoft Excel es una base de datos, pues ahí guardas datos, los estructuras con etiquetas de filas y columnas para darles un sentido. Algunas de estas herramientas especializadas, al tener gran capacidad para el manejo de millones de registros o datos, nos facilitan su uso a gran escala y en diferentes circunstancias según nuestras necesidades.
+
+    ¿Qué es un dato?
+Un dato nos permite describir un objeto. Dicho objeto podemos llamarlo entidad, por ejemplo una casa en la que viven personas. La casa es la entidad y la cantidad de personas que viven en la casa son un dato, que en este caso es numérico.
+
+Hay diferentes tipos de datos que se pueden tener en una base de datos: caracteres, numéricos, imágenes, fechas, monedas, texto, bit, decimales y varchar. Hay bases de datos más o menos adecuadas según el tipo de dato, y hay un proceso para convertir un dato en información, pues un solo dato por sí mismo no representa nada si no lo vemos en contraste con otros. Así se identifican comportamientos.
+
+Tipos de bases de datos
+Las diferentes categorías de bases de datos no son necesariamente excluyentes unas con otras, siendo su más grande diferenciación entre las relacionales y las no relacionales. Por eso, entre los ejemplos podrás encontrar la misma base de datos en diferentes categorías.
+
+1. Bases de datos relacionales
+Como su nombre lo indica, utilizan el modelo relacional y siempre es mejor usarlas cuando los datos que vas a utilizar son consistentes y ya tienen una estructura planificada.
+
+Las bases de datos relacionales funcionan bien con datos estructurados.
+Las organizaciones que tienen muchos datos no estructurados o semiestructurados no deberían considerar una base de datos relacional.
+    
+    Ejemplos:
+MySQL
+Microsoft SQL Server
+Oracle Database
+PostgreSQL
+IBM Db2
+2. Bases de datos NoSQL o no relacionales
+A diferencia de las bases de datos relacionales, los datos de una base de datos NO-SQL (Not Only SQL) son más flexibles en cuanto a consistencia de datos y se han convertido en una opción que intenta solucionar algunas limitaciones que tiene el modelo relacional. Este tipo de bases de datos es excelente para las organizaciones que buscan almacenar datos no estructurados o semiestructurados.
+
+Una de las ventajas de las bases de datos NoSQL es que los desarrolladores pueden realizar cambios en la base de datos sobre la marcha, sin que ello afecte a las aplicaciones que la utilizan.
+
+    Ejemplos:
+MongoDB
+Redis
+Apache Cassandra
+Apache CouchDB
+CouchBase
+3. Bases de datos en la nube
+La principal característica de esta categoría es que las bases de datos se entregan como un servicio desde la nube, por lo que su correcta creación, mantenimiento y escalabilidad son competencia del proveedor de este servicio. Este tipo de bases de datos ha crecido exponencialmente con la era de internet y los IaaS (Infrastructure as a Service).
+
+    Ejemplos:
+Google Firebase
+Microsoft Azure SQL Database
+Amazon Relational Database Service
+Oracle Autonomous Database.
+4. Bases de datos en columnas
+También conocidas como almacenes de datos en columnas, las bases de datos en columnas tienen la particularidad de guardar los datos en columnas en lugar de en filas, que es como se guardan comúnmente. Estos tipos de bases de datos se utilizan a menudo en los grandes almacenes de datos porque su funcionalidad sirve para realizar consultas analíticas.
+
+Cuando se consulta una base de datos en columnas, básicamente se ignoran todos los datos que no se aplican a la consulta específica, ya que solo se puede recuperar la información de las columnas que se desea. Esta es una gran ventaja al encontrarse con datasets de proporciones gigantescas, con millones de registros.
+
+    Ejemplos:
+Google BigQuery
+Cassandra
+HBase
+MariaDB
+Azure SQL Data Warehouse
+5. Bases de datos de columnas anchas (wide column)
+Las bases de datos de columnas anchas tienen la ventaja de ser altamente escalables, pudiendo manejar incluso petabytes de datos en sus registros, lo que las hace ideales para soportar aplicaciones de big data en tiempo real.
+
+    Ejemplos:
+BigTable
+Apache Cassandra
+Scylla
+6. Bases de datos orientadas a objetos
+Una base de datos orientada a objetos se basa en la programación orientada a objetos (POO), por lo que los datos y todos sus atributos, están unidos como un objeto.
+
+Las bases de datos orientadas a objetos se gestionan mediante sistemas de gestión de bases de datos orientados a objetos (OODBMS - Object Oriented DataBase Management System).
+Estas bases de datos funcionan bien con lenguajes de programación orientados a objetos, como C++ y Java.
+
+7. Bases de datos clave-valor (key-value)
+Uno de los tipos más sencillos de bases de datos NoSQL, las bases de datos clave-valor guardan los datos como un grupo de pares clave-valor formados por dos elementos de datos cada uno.
+A veces también se denominan almacén de valor-clave.
+
+Las bases de datos clave-valor son altamente escalables y pueden manejar grandes volúmenes de tráfico, lo que las hace ideales para procesos como la gestión de sesiones para aplicaciones web, sesiones de usuario para juegos masivos en línea y carritos de compra en línea.
+
+8. Bases de datos jerárquicas
+Fueron originalmente un esfuerzo por parte de IBM a principios de los años 60. Estas bases de datos se utilizan más comúnmente para soportar aplicaciones de alto rendimiento y alta disponibilidad, entendiéndose dentro de un rango jerárquico que usualmente sirve para permitir accesos.
+
+    Ejemplos:
+Sistema de Gestión de la Información de IBM (IMS)
+Registro de Windows
+9. Bases de datos documentales
+A veces conocidas también como bases de datos orientadas a documentos (DODB), las bases de datos de documentos están diseñadas para almacenar y gestionar información orientada a documentos, también conocida como datos semiestructurados.
+
+Las bases de datos de documentos son sencillas y escalables, lo que las hace útiles para las aplicaciones móviles que necesitan iteraciones rápidas.
+
+    Ejemplos:
+MongoDB
+Amazon DocumentDB
+Apache CouchDB
+
+10. Bases de datos gráficas o de grafos (graph)
+Las bases de datos gráficas se emplean a menudo para analizar las relaciones entre puntos de datos heterogéneos y encontrar relaciones, como en la prevención del fraude o para la extracción de datos sobre los clientes de las redes sociales.
+
+    Ejemplos:
+Datastax Enterprise Graph
+Neo4J AuraDB
+11. Bases de datos de series temporales (time series)
+Estas bases de datos están optimizadas para llevar una marca de tiempo o timestamp, lo que las hace útiles para monitoreo. Algunos ejemplos de este tipo de datos son los datos de red, los datos de los sensores y los datos de monitorio de rendimiento de software.
+
+    Ejemplos:
+Druid
+eXtremeDB
+InfluxDB
+
+    ¿Cuál base de datos necesitas?
+Tener un buen diseño de base de datos desde el principio te puede ayudar a ahorrar tiempo a la hora de programar. Las bases de datos relacionales (con el estándar SQL para actualizar/recuperar datos) y no relacionales se organizan de forma diferente, también admiten tipos de datos específicos, por eso debes entender cómo se diseña cada una.
+
+Para que comprendas un poco mejor cómo se estructuran las bases de datos, piensa en el funcionamiento de una aerolínea que cuenta con aplicaciones para hacer reservas y trabaja desde distintas rutas. Todas las personas que van a viajar tienen que proveer datos para hacer una reservación de una ruta específica, por ejemplo, la fecha en que van a viajar.
+
+Para decidir entre una base de datos SQL o NoSQL, debes reflexionar en la relación entre los diferentes tipos de datos que vas a almacenar: si pueden vivir separados y no tienen relaciones, puedes utilizar una base de datos NoSQL. Pero si necesitas relacionar esos datos entre sí, es mejor una base de datos SQL.

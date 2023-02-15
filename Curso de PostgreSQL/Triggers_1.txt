@@ -1,0 +1,94 @@
+                        Triggers
+                        
+Tambien conocidos como disparadores. Son ejecutados o “disparados” cuando hacemos una consulta (INSERT, UPDATE o DELETE). Intervienen 4 elementos principalmente:
+    Una Tabla
+    Una consulta sobre una tabla
+    Una funcion PL
+    El propio trigger
+
+    ¿Cómo funcionan?
+Supongamos que tenemos una tabla llamada ‘pasajero’ donde normalmente se registra el nombre y la dirección de cualquier persona que haga uso del sistema.
+
+Y queremos que cada vez que hacemos un nuevo registro en la tabla ‘pasajero’, se ejecute tambien un registro automatico en otra tabla donde se guarde la fecha y hora del nuevo registro así como tambien el número total de registros acumulados en ese momento.
+
+    Para ello vamos a crear dos tablas:
+pasajeros
+contador_pasajeros
+
+-- Tabla Pasajeros
+CREATE TABLE public.pasajeros
+(
+    id serial,
+    nombre character varying,
+    direccion character varying,
+    CONSTRAINT pasajeros_pkey PRIMARY KEY (id)
+)
+WITH (
+    OIDS = FALSE
+);
+
+ALTER TABLE public.pasajeros
+    OWNER to postgres;
+    
+___\/___ 
+    
+-- Tabla Contador de pasajeros
+CREATE TABLE public.contador_pasajeros
+(
+    id serial,
+    fecha_registro time with time zone,
+    contador_registro integer,
+    CONSTRAINT contador_pasajeros_pkey PRIMARY KEY (id)
+)
+WITH (
+    OIDS = FALSE
+);
+
+ALTER TABLE public.contador_pasajeros
+    OWNER to postgres;
+    
+___\/___
+
+Ahora vamos a crear la funcion PL, que se encarga de hacer el registro en la tabla ‘contador_pasajeros’.
+
+CREATE FUNCTION public.registrador()
+	RETURNS TRIGGER
+	LANGUAGE 'plpgsql'
+AS $BODY$
+DECLARE
+ contador integer = 0;
+ i record;
+BEGIN
+ 	FOR i IN SELECT * FROM pasajeros LOOP
+	 contador:= contador + 1;
+	END LOOP;
+	INSERT INTO contador_pasajeros(fecha_registro, contador_registro)
+	-- now() devuelve la fecha y hora actual
+	VALUES (now(), contador);
+	RETURN NEW;
+END
+$BODY$
+
+Solo nos falta crear el trigger, que conecta la función PL ‘registrador’ con la tabla ‘pasajero’.
+
+CREATE TRIGGER trigger_registrador
+AFTER INSERT
+ON pasajeros
+FOR EACH ROW
+EXECUTE PROCEDURE registrador();
+
+Listo, entonces solo nos queda hacer pruebas. Para ello verificamos que incialmente las tablas ‘pasajeros’ y ‘contador_pasajeros’ están vacias:
+
+-- Ejecutamos las consultas una a la vez
+SELECT * FROM pasajeros;
+
+SELECT * FROM contador_pasajeros;
+
+-- Una vez verificamos que están vacias, vamos a insertar datos
+-- en la tabla pasajeros
+
+INSERT INTO pasajeros(nombre, direccion)
+VALUES ('Juanito Alimaña', 'Cali, Colombia');
+
+-- Ejecutamos nuevamente las consultas en las tablas y podemos
+-- verificar que todo funciona correctamente

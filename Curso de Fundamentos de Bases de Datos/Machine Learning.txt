@@ -1,0 +1,18 @@
+                                                  Machine Learning
+                                                  
+Machine Learning tiene significados que varían. Es una serie de técnicas que involucran la inteligencia artificial y la detección de patrones.
+Machine learning para datos tiene un gran campo de acción y es un paso más allá del business intelligence.
+Nos ayuda a hacer modelos que encuentran patrones fortuitos encontrando correlaciones inesperadas.
+
+    Tiene dos casos de uso particulares:
+Clasificación
+Predicción
+
+
+IA: abarca a machine learning y deep learning y busca eliminar al humano en la creación de algoritmos y que todo ese proceso lo haga una computadora
+
+Machine learning: crea modelo y al señarle te encontrada modelos fortuitos, cuando le des una mar de datos él te va encontrar patrones
+
+Deep learning: le busca sentido a los datos.
+
+Una IA es un sistema que es inteligente, usando machine learning puedes buscar en una BBDD cuando tus clientes te compran más y te daras cuenta que es en finales de años y usando deep learning la computadora es capaz de encontrar el porqué te compran más.

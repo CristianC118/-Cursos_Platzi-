@@ -1,0 +1,6 @@
+            Big Data
+
+Gran volumen de información.
+Las empresas almacenan datos diariamente.
+Reducir Costos, eficiencia, entender a los clientes.
+Solución matemática/estadística a un problema de negocio.

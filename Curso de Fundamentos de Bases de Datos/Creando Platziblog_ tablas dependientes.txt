@@ -1,0 +1,20 @@
+        Creando Platziblog: tablas dependientes
+        
+El comando “cascade” sirve para que cada que se haga un update en la tabla principal, se refleje también en la tabla en la que estamos creando la relación.
+
+------------------------------------------------
+    Las Foreing Key options son las siguientes:
+
+On update: Significa qué pasará con las relaciones cuando una de estas sea modificada en sus campos relacionados, Por ejemplo, pueden utilizarse los valores:
+cascade: Si el id de un usuario pasa de 11 a 12, entonces la relación se actualizará y el post buscará el id nuevo en lugar de quedarse sin usuario.
+_ restrict: _Si el id de un usuario pasa de 11 a 12, no lo permitirá hasta que no sean actualizados antes todos los post relacionados.
+set null Si el id de un usuario pasa de 11 a 12, entonces los post solo no estará relacionados con nada.
+no action: Si el id de un usuario pasa de 11 a 12, no se hará nada. Solo se romperá la relación.
+On delete
+_ cascade: Si un usuario es eliminado entonces se borrarán todos los post relacionados.
+restrict: No se podrá eliminar un usuario hasta que sean eliminados todos su post relacionados.
+_ set null: Si un usuario es eliminado, entonces los post solo no estará relacionados con nada.
+no action: Si un usuario es eliminado, no se hará nada. Solo se romperá la relación.
+
+------------------------------------------------------
+Por favor note que al momento de crear la tabla posts, Israel no utiliza los nombres de variables que se definio en el diagrama fisico. En lugar de crear la tabla posts con las FK llamadas usuarios_id y categorias_id, las llama usuario_id y categoria_id. En singular. Cuando eres nuevo en este tema, estos detalles tienden a confundirte, pues no puedes seguir todos los pasos y correlacionar lo nuevo con lo que estudiaste antes. Tampoco se explica un hecho importante y es que las FK tal como se definen en el Diagrama Fisico, se limitan a un nombre i.e. usuarios_id identificada con FK. En el software, para crear las FK se debe crear una CONSTRAINT llamada ‘posts_usuarios’ y tambien un INDEX llamado ‘post_usuarios_idx’. Nota que la documentacion del Diagrama Fisico no contiene estas nuevas variables, por tanto hay que tener cuidado con saber que estan ahi.

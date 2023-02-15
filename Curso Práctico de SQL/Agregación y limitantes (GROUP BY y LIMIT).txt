@@ -1,0 +1,24 @@
+       Agregación y limitantes (GROUP BY y LIMIT)
+       
+GROUP BY es una sentencia que agrupa filas que tienen el mismo valor en columnas con el sumatorio. Como decirle ‘encuentra el número de clientes en cada país’.
+
+Suele usarse frecuentemente con las funciones COUNT MAX MIN MAX SUM AVG a un grupo de una o más columnas.
+
+GROUP BY especifica por qué campos se agrupan las agregaciones
+LIMIT especifica la cantidad de registros.
+
+    Notas:
+Agregación y limitantes GROUP BYyLIMIT(SELECT TOP porque no existe LIMIT en SQL)
+
+
+select fecha_incorporacion, colegiatura
+from platzi.alumnos
+group by fecha_incorporacion, colegiatura
+	order by colegiatura, fecha_incorporacion asc;
+
+
+    Agregación (GROUP BY y LIMIT)
+
+GROUP BY especifica por qué campos se agrupan las agregaciones
+LIMIT especifica la cantidad de registros, en SQL Server se llama TOP y va después de SELECT
+OFFSET especifica a partir de qué registro se trae la consulta, luego puede venir LIMIT para cerrar el rango. En SQL Server es FETCH NEXT

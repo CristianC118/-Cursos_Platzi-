@@ -1,0 +1,20 @@
+                  Creación de Tablas
+                  
+En las tablas encontramos la información y estructura de nuestra base de datos
+
+Las acciones que podemos hacer dentro de una tabla son: Crear, modificar y borrar
+
+El texto alfanumérico es más conocido como Character_varying
+
+Cuando sabemos la longitud de caracteres que tiene nuestro dato podemos indicarlo para optimizar el espacio de memoria
+
+Pkey = Primary key
+
+SELECT current_date nos muestra la fecha
+SELECT current_timestamp nos muetra la fecha y hora
+
+
+    Nota
+Si alguien tiene duda que significa el OIDS = false es por lo siguiente:
+
+Los OID básicamente le otorgan una identificación única global incorporada para cada fila, contenida en una columna del sistema (a diferencia de una columna de espacio de usuario). Es útil para las tablas en las que no tiene una clave principal, tiene filas duplicadas, etc. Por ejemplo, si tiene una tabla con dos filas idénticas y desea eliminar la más antigua de las dos, puede hacerlo utilizando el columna oid.

@@ -1,0 +1,4 @@
+    Despejando exponentes y raíces en álgebra
+En esta clase veremos como despejar una potencia o raíz de una ecuación.
+Cuando tenemos una raíz cuadrada de una variable en nuestra ecuación, solamente debemos elevar al cuadrado cada lado de la igualdad para obtener la solución.
+En los casos que tenemos una variable elevada al cuadrado debemos aplicar raíz cuadrada a ambos lados de la igualdad, pero el resultado de la variable se deberá mostrar tanto positivo como negativo.

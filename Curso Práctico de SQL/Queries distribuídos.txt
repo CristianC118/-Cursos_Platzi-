@@ -1,0 +1,11 @@
+                  Queries distribuídos
+                  
+En el caso que la base de datos se encuentra distribuida en multiples regiones y la informacion se encuentra fragmentada la construccion de queries debe tener un debido nivel de analisis.
+
+Debido a que en una sola base de datos responder una misma pregunta puede tener multiples soluciones con diferencias de ejecuccion en el rango de milisegundos.
+Pero en las bases de datos distribuidas dependiendo de en donde se encuentre la informacion fisicamente, que informacion hay en cada region y que pregunta se quiere contestar, las diferentes formas de resolver la pregunta mediante una consulta SQL puede tener vastas diferencias en el tiempo de ejecucion,como ejemplo algunas soluciones pudiesen llegar al rango de 5 horas para ejecutarse y otras solamente necesitando 0.10 segundos.
+
+    Nota:
+Retraso total en la comunicación = Retraso total de acceso + (Volumen total de datos / tasa de transferencia)
+
+Retraso total en la comunicación =( numero mensajes/10 ) + (numero de bits /50000)

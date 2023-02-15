@@ -1,0 +1,6 @@
+    Identificar funciones lineales a partir de una ecuación
+    
+Las funciones lineales son aquellas que no tienen exponentes mayores a 1 entre sus variables. Si alguna de nuestras variables está elevada al cuadrado, entonces tendremos una función cuadrática. Con la práctica podremos identificar fácilmente, con solo ver la ecuación, que tipo de función es.
+
+¿Cómo saber a qué grafica corresponde una función?
+Es fácil saber que tipo de gráfica se obtiene de una función, cuando ponemos atención a los exponentes, las funciones trigonométricas y en general a las características básicas que definen a las ecuaciones y las funciones correspondientes.

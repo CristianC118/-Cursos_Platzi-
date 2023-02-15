@@ -1,0 +1,14 @@
+                      Usar CALCULATE
+
+Las medidas en DAX se caracterizan por usar agregaciones. CALCULATE es una agregación que permite “modificar el contexto de filtro”, así como crear un contexto de fila dentro de nuestros cálculos, iterando fila a fila.
+
+                Sintáxis y caso de uso
+La función CALCULATE recibe dos parámetros como mínimo.
+
+El primero es la expresión que queremos filtrar
+Los siguientes parámetros son los filtros que queremos aplicar
+Por ejemplo, si queremos obtener el total de ventas para una ubicación específica, podemos usar CALCULATE y la medida Venta Total (creada en la clase anterior) para filtrar el total de ventas para esa ubicación.
+
+Es decir, crearíamos una nueva medida con la siguiente DAX
+
+Ventas Santiago de Surco = CALCULATE(Tabla_medidas[Venta Total], tabla_ventas[Sede] = "Santiago de Surco")

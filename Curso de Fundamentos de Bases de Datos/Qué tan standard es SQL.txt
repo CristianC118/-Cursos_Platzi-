@@ -1,0 +1,10 @@
+                Qué tan standard es SQL
+                
+SQL unifico la manera en que sea hacen preguntas a un repositorio de datos.
+Se convirtio en un standard util a la hora de usar bases de datos.
+Existen otros manejadores de datos como Oracle o PostgreSQL.
+Sin embargo, si escribimos en lenguaje SQL todos los manejadores funcionaran de manera similar.
+
+No todos los manejadores son exactamente iguales, siempre habrán pequeñas (o en algunos casos grandes). MySQL tiene mucha similitud con PosgreSQL y SQLite. Pero al compararla con bases de datos más ‘potentes’ como SQL Server de Microsoft u Oracle las diferencias se hacen más notorias.
+
+Es importante comparar y asegurarse de lo que hacemos antes de proponernos manejar un nuevo motor de SQL sin conocer su funcionamiento.

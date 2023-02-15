@@ -1,0 +1,21 @@
+              Gráfica de barras y dispersión
+
+Dentro de las funciones principales de Tableau podemos crear diferentes de gráficas, basta con seleccionar los datos que queremos mostrar, y elegir el tipo de gráfica, o el diseño de visualización de datos que necesitemos.
+
+    Gráfica de barras
+Seleccionamos los datos que queremos visualizar
+En el botón “mostrarme”, seleccionamos la gráfica de barras
+Agregamos estilos, etiquetas y lo necesario en la sección de “marcas”
+
+    Gráfica de dispersión
+Nos ayuda a encontrar la correlación entre dos variables:
+
+Agregamos los valores de los que queremos encontrar su correlación en la misma fila.
+Seleccionamos el gráfico de dispersión.
+Para ver los datos individualmente, necesitamos ir al apartado de análisis y desmarcar la parte de desmarcar medidas.
+También podemos agregarle algo de color a las utilidades, y darle un escalonado de 2, para que se divida exactamente a la mitad.
+Si probamos con los datos de ventas y utilidades, nosotros esperamos ver que mientras más ventas, mayores beneficios.
+
+Sin embargo, en estos datos hay algo raro, ya que en lugar de solo haber beneficios, existe una gran cantidad de pérdidas.
+
+Para ver cuáles clientes son los que nos generan esas pérdidas, podemos arrastrar la propiedad “Customer Name”, a la marca de “descripción emergente”, así podremos ver su nombre al hacer hover con el cursor.

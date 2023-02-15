@@ -1,0 +1,35 @@
+    Simulando una conexión a Bases de Datos remotas
+    
+Creamos una BD llamada remota
+Donde tenga una tabla llamada vip(id, fecha)
+
+--Creamos la extension dblink.
+
+CREATE EXTENSION dblink;
+
+--Lo que haremos es acceder a esa BD atraves de la BD transporte.
+
+select * from
+dblink('dbname=remota
+				port=5432
+				host=127.0.0.1 
+				user= postgres
+				password= toor',
+				'select id, fecha from vip')
+				as datos_remotos(id integer, fecha date);
+			
+--Uniremos la tabla pasajero con la tabla vip de la BD remota.	
+		
+select * from pasajeros
+join 
+dblink('dbname=remota
+				port=5432
+				host=127.0.0.1 
+				user= postgres
+				password= toor',
+				'select id, fecha from vip')
+				as datos_remotos(id integer, fecha date)
+on (pasajeros.id_pasajero= datos_remotos.id);
+
+    Nota:
+Es recomendable encapsular la contraseña ya sea con una vista o una vista materializada para ocultar la información.

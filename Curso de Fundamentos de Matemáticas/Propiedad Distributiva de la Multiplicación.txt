@@ -1,0 +1,17 @@
+  Propiedad Distributiva de la Multiplicación
+  
+La multiplicación, ya sea aritmética o algebraica, tiene unas propiedades muy interesantes que nos permiten tener ciertos trucos y juegos matemáticos que nos permiten simplificar nuestras operaciones
+
+##Propiedad conmutativas
+
+No importa el orden de los términos de la multiplicación, en resultado es siempre el mismo.
+ab = ba
+
+Propiedad asociativas
+Podemos agrupar de diferentes maneras los diferentes términos de las multiplicaciones y el resultado no se verá afectado
+
+(ab)c = a(bc) = b(ac)
+
+Propiedad distributiva
+Podemos separar uno de los productos en dos sumando y el resultado de la multiplicación será el resultado de la suma de la multiplicación de ese término
+Si d= b+c entonces bd=(b + c)a = ab + ac

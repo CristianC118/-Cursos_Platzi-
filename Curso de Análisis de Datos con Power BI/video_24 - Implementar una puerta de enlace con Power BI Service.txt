@@ -1,0 +1,22 @@
+  Implementar una puerta de enlace con Power BI Service
+
+Una puerta de enlace (o gateway) es un componente que facilita el acceso a los datos de una red. Funciona como controlador de acceso, recibiendo solicitudes de conexión y concediéndolas solo cuando estas cumplen ciertos criterios.
+
+En Power BI, usamos las puertas de enlace para actualizar automáticamente nuestros reportes. Tenemos dos tipos de puerta de enlace.
+
+Modo personal: solo un usuario puede conectarse a las fuentes de datos, sin que se puedan compartir.
+Modo múltiple: permite que múltiples usuarios se conecten a múltiples fuentes de datos locales.
+
+                Actualizar un reporte
+Podemos actualizar nuestros reportes de manera manual en Power BI Desktop, dándole clic al botón actualizar. Por otro lado, podemos automatizar esto mediante la puerta de enlace de Power BI.
+
+Para ello debemos instalar la puerta de enlace. En la página de descarga, dale a “Descargar modo personal”. Una vez descargado, corremos el instalador y seguimos las instrucciones.
+
+Una vez instalado, vamos a configurar el gateway en Power BI Service. Nos dirigimos a nuestra área de trabajo, y escogemos el conjunto de datos que queremos actualizar automáticamente. Le damos clic a “Actualizar” → “Programar actualización”. Entonces nos vamos a **“Credenciales de origen de datos”**→ “Editar credenciales”. Y le damos clic a iniciar sesión.
+
+
+Luego nos vamos a “Actualización programada” y la activamos. Aquí podemos escoger la zona horaria y la hora de nuestra actualización. Con la licencia PRO, podemos actualizar automáticamente hasta 8 veces al día.
+
+
+Aquí concluimos la sección de Power BI Service. En esta sección exploramos las opciones de este servicio, desde cómo establecer el ambiente colaborativo, subir reportes, crear dashboards, hasta como actualizar automáticamente nuestros conjuntos de datos mediante la puerta de enlace.
+

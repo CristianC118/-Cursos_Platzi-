@@ -1,0 +1,28 @@
+    Análisis cuantitativo en un caso de negocio.
+ 
+ 1- ¿Qué?
+-¿Quienes pueden ser los top offenders?
+
+Para identificarlos debemos descargar la información de la manera más genérica posible y después se clasifican. Para que sea genérico tenemos que encontrar cualquier cliente que por lo menos haya hecho una queja en un mes, al equipo de soporte. Hacer macros o variables adaptables por ciudad y por mes. Esto servirá para replicarlo.
+
+2- Identificación
+Para identificar quiénes son debemos encontrar patrones de comportamiento y variables significativas estos van a ser las variables que nos ayuden a definir si alguien es ofender top offender.
+
+        Hipótesis de variables
+Madurez: Experiencia del usuario utilizando la plataforma, lo evaluamos al verificar el número de comprar realizadas.
+Quejas mensuales. Número de quejas que hizo un cliente o usuario.
+
+Compras Mensuales: Evaluar el numero de compras y el número de quejas correspondientes a esas compras. Encontrar una relación de comportamiento.
+Gasto mensual. Tomar en cuenta el tipo de producto y su complejidad, lo cuál va relacionado muchas veces con el precio del mismo.
+
+Créditos y dinero devuelto: Identificar si es una persona que busca una compensación económica.
+Margen operativo neto. Es el Rendimiento. Que te queda como empresa a partir del comportamiento del usuario o cliente.
+
+(Lo que vendí x precio de lo que vendí)- recursos de soporte post venta - Dinero devuelto == Cuanto nos queda a la empresa.
+
+3- Fase de Definición
+Objetivo: encontrar una segmentación con base en la rentabilidad.
+
+    Si un usuario es más rentable(compra más), le permito que se queje más.
+
+Threshold(límite): Definir el límite entre una persona que sus quejas sean normales y otra que excede las quejas normales. Definir un Threshold para cada categoría.

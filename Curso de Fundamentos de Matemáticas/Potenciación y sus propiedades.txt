@@ -1,0 +1,16 @@
+        Potenciación y sus propiedades
+
+La potenciación consiste en multiplicar un número tantas veces como nos indica su exponente (numerito pequeño):
+.La multiplicación de dos o más potencias con la misma base y distinto exponente se resuelve sumando sus exponentes.
+.La divisisión de dos o más potencias con la misma base y distinto exponente se resuelve restando sus exponentes
+.Una potencia con exponente cero es igual a uno
+.Una potencia con exponente cero siempre es igual a cero
+
+En la multiplicación teníamos un numero que se sumaba el numero de veces que indica el operando. Mientras que en la potenciación tenemos un numero que va a ser multiplicado la cantidad de veces que indique su exponente.
+
+Podemos encontrar varias propiedades en las potencias, por ejemplo:
+
+En la multiplicación de dos potencias con misma base los exponentes se suman.
+En la división de dos potencias con misma base los exponentes se restan.
+Una potencia elevada a la cero da uno.
+Una potencia cuya base es cero siempre va a dar cero, no importa el exponente.

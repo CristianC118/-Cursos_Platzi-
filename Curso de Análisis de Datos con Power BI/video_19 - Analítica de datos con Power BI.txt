@@ -1,0 +1,44 @@
+              Analítica de datos con Power BI
+
+Ya pasamos por las fases de ETL, modelamiento y visualizaciones. Estas son fases del Business Intelligence. Sin embargo, el usuario de negocio suele pedir más y es aquí donde empezamos la fase de Business Analytics con Power BI.
+
+            Añadiendo opciones de analítica
+Exploremos cómo añadir opciones de analítica a distintos gráficos.
+
+                      Preparación
+Conéctate al archivo Ventas - Fundamentos, y carga las tablas de vehículos y ventas. Como ya es costumbre, recuerda crear una tabla de medidas mediante “Especificar datos”. En esta ocasión, produciremos una tabla de calendario Tabla_Calendario usando la función CALENDAR(), la cual recibe una fecha de inicio y una fecha final. La expresión DAX para la tabla sería: Tabla_Calendario = CALENDAR("1/1/2015", "31/12/2017").
+
+Creada la tabla, la relacionamos con la tabla_ventas mediante los campos Date y Fecha. También relacionamos las tablas de ventas y vehículos mediante el campo ID_Vehículo.
+
+Luego añadimos dos medidas, Total de Ventas (suma de la columna Precio Venta sin IGV) y Cant. Ventas (conteo del ID de las ventas).
+
+        Analítica en un gráfico de dispersión
+A continuación insertamos un gráfico de dispersión, llevamos Total de Ventas a “Eje X”, Cant. Ventas a “Eje Y” y Vendedor a “Leyenda”. En el apartado de formato visual, desactivamos la leyenda y activamos la “Etiqueta de categoría”.
+
+
+Pasamos entonces a la pestaña de Analytics (el ícono de lupa). Aquí seleccionamos “Línea de promedio” → Agregar línea. Agregamos dos líneas, una para Cant. Ventas y otra para Total de Ventas. Nota que esto nos divide el plano en 4 cuadrantes.
+
+
+Acto seguido, volvemos a la pestaña de “Compilar visual” y arrastramos el campo Mes (o Month) de la Tabla_Calendario hasta “Eje de reproducción”
+
+
+Insertamos también una segmentación de datos, llevando el campo Año (o Year) de la Tabla_Calendario a “Campo”. Esto nos va a generar un control deslizante, pero queremos darle un aspecto de lista. Para ello le damos clic al “Modo de enfoque”, clic a la flecha hacia abajo, y escogemos la opción Lista.
+
+
+Volvemos al informe. Opcionalmente, podemos cambiar el estilo de la lista a botones, seleccionando la lista y en “Formato visual” → “Configuración de la segmentación” → “Orientación” seleccionamos horizontal.
+
+Ahora, podemos escoger un año, presionar el botón de play y ver cómo evoluciona el gráfico en cada mes del año.
+
+
+            Analítica en un gráfico de líneas
+Insertemos un gráfico de líneas donde veamos el Total de Ventas por Año y Mes. Copiamos este gráfico con CTRL + V. Si te das cuenta, pese a que es un gráfico mensual, las etiquetas del eje X se muestran de manera semestral. Esto es debido a que el eje X es continuo por defecto.
+
+Si queremos ver cada mes en el eje, debemos seleccionar el gráfico superior, ir a la pestaña de “Formato visual” y en “Eje X” → “Tipo” seleccionamos “Categórico”. Podemos también desactivar la concatenación de etiquetas y quitar el título del eje.
+
+
+Para este gráfico, en la pestaña de “Analytics”, podemos añadir líneas de valores máximos, mínimos, promedios y hasta líneas constantes.
+
+Pasando al segundo gráfico (el de eje continuo), en la pestaña de analítica también podemos añadir una “Previsión”, que funciona con un algoritmo de suavización exponencial de series temporales . Podemos predecir un número definido de puntos en un intervalo de confianza, así como omitir un número definido de los últimos puntos.
+
+
+Ya sabes cómo implementar distintas opciones de analítica de negocio en Power BI, desde reproducción de gráficos a modo de video en un intervalo de tiempo, pasando por líneas de promedio, hasta previsiones que te permiten estimar un posible rango de valores para una serie de tiempo.

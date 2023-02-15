@@ -1,0 +1,5 @@
+       Utilizando la sentencia WHERE nulo y no nulo
+    
+El valor nulo en una tabla generalmente es su valor por defecto cuando nadie le asignó algo diferente. La sintaxis para hacer búsquedas de datos nulos es IS NULL. La sintaxis para buscar datos que no son nulos es IS NOT NULL
+
+NULL no corresponde a ningún valor en particular, sino a una “ausencia” de valor, por lo tanto un NOT NULL correspondería a que no hay una aparente ausencia, es decir, existe un valor así sea un 0. NULL no es igual a nada por lo que en SQL no se le puede asociar con el operador igual que, en vez de esto se le atribuye en un WHERE con un IS NULL. Para valores NOT NULL, también se aplica la misma sintaxis. Para agregar un criterio adicional con WHERE, se usa AND.

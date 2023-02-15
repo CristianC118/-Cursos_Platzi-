@@ -1,0 +1,38 @@
+           Mapas con filtros, parámetros y KPIs
+
+Con Tableau podemos hacer representaciones visuales de datos con mapas, si tienen un mundo antes del nombre de la propiedad, significa que son un tipo de dato geo localizado, es que este dato puede ser representado en un mapa.
+
+       Creando nuestra visualización con un mapa
+Arrastramos nuestras ciudades a la hoja de trabajo
+Normalmente, Tableau toma como referencia el país en el que te encuentre, para cambiar el país del mapa puedes ir a “Mapa” -> “Editar ubicaciones” -> “Elegir país”, y seleccionamos Estados Unidos
+Los valores a seleccionar son “País, Estado, Ciudad”.
+
+                    Crear parámetros
+Para crear parámetros, clic derecho en “Tablas” -> “Nuevo parámetro”.
+Agregamos un parámetro llamado “Tolerancia”, que será un tipo de dato flotante, y tendrá el valor de 1 (puedes cambiar el valor cuando quieras).
+
+                Crear un campo calculado
+En este caso crearemos un campo calculado que será “KPI por descuento”.
+
+En donde haremos una condicional para saber cuáles ciudades superan un descuento.
+
+IF [Discount] > [Tolerancia]
+THEN TRUE
+END
+
+Damos clic derecho en nuestro parámetro y después en mostrar parámetro, para poder editarlo cuando necesitemos
+Arrastramos nuestro campo calculado “KPI por descuento”* para que sean coloreados las ciudades que superen la tolerancia
+
+    Si te das cuenta no ha cambiado nada, porque como estamos comparando descuentos que fueron dados con porcentajes, el valor de 1 sería igual al 100% de descuento.
+
+Así que hay que jugar con este valor, pongamos un 0.3 = 30% de descuento, ahora un 0.1 = 10%, podemos ver cómo es que los colores de nuestros datos cambian.
+
+En los KPIs es importante que los valores que no nos interesan se pinten de un color neutro, como el gris, y resaltar los valores que son pertinentes (con un color saturado, como el rojo)
+
+                    Creando filtros
+Un filtro nos ayuda a mostrar solamente la información que queremos, para crear un filtro podemos hacer lo siguiente:
+
+Arrastramos “Discount” al apartado de filtros
+Seleccionamos mínimo
+Agregamos la cantidad del mínimo (de preferencia la misma cantidad de nuestro parámetro para que hagan juego) y que haga oculte los datos grises
+Ahora con esto tendremos en el mapa solo las ciudades que tienen el 30% de tolerancia.

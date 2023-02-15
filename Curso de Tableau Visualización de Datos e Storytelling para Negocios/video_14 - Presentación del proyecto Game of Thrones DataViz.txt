@@ -1,0 +1,47 @@
+    Presentación del proyecto: Game of Thrones DataViz
+
+    Preparando nuestros datos
+Para esto utilizaremos la base de datos de la semana 27 del 2019 del Makeover Monday, la descargamos e importamos en Tableau.
+
+Ya que en las primeras filas del archivo vienen algunos datos que no son necesarios, podemos:
+
+Editar el archivo con Excel, y eliminar esas filas
+Utilizar el intérprete de Tableau, que limpia la base de datos de información que no le es tan útil, la opción está en la pantalla “Fuente de datos”
+
+        Gráfica de número de muertes por asesino
+Creamos una hoja de trabajo
+Arrastramos “Death No.” al centro de nuestra hoja de trabajo, esto hará la suma del número de muertes
+Ahora cambiamos la suma por un recuento distintivo, para ver el número de muertes distintas:
+Hacemos clic en la flechita de SUM(Death No.)
+Seleccionamos medida
+Y ahora clic en “Recuento (Distintos)”
+Ahora arrastramos el apartado de killer, para saber quién es el asesino
+Seleccionamos gráfica de barras
+Ordenamos de mayor a menor
+Ahora ya podemos ver quiénes son los principales asesinos dentro de la serie.
+
+Creación de tarjetas
+Tarjeta de asesinatos: Para crear la tarjeta de asesinatos, podemos seguir los siguientes pasos:
+
+            Creamos una hoja de trabajo
+Arrastramos “Death No.” al centro de nuestra hoja de trabajo, esto hará la suma del número de muertes
+Cambiamos la suma por un recuento distintivo
+Cambiamos el nombre a Asesinatos
+Con esto podremos ver el conteo de los asesinatos, y después agregarle interactividad para ver cuántos asesinatos hizo alguien.
+
+                Tarjeta de arma favorita
+
+Creamos una hoja de trabajo
+Arrastramos “Death No.” al centro de nuestra hoja de trabajo
+Cmbiamos la suma por un recuento distintivo
+Arrastramos el método
+Quitamos el recuento distintivo, para solamente dejar los nombre de las armas
+Vamos a la sección de Marcas -> Color, y bajamos la opacidad a 0% para ocultar el tipo de datos
+Con esto ya tenemos todos los métodos, ahora creemos el filtro, para dejar únicamente el arma más utilizada.
+
+Arrastramos el método al apartado de filtros
+Vamos a límite
+Seleccionamos la opción “por campo”
+En el límite le ponemos 1
+En el select de la izquierda seleccionamos “Death No.”
+En el select de la derecha seleccionamos “Recuento (Distintos)”

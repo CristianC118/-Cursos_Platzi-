@@ -1,0 +1,34 @@
+               Tablas y gráfica de burbujas
+
+Existen muchis tipos de DataViz, dentro de Tableau, también podemos utilizar gráficos de burbuja.
+
+                Muertes por episodio
+Como nuestros episodios y temporadas son un valor continuo, tenemos que convertirlos a una dimensión:
+Clic derecho y seleccionamos convertir a dimensión
+Agregamos las temporadas como filas
+Agregamos nuestros capítulos como columnas
+Arrastramos el número de muertes a nuestra tabla
+Cambiamos nuestra medida a recuento distintivo
+
+    Para facilitar la lectura de nuestra tabla, podemos agregar un 0 en los capítulos que no hubieron asesinatos, y en las celdas en donde no hay capítulos, añadir un N/A, para no confundir.
+    
+            Gráfica de top 5 armas usadas
+Agregamos nuestros métodos
+Añadimos nustro número de muertes
+Cambiamos la medida a recuento distintivo
+Acomodamos de mayor a menor
+Seleccionamos la gráfica de burbujas agrupadas
+Agregamos un filto, para mostrar solo los 5 métodos más usados
+Coloreamos nuestros métodos
+Cambiamos el nombre a “Top 5 armas usadas”
+
+        Creando dashboard de análisis general
+        
+Abrimos un nuevo dashboard
+Ajutamos a tamaño automático
+Añadimos nuestra tabla de muertes por episodio
+Agregamos nuestra gráfica de burbujas, de top 5 armas
+Eliminamos la leyenda de nuestra gráfica
+Cambiamos el nombre a “Vista general”
+
+Es importante tener separadas nuestras áreas de trabajo para nuestra organización.

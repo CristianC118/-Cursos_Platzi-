@@ -1,0 +1,62 @@
+             ¿Qué hace un Data Analyst?
+
+El objetivo del Data Analyst es analizar información de valor para ayudar a resolver las necesidades de cada una de las áreas de una organización. La diferencia con la Data Scientist es que nada más se ocupa de analizar el presente.
+
+Es uno de los roles ubicados en la mitad de la pirámide de necesidades de Data Science, el cual aprenderemos a profundidad.
+
+    ¿Cómo lo hace?
+Este rol encuentra información de valor por medio de la extracción de datos de diversas fuentes y su respectivo análisis, para poder presentarlos de forma sencilla a las demás áreas de la empresa con tableros y gráficos.
+
+    El día a día de una Data Analyst
+Veremos todas aquellas actividades que se deberán hacer en el día a día de una persona que se dedique profesionalmente a Data Analyst.
+
+    Identificar necesidades de información
+La Data Analyst debe estar en la búsqueda de necesidades de información de las demás áreas de negocio para poder hacer una correcta formulación que se pueda responder con datos.
+
+    Extraer datos de fuentes
+Para trabajar con los datos primero es necesario saber dónde están y obtenerlos. Estos por lo general se encontrarán en bases de datos, internet, redes sociales, etc.
+
+    Limpiar y organizar los datos
+Los datos no van a venir organizados y listos para analizar. Antes se deben corregir, eliminar o editar los errores, espacios en blanco, columnas repetidas, cambiar de formato y demás características que ponga en peligro el buen análisis de los datos.
+
+    Analizar los datos
+Por medio de la estadística descriptiva, herramientas matemáticas y tecnológicas para filtrar, organizar, recopilar los datos de tal forma que permita identificar patrones o estacionalidades que resulten valiosas para la toma de decisiones frente a el problema o pregunta formulada al principio.
+
+    Comunicar los hallazgos
+Una vez encontrados los hallazgos, gracias a las exploraciones y análisis de datos, es indispensable comunicarlos de forma sencilla y con la menor carga cognitiva posible, para la inmediata toma de decisiones y creación de productos si es posible.
+
+    Ciclo de trabajo de una Data Anlayst
+Muy de la mano con las actividades del día a día de una Data Analyst, existe una estructura que se debe mantener e iterar, es decir, repetir varias veces hasta obtener el resultado esperado. Las cuales son:
+
+    Pregunta o problema.
+Exploración y contraste de hipótesis.
+Recopilar información de valor.
+Crear visualizaciones de la información.
+Comunicar los hallazgos.
+
+    Ejemplo
+Eres la Data Analyst de un E-commerce de ropa y te piden la explicación de por qué cayeron las ventas el mes pasado. Debes entonces formular una posible hipótesis.
+
+Pregunta o problema -> Pregunta: ¿Por qué se cayeron las ventas el mes pasado? Hipótesis: Probablemente, porque el tiempo de espera de la página web fue demasiado y los usuarios se cansaron de esperar y se fueron.
+Exploración y quieries -> Quieries: Extraer los datos del tiempo de espera de la página web. Analizar: Cómo fue la tendencia en el tiempo.
+Recopilar información de valor -> Insight: Resulta que encontramos que sí hubo una subida en el tiempo de espera.
+Crear visualizaciones de la información -> Mostrar un gráfico de tendencias donde se pueda apreciar las ventas, el tiempo de espera y cómo fue históricamente.
+Comunicar los hallazgos -> Reunirse con las personas que hicieron la consulta, para mostrarles y explicarles el gráfico que evidencia la posible razón de la caída de las ventas el mes pasado.
+
+    Roles relacionados
+Además de los roles más conocidos dentro de la industria de la Data, existen algunos que se especializan aún más, siendo indispensables en estructuras mucho más grandes y desarrolladas de compañías Data-Driven.
+
+    Business Analyst
+Es una persona que tiene un conocimiento más profundo del negocio y está para ayudar a la Data Analyst a identificar las preguntas o casos de negocio.
+
+    Data Visualization Specialist
+Es la persona experta en como diseñar y construir tableros para presentar hallazgos a las demás personas, de manera fácil y sencilla.
+
+    Conclusión
+Al retomando las ideas anteriores, nos damos cuenta de que los procesos de una Data Analyst van enfocados a resolver las preguntas del negocio de las distintas áreas del mismo. Por medio del ciclo de trabajo anteriormente visto y actividades del rol como:
+
+Identificar necesidades de información.
+Extraer datos de fuentes.
+Limpiar y organizar los datos.
+Analizar los datos.
+Comunicar los hallazgos.

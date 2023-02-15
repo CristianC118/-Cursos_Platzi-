@@ -1,0 +1,44 @@
+     Importación de datos: tu primera visualización
+
+En Tableau podemos importar archivos con datos en diferentes formatos:
+
+Excel
+Texto
+JSON
+Access
+PDF
+Archivos espaciales
+Archivos estadísticos
+
+En la pantalla inicial seleccionamos el tipo de archivo con el que trabajaremos y lo importamos a Tableau.
+
+    Preparación de los datos
+Primero descargaremos el archivo de ejemplo en la sección de recursos, y lo importaremos a Tableau como un archivo de Excel.
+
+Ahora aparecerán a la izquierda las Hojas y Tablas que vienen dentro del archivo, para seleccionar la hoja con la que trabajarás, debes dar clic en la hoja y arrástrala al área que dice “Arrastrar tablas aquí”.
+
+A continuación te aparecerán todos los datos de manera ordenada, los datos pueden ser de tipo:
+
+Numérico (decimal o entero)
+Fecha
+Cadena de caracteres
+Booleano
+Una vez te entres en la Hoja de Trabajo, a la izquierda se mostrarán las columnas, los valores de las columnas pueden ser:
+
+Discretos (azul, siempre serán números enteros) 1,2,3,4
+Continuos (verde, son valores que pueden ser enteros o fraccionarios, como la estatura) 1.77m ; 1.51m ; 2m
+
+    Tu primera visualización
+Tableau es muy fácil de utilizar, ya que funciona arrastrando y soltando los datos que necesites para tu visualización.
+
+Puedes arrastrar los valores a las columnas y filas que quieras mostrar.
+
+En el botón mostrarme (arriba a la derecha) elige el tipo de gráfica con la que desees visualizar tus datos.
+
+Puedes intercambiar filas y columnas usando el botón Intercambiar (en la sección de Herramientas).
+
+    Recomendaciones
+Muestra los datos de forma descendente.
+Cambia el color de cada elemento arrastrando los datos seleccionados a la opción color, en la sección marcas. Tableau respetará los colores, en caso de que hagas más de una DataViz usando los mismos datos.
+
+También puedes agregar etiquetas, mensaje emergente, etc. Desde la sección marcas, así como modificar el ancho de las barras.

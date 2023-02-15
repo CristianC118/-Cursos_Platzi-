@@ -1,0 +1,18 @@
+        Operaciones básicas de matemáticas
+        
+        ¿Qué es la aritmética?:
+Es la rama de las matemáticas que estudia los números y las operaciones que se hacen con ellos.
+
+El lenguaje universal de las matemáticas es la simbología.
+
+Operaciones básicas:
+
+Suma (+)
+
+Resta (-)
+
+Multiplicación (x . *)
+Es conmutativa, el orden de los factores no altera al producto.
+
+División (/)
+Es como una resta repetida hasta que el valor del cual estas restando sea menor que el que lo resta -> Ej.: 21/5 es lo mismo que 21-5-5-5-5 y como 1-5 da negativo, el resto es 1.

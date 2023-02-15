@@ -1,0 +1,29 @@
+            Tipos de datos en PostgreSQL
+            
+        Tipos de datos
+    Numéricos: (Numeros enteros, Numeros Decimales, Seriales).
+
+    Monetarios: (cantidad de moneda).
+
+    Texto(almacenar cadenas y texto, existen tres VARCHAR, CHAR, TEXT).
+
+    Binario: (1 Y 0).
+
+    Fecha/Hora(Para almacenar Fechas y/o Horas, DATE TYPE, TIME TYPE, TIMESTAMP, INTERVAL)
+
+    Boolean: (Verdadero o Falso).
+    
+        Especiales propios de PostgreSQL.
+    Geométricos: Permiten calcular distancias y áreas usando dos valores X y Y.
+
+    Direcciones de Red: Cálculos de máscara de red.
+
+    Texto tipo bit: Cálculos en otros sistemas, ejm(hexadecimal, binario).
+
+    XML, JSON: Postgres nos permite guardar en estos formatos.
+
+    Arreglos: Vectores y Matrices.
+    
+
+        Nota XML.
+La ventaja de tener un tipo de dato dedicado a XML o JSON es que puedes almacenarlo en la BD para posterior, a través de una tarea programada o un Stored Procedure, proceder a la lectura, descomposición y manipulación contenida en dichos documentos. Todo esto, ya queda del lado de la BD por lo que a nuestro web service (o lenguaje backend en turno) se le quita cierta carga de procesamiento.

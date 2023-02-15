@@ -1,0 +1,15 @@
+        Radicación y sus propiedades
+
+Radicación: Busca encontrar el número raíz, es decir, de donde vino el número.
+
+La base de la raíz debe ser un número positivo si el índice es un número par. Si la base es un número negativo, entonces entraríamos al mundo de los números imaginarios. Para los índices impares no hay problema.
+Esto se debe a que, por ejemplo, la premisa para la _raíz cuadrada _(exponente par) es: “Qué número multiplicado por sí mismo da el número de la base”.
+Ejemplo:
+¿Cuál es la raíz cuadrada de 9?
+La respuesta es 3 y -3. Porque 3 * 3 = (-3) * (-3) = 9.
+¿Cuál es la raíz cuadrada de -9?
+La respuesta no existe en la recta de los reales.
+¿Cuál es la raíz cúbica de 27?
+La respuesta es 3. Porque 3 * 3 * 3 = 27.
+¿Cuál es la raíz cúbica de -27?
+La respuesta es -3. Porque (-3) * (-3) * (-3) = -27.

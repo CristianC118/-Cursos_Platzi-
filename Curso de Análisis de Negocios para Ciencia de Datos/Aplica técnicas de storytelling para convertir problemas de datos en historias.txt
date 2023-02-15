@@ -1,0 +1,14 @@
+    
+    Aplica técnicas de storytelling para convertir problemas de datos en historias.
+    
+        Estructura del problema.
+
+                Problema.
+Muchas quejas por falla o desconexción de internet. Este caso hace que la espera para otras llamadas relacionadas al servicio esperen mucho tiempo lo cual hace que se cansen y corten la llamada.
+
+                Solución.
+Crear un script que envie un mensaje a los que presenten fallas o cortes de servicio imprevistos avisandoles que se está solucionando el problema ya sea por corte de cables, mantenimiento de los mismos, etc.
+
+                Alcance.
+- A todos los países que cuentan con el servicio de la empresa.
+- Actualización de mensajes de acuerdo a las fallas futuras que pudieran ocurrir.

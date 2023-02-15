@@ -1,0 +1,13 @@
+            Aplicación de la ciencia de datos
+
+En una organización la parte a la que más va a ayudar la ciencia de datos es a la toma de decisiones.
+
+    Data Driven: Consiste en tomar decisiones basadas en los datos. Es labor del DS brindar estos datos y sus representaciones.
+    
+    Información significativa: Entender de que manera podemos aprovechar los datos para decir que cosa y cómo la vamos a presentar
+    
+    Representación de los datos: Es importante presentar de forma visual los datos dependiendo del problema y el publico al que va dirigida esta presentación.
+    
+    Neutralidad de datos: Hay ocasiones en la que los datos escogidos generan situaciones fuertes de discriminación a la hora de usarlos en modelos de AI, esto es conocido como Machine Bias.
+    
+    Storytelling con datos: Es importante ser capaz de comunicar resultados para poder generar un impacto dentro de la organización.

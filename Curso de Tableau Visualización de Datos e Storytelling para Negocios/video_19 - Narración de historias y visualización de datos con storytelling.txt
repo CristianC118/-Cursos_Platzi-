@@ -1,0 +1,21 @@
+Narración de historias y visualización de datos con storytelling
+
+El storytelling es utilizar la narración de historias para contar nuestros descubrimientos y asegurar que la audiencia comprenda el mensaje que nosotros queremos dar a conocer.
+
+Existen algunas visualizaciones de datos que nos ayudan más que otros al momento de entregar nuestro mensaje.
+
+                Storyboard en Tableau
+Tableau nos permite crear storyboards, en el botón con un libro, a la derecha del botón para crear dashboard.
+
+En cada pestaña pueden agregarse elementos creados previamente, ya sea en las tablas o un dashboard (data visualization, dashboards).
+
+Antes de crear un storyboard debemos preguntarnos:
+
+¿Cuáles son los objetivos que queremos dar a conocer?
+
+               Estructura de un storyboard
+Introducción
+Resúmenes de resultado (para personas con poco tiempo)
+Data visualizations (las necesarias, preferentemente 3 dashboards o dataviz)
+Conclusión
+Recomendaciones

@@ -1,0 +1,29 @@
+                        Duplicados
+                        
+Por lógica no puede existir 2 correos iguales, por lo tanto realice la actividad en base a eso
+
+Primero certifique que existían correos duplicados.
+SELECT email,COUNT(*)
+FROM platzi.alumnos
+GROUP BY email
+HAVING COUNT(*) > 1;
+De esa forma obtuve el nombre del correo repetido, en base a ello, se que puedo realizar la agrupación por partición utilizando unicamente el correo.
+
+Ahora valido que obtengo el id del correo duplicado.
+SELECT id 
+FROM (
+	SELECT id, ROW_NUMBER() OVER(PARTITION BY email ORDER BY id) AS row
+	FROM platzi.alumnos
+) AS duplicados
+WHERE duplicados.row > 1;
+Una vez certificado que obtengo el id del dato duplicado, procedo a borrar el registro.
+
+DELETE FROM platzi.alumnos
+where id = (
+SELECT id 
+FROM (
+	SELECT id, ROW_NUMBER() OVER(PARTITION BY email ORDER BY id) AS row
+	FROM platzi.alumnos
+) AS duplicados
+WHERE duplicados.row > 1
+);

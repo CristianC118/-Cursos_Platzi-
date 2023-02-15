@@ -1,0 +1,16 @@
+                   Graficar
+                   
+A partir de y=mx podemos graficar cualquier serie de datos, pero todos pasan por el origen. Si queremos generar graficas que no tengan esta característica vamos a necesitar agregar un b a nuestra ecuación para que ahora tenga la forma** y=mx +b**
+
+¿Cómo se realiza la gráfica de una función lineal?
+Para que nuestra función se represente en los cuadrantes II y IV los valores de su pendiente deberán ser negativos.
+
+Cada vez que hacemos más negativo el valor de la pendiente, el decrecimiento será más pronunciado (más vertical), por ejemplo: y = -100x
+
+Pero si tenemos valores menos negativos, por ejemplo: y = -(1/2)x el decrecimiento será más leve.
+
+
+Con la función y = mx todas las líneas pasan por el punto 0 (0,0)
+
+Pero si queremos que la línea no pase por el punto 0 → y = mx + b
+(dónde la constante b será el valor por donde se desplaza en el eje y)

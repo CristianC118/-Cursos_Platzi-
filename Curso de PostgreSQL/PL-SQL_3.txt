@@ -1,0 +1,78 @@
+                        PL-SQL_3
+
+    -- Parte de Ejecución del Código.
+do $$
+begin
+	raise notice 'Algo está pasando';
+end
+$$
+
+
+    -- Recorrer una Tabla usando una PL.
+    
+do $$
+declare
+	rec record;
+begin
+	for rec in select * from pasajeros loop
+		raise notice 'Un pasajero se llama: %',rec.nombre;
+	end loop;
+end
+$$
+
+
+    -- Modificar variables internamente en un proc almacenado. Agregando Contador.
+
+do $$
+declare
+	rec record;
+	contador integer:= 0;
+begin
+	for rec in select * from pasajeros loop
+		raise notice 'Un pasajero se llama: %',rec.nombre;
+		contador:= contador +1;
+	end loop;
+	raise notice 'El conteo es de: %',contador;
+end
+$$
+
+
+    -- Encapsular bloque de código dentro de una función.
+
+create function importantePL() 
+	returns void
+as $$
+declare
+	rec record;
+	contador integer:= 0;
+begin
+	for rec in select * from pasajeros loop
+		raise notice 'Un pasajero se llama: %',rec.nombre;
+		contador:= contador +1;
+	end loop;
+	raise notice 'El conteo es de: %',contador;
+end
+$$
+
+language PLPGSQL;
+
+
+    -- Encapsular bloque de código dentro de una función y que retorne valores.
+    
+create function importantePL() 
+	returns integer
+as $$
+declare
+	rec record;
+	contador integer:= 0;
+begin
+	for rec in select * from pasajeros loop
+		raise notice 'Un pasajero se llama: %',rec.nombre;
+		contador:= contador +1;
+	end loop;
+	raise notice 'El conteo es de: %',contador;
+	return contador;
+end
+$$
+
+language PLPGSQL;

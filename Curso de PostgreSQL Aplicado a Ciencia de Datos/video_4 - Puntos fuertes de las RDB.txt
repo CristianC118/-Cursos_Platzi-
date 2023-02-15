@@ -1,0 +1,13 @@
+               Puntos fuertes de las RDB
+                
+Multipropósito - Te permite almacenar, extraer, estados de anidación y permite jugar con las bases de datos.
+
+Ampliamente utilizadas - Sin importar en el campo que entres en el campo de datos, se van a econtrar con bases de datos relacionales.
+
+Información consistente - La idea en una base de datos relacional que si se tiene data en la base sea datos unicos y relacionarla con otra información.
+
+Flexible - Se puede ocupar solo para almacenar datos, extraerlos o jugar con datos.
+
+Retrocompatible - Los motores de base de datos avanzan constantemente en sus motores pero siempre arreglando los problemas de sus estandares.
+
+Completamente programable - Permite usar lenguajes procedurales que pueden ayudar a extraer datos o guardarlos e incluso hacer cosas más complejos dentro de la misma base de datos.

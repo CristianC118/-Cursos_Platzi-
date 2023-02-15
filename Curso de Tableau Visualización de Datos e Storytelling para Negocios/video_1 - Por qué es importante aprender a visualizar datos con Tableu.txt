@@ -1,0 +1,26 @@
+    Por qué es importante aprender a visualizar datos con Tableu
+
+La visualización de datos nos ayudará a encontrar la información pertinente y relevante, así como a la organización de la información.
+
+Es una representación gráfica de la información, y esta puede ser dividida en dos partes:
+
+    Input: La parte que inicia el proceso, en nuestro caso los datos a graficar
+    Output: El producto, en este caso las visualizaciones, o DataViz.
+Visualización de datos
+
+La visualización de datos no es algo reciente, sino que se remonta al pasado de la humanidad, es casi tan antigua como el Ábaco.
+
+Gracias a las tecnologías actuales se genera infinidad de datos a cada momento, de todo tipo de temáticas.
+
+         Infografía sobre la marcha de Napoleón
+Esta infografía es considerada la mejor visualización de la historia.
+
+Muestra la transición de la marcha del ejército de Napoleón, hacia la conquista de Moscú.
+
+Representa el tamaño del ejército de Napoleón a lo largo de la marcha.
+Indica la ubicación geográfica a lo largo de la marcha
+
+Muestra la temperatura que hubo en diferentes etapas de la marcha.
+
+Señala los ríos que se cruzaron en el trayecto de la marcha.
+

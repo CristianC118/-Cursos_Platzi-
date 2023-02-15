@@ -1,0 +1,33 @@
+            ¿Que es una función?
+
+Una función es una regla o expresión de correspondencia dada entre los elementos de dos conjuntos (A, B), donde cada parte del conjunto A es dependiente o está relacionada con un único elemento del conjunto B.
+
+Las funciones se definen a partir del valor del dominio en una ecuación:
+
+Variable dependiente f(x)
+Variables independientes x,y,z,w …
+Para darte un ejemplo, una función se comporta como una caja mágica que por dentro realiza un proceso que nunca cambia. Ingresas un input (las variables) y te arroja un output que es el resultado final de reemplazar las variables y resolver la ecuación.
+
+    ¿Qué es el dominio de una función?
+El dominio de una función es el conjunto de los valores que puede llegar a tomar la variable independiente, es decir, el valor con la que está definida la función.
+
+Ten en cuenta que la regla de correspondencia se define a través de una ecuación, por ejemplo, f(x)= x + 2 que posee una variable independiente (x). Al resolver esta educación con el valor de x obtendrás como resultado otro número, el cual será su imagen que es el elemento del conjunto B al que está relacionado.
+
+Ejemplo:
+
+Teniendo en cuenta que x=1
+
+f(x) = x + 2
+
+Tenemos el elemento 1 que está en el conjunto A. Al evaluarlo tenemos
+
+f(1)= 1 + 2
+
+El resultado 3 es el elemento del conjunto B al que 1 está relacionado y ese tres puede ser llamado “imagen de 1”.
+
+¿Qué es una función inversa?
+Una función inversa es la misma estructura de una función, pero opuesta, lo que hace que deshaga el resultado de la función. Por lo general, la función recíproca se define como f^-1.
+
+Si f(x) = x + 2 la función inversa es f^-1(x) = x - 2
+
+En este caso, el rango de f(x) corresponde al dominio de f^-1 y el dominio de f(x) es el rango de f^-1.

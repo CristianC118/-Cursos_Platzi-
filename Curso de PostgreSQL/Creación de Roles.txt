@@ -1,0 +1,24 @@
+                    Creación de Roles
+                    
+Desde sqlshell podemos crear roles, los roles son independiente de la base de datos, el comando para crear un rol es CREATE ROLE o CREATE USER, después de la versión 9.3 de postgres ambos comandos hacen lo mismo, en este ejemplo usaremos CREATE ROLE
+ 
+
+Podemos ver todas las características que tiene la sentencia CREATE ROLE con \h CREATE ROL
+ 
+Bien, creemos un rol que tenga la capacidad de hacer login y le asignaremos una contraseña.
+Es muy bueno tener 2 roles diferentes, uno podria ser el usuario postgres que me permite crear bases de datos, borrar tablas, etc, y otro que me sirva únicamente para insertar, consultar y crear tablas pero no de eliminar o borrar bases de datos
+
+CREATE ROLE usuario_consulta;
+
+Al crearlo así, este no tendrá contraseña y va a poseer todas las características predeterminadas de postgres
+
+Si queremos ver todos los usuarios creados lo podemos hacer con el comando \dg
+
+Ahora queremos que este rol que acabamos de crear tenga acceso a poder acceder a la base de datos, así que vamos a editarlo
+
+ALTER ROLE usuario_consulta WITH LOGIN; --Para que pueda logearse
+Y luego le asignamos una contraseña
+
+ALTER ROLE usuario_consulta WITH PASSWORD 'nuestraContraseña';
+
+Con el comando DROP ROLE nombre_rol, podemos eliminar roles

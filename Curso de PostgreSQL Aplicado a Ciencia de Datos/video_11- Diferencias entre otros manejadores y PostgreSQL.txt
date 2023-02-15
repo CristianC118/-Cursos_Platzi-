@@ -1,0 +1,15 @@
+   Diferencias entre otros manejadores y PostgreSQL
+
+- Código libre y orientado a la comunidad.
+
+- Base de datos adaptable: soporta documentos JSON y orientadas a estadísticas.
+
+- PL/pgSQL (procedural languaje).
+
+- Manejador de objetos: objetos clave/valor.
+
+- Particiones: permite ejercer una estrategia de particionado para Big Data.
+
+- Common table expressions: usa tablas virtuales y dinámicas en tiempo de ejecución.
+
+- Window functions: encontrar la relación entre un row particular y su relación con toda la tabla.

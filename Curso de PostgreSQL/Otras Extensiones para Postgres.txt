@@ -1,0 +1,10 @@
+            Otras Extensiones para Postgres
+            
+    Notas:
+Una extensión interesante es passwordcheck la cual verifica el nivel de fortaleza de un password cuando un usuario/rol es creado en la base de datos. Esto, brinda una capa de seguridad adicional protegiéndonos de ataques de fuerza bruta ya que garantiza que tenemos una contraseña segura.
+Para el tema de seguridad, agregaría el uso de la extensión pgcrypto, que permite implementar funciones de criptografía al PostgreSQL.
+------
+
+Puedes listar todas las extensiones disponibles en postgres y visualizar una pequeña descripción de su funcionamiento con este comando.
+
+SELECT * FROM pg_available_extensions;

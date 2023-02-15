@@ -1,0 +1,22 @@
+   Errores comunes al diseñar visualizaciones de datos
+
+Al momento de crear y diseñar nuestras visualizaciones de datos, podemos cometer algunos errores, o no representar de una manera adecuada nuestros datos.
+
+    Mejores prácticas de diseño
+Agrupar las visualizaciones relacionadas
+
+Mantener la percepción de las visualizaciones en los ejes x y y (sesgo de la percepción visual)
+
+Respetar los colores de cada elemento y evitar reusarlo
+
+Ordenar los valores de manera descendente
+
+Colorear las barras de forma que las más grandes tengan un color más saturado, y las más pequeñas un color con menor saturación
+
+Resaltar un elemento cuando haya información relevante (ej. pérdidas en producción)
+
+Debe haber continuidad en los valores, a menos que esto represente algo (ej. inicio del año)
+
+Dependiendo si tu dashboard es dinámico o estático, usa o evita el uso de visualizaciones que necesiten scroll o hover
+
+Evitar el empleo de elementos que confundan

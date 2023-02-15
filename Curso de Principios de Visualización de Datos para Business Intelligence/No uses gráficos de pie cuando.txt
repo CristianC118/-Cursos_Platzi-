@@ -1,0 +1,8 @@
+        No uses gráficos de pie cuando:
+
+Tengas más de 5 categorías
+Tengas categorías con valores muy similares por ejemplo si tienes una categoría con porcentaje 35,36,37 es mejor pensar en otro
+tipo de gráfico como el de barras porque se llevara más tiempo entenderlo y al ojo humano se le dificulta encontrar esas pequeñas diferencias.
+Si dentro de tu gráfico la mayoría de las categorías es representada por valores pequeños es mejor utilizar otro gráfico ya que en estos gráficos podrían llegar a perderse o verse demasiado pequeñas y resultara más difícil para la audiencia.
+También si en tu gráfico tienes categorías con valores iguales es mejor que cambies de gráfico. Es decir si tienes categoría como
+A 15% ,B 12% , C 15%,D 12% , E 8% es mejor cambiar de gráfico porque no se podrá ver rápidamente la distribución de los datos.

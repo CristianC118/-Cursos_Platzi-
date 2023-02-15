@@ -1,0 +1,10 @@
+    Análisis cualitativo en un caso de negocio
+    
+Clusterizar: Agrupar las problemáticas, motivaciones y contactos por parte de los clientes a las que nos enfrentamos. Este ejemplo se clasificaron en 4 categorías las más de 500 tipos contactos:
+
+Motivación económica. Buscan que se les devuelva el dinero. Ésta es la más grave ya que además de ser una queja, se les devuelve el dinero.
+Preguntas. Los clientes tienen dudas.
+Problemas tecnológicos. Relevante para identificar fallas técnicas del servicio o producto.
+Política de empresa.
+                   Clasificación
+Definir los motivos detrás de los mensajes, cuando los hayamos clasificado dentro de una categoría profundizaremos en los motivos de contacto de una manera geolocalizada por lo que tendremos especificidad en cada contexto social.

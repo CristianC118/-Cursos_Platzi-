@@ -1,0 +1,85 @@
+                Estructura del Storytelling
+
+Narrar historias o “storytelling” como se le conoce dentro del mundo de la visualización de datos es una herramienta muy útil y frecuentemente subestimada que puede ayudarnos a entender mejor nuestra información mientras cautivamos a la audiencia asegurando la retención del mensaje de una manera efectiva.
+
+Esto puede sonar complicado, pero te aseguro que es más sencillo de lo que parece.
+
+El storytelling es prácticamente poder presentar nuestros descubrimientos utilizando una narración en forma de historia.
+
+Para esto, Tableau cuenta con una herramienta creada específicamente para este fin, las Historias (Story).
+
+¿Qué es una Historia? Es el lienzo en el que se nos permitirá recopilar nuestros dataviz y tableros para poder convertirlos en una presentación que facilite la narración de nuestro contexto, descubrimientos, el proceso y nuestras conclusiones
+
+            Ejemplo de una Historia en Tableau
+
+
+Como verás, Tableau nos prepara de una manera sencilla todo el ambiente necesario para nuestra creación de narrativas.
+
+Ya conocemos la herramienta, pero debemos hablar acerca de lo que haremos con ella, te voy a dejar ahora una pequeña guía para que puedas hacer Storytelling increíble.
+
+Primero definiremos la estructura de la Historia. Para poder crear una historia que cause impacto te puedo recomendar el siguiente orden:
+
+Contexto
+
+Resumen
+
+Puntos de interés
+
+Conclusiones
+
+Recomendaciones
+
+                        Contexto
+Utiliza este apartado para poder contar cómo es que elegiste iniciar el proyecto, con qué fin lo estás haciendo, que pensabas encontrar o cuáles eran las preguntas que querías contestar.
+
+El contexto es muy importante porque le explica a la audiencia la razón de nuestro trabajo y las intriga para poder saber más en las siguientes etapas de nuestra historia.
+
+Por lo general, debes aclarar aquí el qué, quién, cómo y para qué del trabajo.
+
+    Ejemplo:
+
+Durante mi tiempo de business intelligence en la empresa de Walmart, tras la primera reunión del departamento de datos del año, decidimos analizar el comportamiento de usuarios para poder incrementar las ventas por temporada en nuestras sucursales. Recuerdo bien ese día porque precisamente al momento de salir del trabajo y encender el auto, en la radio anunciaban tener precaución por el acercamiento de un huracán. Evidentemente fui corriendo a la primera tienda que encontré para comprar los productos esenciales… ¡Y fue ahí, parado en el anaquel comprando agua y enlatados cuando me di cuenta de que nunca habíamos analizado el comportamiento de los clientes de Walmart ocasionado por desastres naturales!. La idea me iluminó la mente y me pareció muy interesante hacer una investigación a fondo sobre los productos más vendidos al momento que se pronostican desastres naturales…
+
+Si te das cuenta, en esta pequeña historia estoy dando todo el contexto que llevó al análisis de datos e inició el proyecto sobre los efectos de los desastres naturales en el comportamiento de compra en Walmart.
+
+Utiliza el contexto a tu favor, trata de conectar con la audiencia utilizando lenguaje común y situaciones que les pudieran ser familiares.
+
+                         Resumen
+Esta sección puedes utilizarla como segunda sección de la narración o al final junto con las conclusiones, yo la utilizo inmediatamente después del contexto para resumir al instante mis descubrimientos y generar intriga en la audiencia acerca de cómo llegué a esos resultados, generando que queden muy atentos a todo el proceso que conllevó el trabajo.
+
+Continuando con el ejemplo anterior, el apartado de resumen llevaría una narración así:
+
+Poptarts… El artículo más vendido en Walmart después de anunciarse los huracanes son las Poptarts sabor fresa… Quedé impresionado, fue un descubrimiento increíble.
+
+
+                    Puntos de interés
+Esta sección deberá constar de las dataviz que mejor representen tus descubrimientos, tu proceso y tus resultados.
+
+Aquí te recomiendo que utilices tanto dataviz individuales como dashboards, es muy importante que tu elección refleje de una manera adecuada la información para que puedas comunicar de la manera más efectiva tu mensaje.
+
+Yo utilizo 3 puntos de interés dentro de mis narraciones para tratar de mantener la presentación muy directa y orientada a los resultados. Te dejo este ejemplo:
+
+Primer punto de interés para definir los limitantes del KPI del proyecto utilizando un diagrama de cajas (boxplot).
+
+
+Segundo punto de interés a modo de implementación de KPI’s y un panorama general del proyecto utilizando un dashboard con varias visualizaciones de datos
+
+
+Y tercer punto de interés, una comparativa que me permita realzar el peor y el mejor resultado según el proyecto:
+
+
+¡Ojo! Cada uno de los puntos de interés debe tener una narración explicativa y cronológica con relación a tu historia para que mantenga su coherencia.
+
+Si te sirve, piensa en los puntos de interés como la ayuda visual que te permitirá recordar los puntos importantes a mencionar dentro de tu historia.
+
+                       Conclusiones
+Aquí simplemente reforzaremos el mensaje sobre los resultados finales de nuestro proyecto para dejar muy en claro y de manera contundente lo que pudimos encontrar o las respuestas que contestamos durante el ejercicio. Esta sección es importante porque nos permite darle un cierre a nuestra historia con un descubrimiento o mensaje final.
+
+Es aquí en donde podemos dar nuestro toque personal y demostrar nuestra opinión con lo encontrado. Te recomiendo muchísimo que incluyas siempre esta sección, ya que nos ofrece un escaparate para poder demostrar nuestras habilidades para el análisis de datos.
+
+                    Recomendaciones
+Este apartado te servirá para poder aclarar las limitantes de tu trabajo, tratar de indagar más a fondo o simplemente invitar a la audiencia a investigar más sobre el tema tratado. Contar con un apartado de recomendaciones te abre las puertas a futuros análisis y ofrece a la audiencia información suficiente como referencia.
+
+Ahora ya tienes una estructura base con la cual podrás trabajar al momento de hacer storytelling.
+
+Aprovecha el tiempo que tienes frente a tu audiencia y cuenta historias inolvidables.

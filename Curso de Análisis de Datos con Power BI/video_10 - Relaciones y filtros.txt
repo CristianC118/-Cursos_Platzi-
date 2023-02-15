@@ -1,0 +1,30 @@
+                   Relaciones y filtros
+
+En bases de datos nos encontramos con los conceptos de relaciones y filtros. Las relaciones se refieren a la correspondencia que hay entre tablas. Los filtros, por otro lado, se refieren a incluir (o no) ciertos registros al consultar una base de datos, en función de ciertos criterios.
+
+                   Relaciones de Tablas
+Cuando hablamos de relaciones entre tablas, tenemos dos conceptos claves:
+
+Llaves primarias (Primary Keys): definen la clave principal de la tabla. No pueden contener valores nulos ni duplicados.
+Llaves foráneas (Foreign Keys): es una columna, o conjunto de columnas, que contiene un valor que hace referencia a una fila de otra tabla.
+
+    Tipos de Relaciones
+1 a 1 (1-1): ambas tablas se conectan con sus llaves primarias.
+1 a muchos (1-*): cuando se conecta una llave primaria con una llave foránea de otra tabla. Es la que se debe buscar en Power BI.
+Muchos a muchos (* - *): ocurre cuando ambas tablas se relacionan por sus llaves foráneas (ninguna de las columnas tiene valores únicos). Se recomienda evitar este tipo de relación.
+
+            Práctica de Relaciones y filtros
+A continuación, vamos a crear una visualización de precio de venta por nombre, la cual deberemos filtrar para mostrar solo el top 15.
+
+Desde Power BI conéctate al archivo Ventas - Avanzado.xlsx* en la carpeta del curso. Selecciona todas las tablas (excepto Hoja1) y dale a “Cargar”.
+
+Ve a la pestaña de “Modelo”, donde verás que las relaciones entre las tablas se crearon de forma automática. Aquí puedes validar todas las relaciones dentro del modelo.
+
+En la pestaña de informe, en “Visualizaciones”, haz clic sobre “Embudo”.
+
+Da clic sobre la tabla Fact_ventas para ver los campos. Selecciona o arrastra el campo Precio de venta sin IGV a “Valores” y desde la tabla Dim_cliente arrastra el campo Nombre a “Grupo”.
+
+
+Verás que hay demasiados clientes en el gráfico, por lo que debes limitarlo a los 10 o 15 mejores clientes. Para ello, selecciona la visualización, ve al panel de filtros, haz clic en “Nombre” y en tipo de filtro cambia a “Top N”.
+
+En “Mostrar artículos” selecciona “Superior” y la cantidad de 15. Luego en “Por Valor” arrastra de la tabla Fact_ventas el campo Precio de venta sin IGV y da clic en “Aplicar filtro”.

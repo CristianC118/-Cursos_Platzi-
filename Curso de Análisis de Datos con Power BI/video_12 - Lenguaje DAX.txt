@@ -1,0 +1,46 @@
+                        Lenguaje DAX
+
+Data Analysis Expression, o DAX, nos permite crear fórmulas analíticas. Fue creado para manipular un modelo de datos tabular. Originalmente, fue generado como extensión de excel. Es una colección de funciones y operadores que pueden ser utilizados en expresiones que permiten calcular uno o más valores. También se encuentra en PBI, Excel y SSAS Tabular.
+
+                    Ventajas de DAX
+DAX tiene varias ventajas. Está pensado para usuarios BI, y posee una menor curva de aprendizaje para analistas de datos. Aprovecha el conocimiento de trabajar con fórmulas de Excel, añadiéndole más capacidades como:
+
+Relaciones de navegación.
+Cálculo dinámico de dimensiones.
+Manejo de dimensiones de tiempo (time intelligence).
+
+    Formato de DAX
+‘Nombre de tabla’[Nombre de columna]
+Ejemplo: ‘Tabla Productos’[Precio]
+
+El nombre de la tabla puede ser omitido al usarse en columnas calculadas, más no se recomienda hacerlo por cuestiones de ambigüedad.
+
+    ¿Qué podemos generar con DAX?
+Columnas calculadas: crea nuevas columnas en el modelo de datos. Es un método para conectar tablas con múltiples columnas clave.
+
+Tablas Calculadas: crea una tabla derivada de otra tabla.
+
+Medidas: crea cálculos dinámicos guardados en memoria. Más eficientes que las columnas calculadas. Soportan la inteligencia de tiempo.
+
+                    Práctica de DAX
+Desde Power BI Desktop, conéctate al archivo de Excel Ventas - Fundamentos, dentro de la carpeta del curso. Selecciona las tablas tabla_ventas y tabla_vehículos. Una vez cargadas, ve a la pestaña de “Modelo” y relaciona las tablas mediante ID_Vehículo.
+
+    Crea una columna calculada
+Nos dirigimos a la pestaña de datos y hacemos clic en tabla_ventas.
+En “Herramientas de tablas” hacemos clic en “Nueva columna”. Esto nos permitirá escribir una expresión DAX que definirá el nombre y los datos de la columna.
+Escribimos la siguiente expresión Margen Bruto = tabla_ventas[Precio Venta sin IGV] - tabla_ventas[Costo Vehículo] y le damos al check o presionamos enter para crear la columna. Nos quedará algo como esto:
+
+
+    Crea una tabla calculada
+Desde “Datos” → “Herramientas de tabla” le damos a la opción “Nueva tabla”.
+La idea es crear una tabla calendario con todas las fechas, desde el mínimo hasta el máximo del dataset. Para ello simplemente copiamos la fórmula calendario = CALENDARAUTO() y le damos al check. Nos queda así.
+
+
+Ahora podemos usar esta tabla para propósitos como segmentar nuestras visualizaciones por fecha. OJO, para esto hay que relacionar la tabla calendario (mediante el campo Date) con la tabla_ventas (campo Fecha).
+
+    Crea una medida
+Una buena práctica es tener una tabla que contenga nuestras medidas. Para ello simplemente nos vamos a la pestaña de informe y empleamos la opción “Especificar datos”. Aquí se abre una ventana donde simplemente debemos colocarle el nombre a la tabla (tabla_medidas, por ejemplo) y darle a “Cargar”. Una vez tengamos la tabla_medidas:
+
+Hacemos clic derecho en tabla_medidas y seleccionamos “Nueva medida”.
+Se abre un campo para colocar una expresión DAX. En este caso queremos el total de ventas, por lo que copiamos la fórmula Venta Total = SUM(tabla_ventas[Precio Venta sin IGV]) y damos clic en el check.
+Veremos la columna Venta Total en la tabla_medidas, columna que podemos usar para crear distintas visualizaciones.

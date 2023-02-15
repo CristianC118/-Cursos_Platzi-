@@ -1,0 +1,21 @@
+               Fechas y gráficas de líneas
+
+Las líneas generalmente se utilizan para mostrar los datos que pasan en un rango de tiempo.
+
+        Crear nuestras gráficas lineales
+Arrastramos el dato que queramos ver a las filas, en el ejemplo “Sales” y “Profit”.
+
+Agregamos a la columna “Order date”.
+
+Para dividir los valores de fechas en trimestres, basta con hacer clic al recuadro al lado del nombre, en el apartado de columnas.
+
+Podemos agregar colores, y detalles para hacer más sencilla la visualización de los datos.
+
+        Agregar varias gráficas en un dashboard
+Creamos un nuevo dashboard, haciendo clic en la parte de abajo, a la izquierda de donde creamos una nueva hoja de trabajo.
+
+Configuramos el dashboard para que se adapte automáticamente al tamaño de la pantalla.
+
+Arrastramos las hojas de trabajo con las gráficas que necesitemos.
+
+También es buena práctica tener las mismas cantidades en los ejes de ambas gráficas, para tener una correcta correlación.

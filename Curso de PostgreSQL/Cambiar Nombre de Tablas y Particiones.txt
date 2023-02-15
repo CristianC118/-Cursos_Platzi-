@@ -1,0 +1,42 @@
+        Cambiar Nombre de Tablas y Particiones
+        
+El objetivo de renombrar una tabla es para poder extraer datos de una tabla que esta siendo alimentada constantemente con miles de datos (ej. cámaras de seguridad, sensores, aplicaciones móviles). Esto debido a que las filas se están reindexando constantemente y no permitiría tomar los datos reales además de presentar problemas en la integridad de la información.
+
+Para esto, se debe cambiar el nombre de la tabla de la cual se desea extraer la información, esto con una ligera variación que permita diferenciarla de una nueva tabla que llevará el nombre de la tabla original, tal cual, con la misma estructura y especificaciones de las columnas. Esta orden se ejecutará en una transacción que permita un cambio rápido y verificado paso a paso, de esta forma se evita que la app caiga al no encontrar la tabla objeto del cambio de nombre, sino que al contrario, tendrá una tabla vacía para continuar alimentando y el data analyst tendrá a disposición los datos para sus consultas y reportes.
+
+------
+
+--AQUÍ COPIA Y PEGA EL SQL DE LA TABLA PARA CREARLA CON LAS MISMAS CARACTERÍSTICAS--
+CREATE TABLE viajes_offload
+(
+    viaje_id integer NOT NULL DEFAULT nextval('viajes_viaje_id_seq'::regclass),
+    t_inicio time without time zone,
+    t_fin time without time zone,
+    fecha timestamp without time zone,
+    pasajero_id integer,
+    ruta_id integer,
+    CONSTRAINT viajes_pkey PRIMARY KEY (viaje_id),
+    CONSTRAINT viaje_pasajero_fkey FOREIGN KEY (pasajero_id)
+        REFERENCES public.pasajero (pasajero_id) MATCH SIMPLE
+        ON UPDATE CASCADE
+        ON DELETE CASCADE
+        NOT VALID,
+    CONSTRAINT viaje_ruta_fkey FOREIGN KEY (ruta_id)
+        REFERENCES public.rutas (ruta_id) MATCH SIMPLE
+        ON UPDATE CASCADE
+        ON DELETE CASCADE
+        NOT VALID
+)
+TABLESPACE pg_default;
+
+ALTER TABLE IF EXISTS public.viajes
+    OWNER to postgres;
+REVOKE ALL ON TABLE public.viajes FROM usuario_consulta;
+GRANT ALL ON TABLE public.viajes TO postgres;
+GRANT UPDATE, INSERT, SELECT ON TABLE public.viajes TO usuario_consulta;
+
+--RENOMBRAR TABLAS--
+BEGIN;
+ALTER TABLE IF EXISTS viajes RENAME TO viajes_julio2022;
+ALTER TABLE viajes_offload RENAME TO viajes
+COMMIT;

@@ -1,0 +1,11 @@
+                Machine Learning
+                
+Inteligencia artificial: Máquina simulando el comportamiento y razonamiento de los humanos. Para ello usan diferentes técnicas como Machine learning
+Machine learning: Capacidad de las computadoras para aprender por sí mismas a partir de datos y experiencia. En usos complejos usa el Deep Learning
+    Utilidad:
+Detección de fraudes
+Búsqueda web
+Anuncios a tiempo real
+Análisis de textos
+Next best action: Predecir la acción que un usuario va a tomar
+Deep learning: Algoritmos que permiten clasificar y relacionar grandes volúmenes de información imitando redes neuronales.

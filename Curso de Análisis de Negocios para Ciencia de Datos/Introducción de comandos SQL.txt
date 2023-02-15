@@ -1,0 +1,51 @@
+		Introducción de comandos SQL
+
+	Comandos
+
+- SELECT
+Selección de los campos (columnas) para hacer el análisis o para sintetizar la tabla de origen. Cada columna se separa con una coma.
+
+- Clausulas
+
+FROM
+Tabla donde se almacena la información.
+
+WHERE
+Especificar las condiciones.
+
+GROUP BY
+Campos (columnas) de agrupación.
+
+ORDER BY
+Campos (columnas) de ordenación.
+
+	Operadores lógicos.
+
+AND
+Une varias condiciones que tienen que ser cumplidas para obtener resultados.
+
+OR
+Evalúa dos o mas condiciones y obtienes resultados si una de ellas se cumpla.
+
+NOT
+Excluya un valor de la información a obtener.
+
+	Funciones de agregación.
+
+AVG
+Promedio (average) de un campo (columna).
+
+COUNT
+Recuento de valores de una columna.
+
+DISTINCT
+Encontrar valores únicos.
+
+SUM
+Suma de valores de una columna.
+
+MAX
+Valor mas alto de una columna.
+
+MIN
+Valor mas bajo de una columna.

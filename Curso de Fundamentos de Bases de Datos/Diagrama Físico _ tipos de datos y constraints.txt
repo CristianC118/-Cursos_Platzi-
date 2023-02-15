@@ -1,0 +1,29 @@
+    Diagrama Físico: tipos de datos y constraints
+    
+        Tipos de dato:
+Texto: 
+    CHAR(n): Permite almacenar cade/cara de memoria fija.
+    VARCHAR(n): Límite de 255 caractéres.
+    TEXT: En caso que supere los 255 caratéres.
+Números: 
+    INTEGER: Número sin punto decimal.
+    BIGINT: Declarar un número grande, 1000...
+    SMALLINT: Declarar un número pequeño, 99 -....
+    DECIMAL(n,s): Decimales entero (n) y luego decimal (s)
+    NUMERIC(n,s): Primero entero y luego decimales.
+Fecha/hora: 
+    DATE: Año, Mes, Día
+    TIME: Hora del Día 24h
+    DATETIME: Obtiene las dos anteriores.
+    TIMESTAMP: Igual que DateTime con milisegundos.
+Lógicos: 
+    BOOLEAN: True/False - 1/0
+
+        Constraints (Restricciones)
+NOT NULL: Se asegura que la columna no tenga valores nulos
+UNIQUE: Se asegura que cada valor en la columna no se repita
+PRIMARY KEY: Es una combinación de NOT NULL y UNIQUE
+FOREIGN KEY: Identifica de manera única una tupla en otra tabla
+CHECK: Se asegura que el valor en la columna cumpla una condición dada
+DEFAULT: Coloca un valor por defecto cuando no hay un valor especificado
+INDEX: Se crea por columna para permitir búsquedas más rápidas

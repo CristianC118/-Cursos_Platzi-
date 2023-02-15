@@ -1,0 +1,35 @@
+                        Triggers
+                        
+Hay que tener cuidado con los Triggers y no usarlos en la logica del negocio porque pueden volverse un dolor de cabeza, utilizar solo para realizar el llenado de alguna tabla de auditoria, ya que las variables OLD y NEW te permiten saber que campos sufrieron modificaciones, y solo registrar los campos que se modifican.
+__\/__
+
+Pueden causar errores de mutaciones en las tablas, si se han escrito de manera deficiente, es sumamente importante entender las reglas del negocio y generar las pruebas de validación antes de llevar a producción. Recordemos que es un disparador asociado a las tablas.
+__\/__
+
+Los Triggers son muy recomendable, para los sistema de pista de auditorias, nos ayudan muchos para conocer quienes realizaron los cambios en los sistemas.
+__\/__
+
+Los tirggers son un gran mecanismo para colocar codigo de los aplicativos en la capa de base de datos y validar logica. Hay que tener mucho cuidado en tablas de alta transaccionalidad ya que pueden generar un cuello de botella en el rendimeinto.
+__\/__
+
+Cuál es la diferencia entre una función y un procedimiento y en qué casos usar uno u otro:
+
+Una función generalmente se usa cuando necesitamos obtener un valor. ya sea un valor único; como un valor MAX, MIN o el resultado de un cálculo; y normalmente no actualiza información en la BD (insert, update, delete) , aunque no hay nada que te impida actualizar información de una tabla dentro de una función.
+
+Los procedimientos generalmente se usan cuando sí deseamos actualizar información (insert, update, delete) y no requerimos devolver un valor ( si acaso un valor “bandera” que indique si la actualización fue exitosa). Técnicamente tampoco hay nada que te impida devolver un valor calculado al terminar la ejecución del procedimiento (normalmente para eso se usan los parámetros de salida “out”).
+__\/__
+
+Los procedimientos van asociados a un trigger cuando necesitamos cachar los eventos (insert, delete, update) sobre un renglón de una tabla.
+
+Un Trigger de base de datos es un programa almacenado que se dispara o ejecuta automáticamente cuando se producen algunos eventos.
+Un trigger puede ejecutarse en respuesta a cualquiera de los siguientes eventos:
+
+Una sentencia de manipulación de la base de datos (DML) como DELETE, INSERT o UPDATE.
+Una sentencia de definición de la base de datos (DDL) como CREATE, ALTER o DROP.
+Una operación de base de datos como SERVERERROR, LOGON, LOGOFF, STARTUP o SHUTDOWN.
+Nota: Un disparador puede definirse en la tabla, vista, esquema o base de datos a la que se asocia el evento.
+__\/__
+
+De manera muy sencilla:
+Imaginemos que tenemos una tienda y vendemos celulares.
+Por cada compra que tenemos, usamos un trigger para indicar que se compró un celular, al momento en que ingresa dinero en nuestro negocio por la venta, se dispara el trigger para indicar que un celular se fue de nuestro stock. En vez de hacerlo de forma manual, es de forma automática.

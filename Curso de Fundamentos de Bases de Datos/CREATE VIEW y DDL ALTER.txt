@@ -1,0 +1,21 @@
+                CREATE VIEW y DDL ALTER
+                           DDL -> Data Definition Language
+               
+Las tablas = Entidades…
+Las columnas = Atributos…
+Base de datos = Schema…
+Tablas son las filas en la base de datos
+
+**Views **
+- Toman datos de la base de datos, las ordenan de manera presentable, y las convierten en algo consultable recurrentemente.
+- Se crea con _CREATE VIEW _ (nombreDeLaVista) AS
+SELECT… (por ej. FROM platziblog.people, es decir de cada persona de platziblog -> hacer algo, por ejemplo, trabajar con un atributo, o filtrarla, etc.).
+- En el Workbench, se hace click derecho en Views -> Create View, y luego va la sentencia de arriba.
+Alter
+- ALTER TABLE: nos permite modificar nuestra tabla. Para hacerlo en el Workbench, luego de crear la tabla, hacemos click derecho en ella -> Alter Table. Alli podremos añadir o quitar atributos, constraints, etc.
+Drop
+- Nos permite eliminar datos. En el Workbench, para eliminar una columna, la seleccionamos con el click derecho -> Delete selected.
+- Para eliminar una tabla: DROP TABLE (nombreDeLaTabla);
+- Para eliminar una base de datos: DROP DATABASE (nombreDeLaBdD);
+
+Podemos observar que el Workbench se encarga de escribir el codigo por nosotros una vez dadas las instrucciones.

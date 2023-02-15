@@ -1,0 +1,30 @@
+                        GROUP BY
+                        
+GROUP BY tiene que ver con agrupación. Indica a la base de datos qué criterios debe tener en cuenta para agrupar.
+
+Funciones:
+COUNT: Contador
+SQRT: Raíz cuadrada
+SUM: Sumar
+AVG: Promedio
+MAX: Máximo
+MIN: Mínimo
+
+Operadores básicos:
+= Igual
+!= No igual
+> Mayor que
+< Menor que
+>= Mayor o igual que
+<= Menor o igual que
+BETWEEN Dentro de un rango
+
+Operadores Lógicos:
+AND Cumple ambas condiciones
+OR Cumple alguna condición
+IN Cumple si es igual a la lista de expresiones
+CONCAT Concatena 2 o mas campos
+
+Otra Funciones:
+UPPER Convierte a mayúscula
+LOWER Convierte a minúscula

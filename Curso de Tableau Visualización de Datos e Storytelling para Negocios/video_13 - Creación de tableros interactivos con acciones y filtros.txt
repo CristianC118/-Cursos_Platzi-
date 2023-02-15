@@ -1,0 +1,53 @@
+ Creación de tableros interactivos con acciones y filtros
+
+                Agregando nuestras DataViz
+Creamos un nuevo dashboard
+Ajustamos para que se adapte automáticamente al tamaño de la pantalla
+Arrastramos a nuestro dashboard las siguientes hojas de trabajo:
+Ventas por categoría
+Tabla de utilidades
+Comparativa entre ventas y utilidades
+Mapa de la ciudad
+Eliminamos la leyenda de nuestras gráficas, ya que nosotros sabemos lo que significa cada color
+Acomodamos las gráficas de una mejor manera, haciendo drag and drop
+Para cuadrar la tabla:
+Clic derecho en el espacio en blanco
+Hacemos clic en cuadrar
+Seleccionamos "cuadrar a vista completa"
+No es necesario tener los títulos de nuestras hojas de trabajo, haciendo clic derecho y seleccionando la opción “Ocultar título”, sin ocultar los títulos de las gráficas de líneas
+Podemos simplificar más eliminando las palabras repetidas de lo que se mide en nuestras gráficas de líneas
+Doble clic
+Borramos el título
+También sería interesante ver el nombre de nuestros clientes en el mapa, para eso:
+Vamos a la hoja de trabajo de nuestro mapa
+Arrastramos la propiedad “Customer Name” al recuadro “Detalle” dentro de la sección de marcas
+
+                    Utilizando objetos
+Los objetos nos permiten agregar cosas como:
+
+Espacios en blanco
+Texto
+Imágenes
+Páginas
+Etc.
+Para dejar nuestro dashboard más presentable, agregaremos un título:
+
+Agregamos un espacio en blanco arriba de todas nuestras DataViz
+Agregamos el texto que será nuestro título
+El título será “Análisis de ventas por categorías”
+Agregamos un tamaño más grande para la fuente y le agregamos el formato de negritas
+Podemos centrar el texto también y después borrar el espacio en blanco
+
+        Acciones con disparables de selección
+Para hacer nuestro tablero interactivo podemos agregarle algunas acciones:
+
+Vamos a la parte de dashboard
+Seleccionamos acciones
+Añadir acción, y añadimos un filtro
+En hojas de origen dejamos seleccionada nomás “Sales by category”
+En la parte de ejecutar acción, marcamos “seleccionar”
+En hojas de destino dejamos seleccionadas todas, menos “Sales by category”
+En borrar la selección dejamos “Mostrar todos los valores”
+Damos aceptar, y a aceptar de nuevo
+
+A simple vista parece que no hemos hecho nada, pero si damos clic en alguna categoría de la gráfica de barras, se filtrarán los datos de esa categoría en todos los demás DataViz.

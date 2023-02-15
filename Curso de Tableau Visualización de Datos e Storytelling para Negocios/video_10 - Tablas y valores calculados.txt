@@ -1,0 +1,17 @@
+               Tablas y valores calculados
+
+El formato de tabla es muy útil para ver información que nos pueda ser pertinente, y utilizando colores adecuadamente, ayuda a reducir la carga cognitiva.
+
+                Creando nuestra tabla
+Para facilitar la visualización de datos, en el apartado de “Color” asignar los valores de “Profit”, y en la configuración “Editar color” asignar “Color escalonado”, y que esté dividido por dos, rojo y verde.
+
+Si las celdas de la tabla están todas del color, basta con arrastrar la misma propiedad a la que le agregamos color al texto, para que el color se aplique al texto.
+    
+            Crear tabla con campo calculado
+Primero creamos otra visualización de datos.
+
+Para crear una nueva columna: “Valor calculado”, hacemos clic derecho en las “Tablas”, seleccionar “Crear campo calculado”.
+
+Le asignamos el nombre de “Profit to sales ratio”, y agregamos la operación que hará esta nueva columna: SUM([Profit])/SUM([Sañes]), también puedes hacer drag and drop para seleccionar las propiedades.
+
+Para cambiar la presentación de los valores de un valor calculado, clic derecho en el campo “Propiedades predeterminadas” -> “Formato de número”, y seleccionamos “Porcentaje” con dos decimales.

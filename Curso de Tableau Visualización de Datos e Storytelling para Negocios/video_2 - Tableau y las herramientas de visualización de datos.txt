@@ -1,0 +1,28 @@
+  Tableau y las herramientas de visualización de datos
+
+Existen distintas herramientas de visualización de datos, algunas especializadas y otras de uso general.
+
+    Excel
+La primera herramienta que normalmente se conoce, muy usada en el mundo corporativo
+Forma parte de la suite de Microsoft Office
+Con un poco de trabajo puedes construir dashboards
+
+    Power BI
+La transición natural de Excel hacia el Business Intelligence
+Al ser un producto de Microsoft es compatible con la suite de Microsoft Office
+Viene en dos versiones: de escritorio y web (aunque la versión web viene con limitaciones), además de que tiene versión gratuita
+Te permite fácilmente hacer reportes, usando dashboards.
+
+    Google Analytics
+Utilizada principalmente en Marketing Digital
+Útil para ver el comportamiento de campañas, anuncios o costo por clic.
+Es más complicado de generar visualizaciones personalizadas, siendo el tablero predeterminado la única forma de visualizar.
+
+    Tableau
+Te permite generar dashboards, pero además generar una narración de historia
+Tiene una gran comunidad que se apoya entre sí, además de que realiza eventos como IronViz o Makeover Monday (en Twitter)
+Cuenta con tres versiones:
+Desktop (de paga)
+Public (gratuita)
+Server (para empresas)
+Es la herramienta más completa

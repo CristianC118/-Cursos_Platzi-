@@ -1,0 +1,8 @@
+                   Caso Orbitz
+Es una empresa que se dedica a vuelos, alojamientos, etc. para los viajantes.
+
+Descubrieron que los prospectos que visualizaban la página desde un ordenador Mac vs los otros ordenadores pagaban más, más fácil y más rápido.
+
+De ahí que deciden (ya que es ilegal tener un precio distinto) mostrar las habitaciones más caras o sólo las versiones premium, etc.
+
+Consiguen así una mejora considerable en sus beneficios.

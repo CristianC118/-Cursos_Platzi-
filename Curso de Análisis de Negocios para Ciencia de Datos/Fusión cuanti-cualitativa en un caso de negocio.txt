@@ -1,0 +1,7 @@
+   Fusión cuanti-cualitativa en un caso de negocio
+   
+Resolver de manera conjunta la información cuantitativa y cualitativa para sacar conclusiones.
+
+Una vez que tenemos información sobre cuáles son las razones por las que los clientes nos contactan así como una clasificación de los top offenders vamos a ver por qué se queja cada uno de los tipos de top offenders para encontrar las claves del análisis.
+
+Para este análisis se utiliza una tabla con un mapa de calor para resaltar los porcentajes más elevados y poder concentrar nuestra atención en los problemas mayores más rapidamente.

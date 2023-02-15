@@ -1,0 +1,17 @@
+        Propiedades de las ecuaciones
+Si una ecuación A es igual a una ecuación B, y está a su vez es igual a una ecuación C, entonces A es igual a C.
+
+Para mantener la igualdad dentro de una ecuación si realizamos una operación de un lado, debemos realizar la misma operación del otro lado de la igualdad.
+
+La igualdad en matemáticas posee 5 propiedades:
+
+1)propiedad reflexiva/identica: Establece que toda cantidad o expresión matemática es igual a si misma: b = b a = a
+
+2)Propiedad Simetrica: Establece que sin importar el orden de los miembros la igualdad prevalece: a + b = c c = a + b
+
+3)Propiedad Transitiva: Si los miembros que conforman una igualdad tienen un elemento en comun, se dice que este elemento es igual a cualquiera de los 2 miembros de la igualdad: a = b b = c a = c
+a = b a = c b = c
+
+4)Propiedad Uniforme: Si aumenta/disminuye la misma cantidad de los miembros de una igualdad, esta prevalece: 4 + 3 = 7 4 + 3 + 2 = 7 + 2
+
+Propiedad cancelativa: Al suprimir 2 elementos/cantidades iguales en ambos miembros la igualdad se mantiene: si 15 + 8 = 17 + 6 entonces si restamos 6 de ambos lados: 15 + 2 = 17

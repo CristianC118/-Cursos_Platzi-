@@ -1,0 +1,3 @@
+¿Qué es minería de texto? ¿Cómo usarla para obtener información adicional?
+
+La minería de textos es una rama específica de la minería de datos que se refiere al proceso de analizar y derivar información nueva de textos. Por medio de la identificación de patrones o correlaciones entre los términos se logra encontrar información que no está explícita dentro del texto. Los textos que se usan como recursos pueden ser páginas web, libros, correos electrónicos, reseñas de clientes, artículos, entre otros.

@@ -1,0 +1,12 @@
+                Recta numérica
+                
+      Los seres humanos somos muy visuales, por ello se tuvo la necesidad de graficar lo que se media, así nació la recta numérica.
+
+En la recta numérica se encuentran tanto los números positivos como negativos y en su centro se encuentra el cero. Mientras más a la derecha se encuentre un número en la recta numérica, mayor va a ser su valor.
+
+Los signos + y - tienen propiedades muy importantes:
+
+Signos diferentes dan negativo, por ejemplo, sumar un signo negativo te va a dar negativo.
+Par de signos iguales dan positivo, por ejemplo, restar un signo negativo te va a dar positivo.
+
+          

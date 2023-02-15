@@ -1,0 +1,11 @@
+    Herramientas para visualizar datos
+
+Excel: es una hoja de cálculo desarrollada por Microsoft para Windows, macOS, Android e iOS. Cuenta con cálculo, herramientas gráficas, tablas calculares y un lenguaje de programación macro llamado Visual Basic para aplicaciones.
+
+Tableau: es la plataforma de análisis integral más eficaz, segura y flexible para sus datos. Potencie a las personas con el poder de los datos. Tableau fue diseñado para el individuo, pero se adapta a toda la empresa. Es la única plataforma de inteligencia de negocios que transforma sus datos para motivar acciones a partir de la información.
+
+Power BI: es un servicio de análisis empresarial de Microsoft, su objetivo es proporcionar visualizaciones interactivas y capacidades de inteligencia empresarial con una interfaz lo suficientemente simple como para que los usuarios finales creen sus propios informes y paneles.
+
+Google Analytics: es una herramienta de analítica web de la empresa Google lanzada el 14 de noviembre de 2005. Ofrece información agrupada del tráfico que llega a los sitios web según la audiencia, la adquisición, el comportamiento y las conversiones que se llevan a cabo en el sitio web
+
+Google Data Studio: es una herramienta gratuita que convierte sus datos en informes y paneles claros, totalmente personalizables y fáciles de consultar y compartir.

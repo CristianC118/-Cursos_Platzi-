@@ -1,0 +1,15 @@
+Acciones, algoritmos y toma de decisiones según los resultados del análisis
+
+ALGORITMOS USADOS:
+a)Minería de texto: es el analisis de las palabras
+b)Encontrar correlaciones y patrones de comportamiento: por ejemplo aprender si los usuarios que mas compran son los que mas se quejan, y porque lo hacen, etc.
+c)Arboles de decisiones: Nos ayudan a la toma de decisiones, partiendo de una hipótesis A o una hipótesis B y nos iremos acercando con teoría de juegos para predecir cual es la mejor estrategia.
+d)Validación con bayesianos: la estadística bayesiana es muy útil para identificar patrones que se comportan de maneja conjunta. Por ej. cual es la probabilidad que si yo aviso a un usuario de que es un top offender, reincida o lo entienda y deje de comportarse asi
+e)Cadenas de Montecarlo: Son probabilidades concatenadas, conjuntas. Por ej. si un mes fue top offender, el mes siguiente lo va a ser? Ya no lo sera?. Son estudios que se hacen después de nuestro análisis, son métodos de validación. Es ver como impacto el modelo.
+
+ACCIONES:
+a)Taggear, identificar a los top offenders: saber quienes son y taggearlos, para saber si ya reincidió una vez, si darle beneficios o no.
+b)Advertirlos.
+c)Llamar usuarios: en los mejores clientes, es mejor llamarlos y se obtiene un trato personalizado.
+d)Bloquear usuarios: es en casos extremos.
+e)Validación con A/B test: donde la A puede ser una llamada, y la B puede ser mandarles un mensaje y ver el comportamiento de cada uno para ver cual funciono mejor.

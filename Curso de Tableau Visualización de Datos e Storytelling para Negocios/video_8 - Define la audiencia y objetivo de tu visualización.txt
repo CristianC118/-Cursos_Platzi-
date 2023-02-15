@@ -1,0 +1,21 @@
+   Define la audiencia y objetivo de tu visualización
+
+Para conocer el propósito de nuestra visualización, debemos conocer al público que la presentaremos, para así preparar nuestra visualización y dar el mensaje correcto con las palabras correctas.
+
+    Objetivo de tu visualización
+¿Qué mensaje queremos dar?.
+¿Qué DataViz es el mejor para nuestros datos?.
+¿Cuáles son las preguntas que vamos a responder?.
+¿La DataViz será dinámica o estática?.
+
+    Define tu audiencia
+¿Quiénes son?.
+¿Qué lenguaje hablan?.
+¿Con qué DataViz están acostumbrados?.
+Define un Perfil Persona (nombre, rol, organización, metas, retos y necesidades).
+Define cuáles son las preguntas, dudas y preferencias que el Perfil Persona tiene.
+
+    Ética en la visualización de datos
+No hay lugar para nuestras preferencias personales.
+Debemos dejar que los datos hablen por sí mismos.
+Una vez perdamos nuestra credibilidad, es difícil recuperarla.

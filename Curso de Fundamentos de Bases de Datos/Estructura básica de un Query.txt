@@ -1,0 +1,27 @@
+            Estructura básica de un Query
+            
+Los queries son la forma en la que estructuramos las preguntas que se harán a la base de datos. Transforma preguntas en sintaxis.
+
+El query tiene básicamente 2 partes: SELECT y FROM y puede aparecer una tercera como WHERE.
+
+    Ejemplo:
+select * from posts where year(fecha_publicacion)< 2023
+
+La estrellita o asterisco (*) quiere decir que vamos a seleccionar todo sin filtrar campos.
+
+
+----------------------------------------------------
+
+ESTRUCTURA DE UN QUERY
+
+Como le hacemos preguntas a las bases de datos? Los queries transforman nuestras preguntas en el lenguaje que utiliza la base de datos.
+Dos partes mas una tercera opcional:
+SELECT : que datos queremos obtener (que columnas/campos de la tabla).
+FROM : de donde los queremos obtener (de que tabla, por ejemplo).
+WHERE : condicion que deben cumplir o filtro que deben pasar los datos a obtener. Es opcional, pero se suele utilizar, ya que sino se obtienen todos los datos sin filtrar ninguno.
+Otras sentencias:
+GROUP BY : de que manera agrupamos los datos (en este caso agrupa por ciudad).
+ORDER BY : de que manera ordenamos los datos (en este caso, por poblacion).
+HAVING : otra manera de filtrar los datos.
+
+el “from”, puede ser opcional en algunos gestores, es cuando haces un query que no va a consultar a ninguna tabla, por ejemplo “select 1 + 1” y la clausula having es como un where, pero para funciones de agrupamiento.

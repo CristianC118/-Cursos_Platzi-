@@ -1,0 +1,14 @@
+                    Window functions
+
+Una función de ventana es una variación de una función de agregación. Cuando una función de agregación, como sum()y mean(), toma n entradas y devuelve un solo valor, una función de ventana devuelve n valores. La salida de una función de ventana depende de todos sus valores de entrada, por lo que las funciones de ventana no incluyen funciones que funcionan por elementos, como round(). Las funciones de ventana incluyen variaciones en funciones agregadas, como cumsum()y cummean(), funciones para clasificar y ordenar, como rank(), y funciones para tomar compensaciones, como lead()y lag().
+                    
+Realizan cálculos que relacionan una tupla con el resto dentro de un mismo scope o partición.
+
+    Evita el uso del self joins
+    Reduce la complejidad alrededor de la analítica, agregaciones y cálculos.
+    Luego de una agregación, la función OVER dicta el scope de la window function, al realizar un PARTITION BY campo.
+    Si no se especifica un PARTITION BY, la funcion OVER() por default tomará toda la tabla
+    También se puede usar ORDER BY campo, esto agrega un campo de granularidad al cálculo, a la vez que agrupa todos los valores iguales dentro de la partición, que ahora se encuentran ordenados.
+    
+    Podemos usar funciones de RANK()
+    Las Window Function se procesan casi al final de todas las operaciones, por eso para usar estas WF como un campo en WHERE, debemos hacer un subquery.

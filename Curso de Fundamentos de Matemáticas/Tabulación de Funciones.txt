@@ -1,0 +1,17 @@
+            Tabulación de Funciones
+            
+Siendo una función matemática una relación entre la variable dependiente y la independiente, entonces estamos en la posibilidad de expresar esa relación mediante una tabla de datos.
+
+¿Cómo se tabula una función?
+Para tabular una función, primero debemos definir los valores máximos y mínimos que vamos a graficar. Si estamos trabajando con funciones de grado uno, realmente podemos usar dos puntos, nada más. Para funciones de grado dos hacia arriba si necesitamos de manera obligatoria una De manera tradicional se utilizan entre 5 u 8 puntos para graficar las funciones.
+
+Para tabular la función f(x)= x+3 vamos a tomar un rango válido para nuestra función por ejemplo de 2 a 9 y vamos a calcular los valores de las variables dependientes para cada valor de nuestra variable independiente
+    X     Y
+    2     5
+    3     6
+    4     7
+    5     8
+    6     9
+    7     10
+    8     11
+    9     12

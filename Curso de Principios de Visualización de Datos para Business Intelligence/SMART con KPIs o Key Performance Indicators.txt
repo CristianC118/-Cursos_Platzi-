@@ -1,0 +1,41 @@
+   SMART con KPIs o Key Performance Indicators
+   
+KPI (Key Performance Indicator en inglés) o indicadores de rendimiento son factores que miden el desempeño y la efectividad de una estrategia o conjunto de estrategias que buscan alcanzar los objetivos del negocio. Así que puedes utilizar KPIs para medir el rendimiento de áreas como Marketing Digital, ventas, recursos humanos o de tu empresa en general.
+
+El impacto de los KPIs es grande cuando tienes control para entender cómo están funcionando tus acciones y si están llevándote a alcanzar tus objetivos. Ten en cuenta que debes establecer indicadores que sean claves para tu negocio y no caer en la práctica de querer medirlo todo.
+
+Para qué sirven los KPI o indicadores clave de rendimiento
+    Esencialmente, un KPI puede ayudarte a:
+
+Comprender la efectividad de cada plan estratégico
+Analizar información que te lleve a tomar mejores decisiones
+Conocer que tan alineadas están las diferentes áreas con los objetivos de negocio
+Optimizar puntos específicos para mejorar tus estrategias
+Recuerda que si tienes un negocio digital necesitas mostrar tanto a tus socios como a tu equipo de trabajo el rendimiento de las acciones propuestas. Así que los indicadores clave de rendimiento serán fundamentales para entender qué debes medir y por qué lo necesitas.
+
+Cómo definir un KPI para tu negocio y sus características
+La definición de KPIs es una tarea importante que necesitas hacer, así que te presentamos 5 pasos que te ayudarán a lograrlo:
+
+    1. Ten en cuenta tus objetivos y estrategias
+Analiza cuáles son las problemáticas relacionadas con tu negocio o qué necesitas medir. Por ejemplo, Netflix utiliza los KPIs número de suscriptores y número de videos vistos porque están alineados con su estrategia y objetivos.
+
+    2. Utiliza el método SMART
+Para definir un KPI puedes utilizar el método S.M.A.R.T. que te ayudará con los criterios que deben cumplir los KPIs que elijas:
+
+S - Específico
+M - Medible
+A - Alcanzable
+R - Relevante
+t - Ubicado temporalmente
+
+        KPI para un e-commerce
+
+Tráfico
+Visitas a las fichas de productos
+Media de páginas vistas y tiempo en el sitio
+Páginas de salida
+Tasa de abandono de carritos
+Tasa de devolución
+Tasa de conversión
+Fuente de referencias
+Tasa orgánica de recompra (TOR)

@@ -1,0 +1,48 @@
+                        PL-SQL_2
+                        
+Para quienes vamos comenzando con la programación y las bases de datos PL/PgSQL es justamente fusionar los dos mundos. Para quien no sepa de programación creo que puede ser complicado darle seguimiento.
+
+
+    ¿Qué es un ciclo for?
+
+En general, el ciclo for(del inglés por) se usa en aquellas situaciones en las cuales queremos que una variable vaya tomando un valor de una lista definida de valores, repetidamente. La estructura base puede ser la siguiente:
+
+    Estructura muy general de un for:
+
+for var in valores:
+	haz algo
+	
+for: hace referencia a la función bucle for.
+var: es una variable donde se guardarán datos.
+valores: es una lista de datos, puede ser una fila o columna
+haz algo: se refiere a la acción que podemos hacer con el dato guardado en la variable var.
+
+— El bucle for es uno de los más utilizados, es un ciclo que se repite haciendo la misma acción que en este ejemplo, es tomar un dato de la lista ‘valores’ y guardarla en la variable var.
+
+Para aprender más de ciclos for con Python visiten el curso básico de Python es genial.
+
+    Razones para dominar PL/PgSQL
+
+PL / pgSQL es fácil de aprender y fácil de usar. (Quizá no tanto pero no imposible). 💪🏽
+PL / pgSQL viene con PostgreSQL por defecto. Las funciones definidas por el usuario y los procedimientos almacenados desarrollados en PL / pgSQL se pueden utilizar como cualquier función incorporada y procedimiento almacenado.
+PL / pgSQL hereda todos los tipos, funciones y operadores definidos por el usuario.
+PL / pgSQL tiene muchas características que le permiten desarrollar funciones complejas y procedimientos almacenados.
+El servidor de base de datos PostgreSQL puede definir que PL / pgSQL sea de confianza.
+
+    ¿Qué más hago con PL?
+
+Aplícale estructuras de control a tu base de datos:
+
+Puedes implementar árboles de decisiones con if statments, case statements, loops statements, while loops, exit y continue.
+
+    Crea procedimientos almacenados con:
+Create procedure and Drop procedure.
+
+    Funciones definidas por el usuario:
+create function statement, return table, manejo de excepciones, etc.
+
+Todo eso y más a detalle en este tutorial de PL/PgSQL
+
+Está clase me gustó bastante pero si quieres profundizar en el uso de PL/PgSQL puedes hacer el curso de PostgreSQL para ciencia de datos.
+
+También te recomiendo este tutorial, de donde saqué parte de la información de PL/PgSQL

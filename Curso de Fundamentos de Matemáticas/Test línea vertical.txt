@@ -1,0 +1,8 @@
+            Test línea vertical
+        
+Es cierto que parece que todo tipo de ecuación es graficable, pero no todas las ecuaciones son funciones. Debemos siempre tener en mente la definición de función como la relación dependencia en una sola entidad entre la variable independiente y la dependiente, es decir, que a cada X le corresponda un y solo un punto en Y.
+
+¿Qué es el test de línea vertical?
+El test de línea vertical no permite saber de manera muy fácil si aquella gráfica que tenemos, es correspondiente con una función o no. Consiste en trazar una línea vertical en puntos al azar en nuestro plano cartesiano y si alguno de ellos cruza en la gráfica en más de dos puntos, entonces NO es una función.
+
+Cálculo multivariable y las conocemos como ecuaciones paramétricas básicamente son dos ecuaciones con una misma variable y por ende toman dos valores.

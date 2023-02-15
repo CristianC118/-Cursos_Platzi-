@@ -1,0 +1,4 @@
+            Gráfica de Burbujas
+
+"Puedes usar un gráfico de burbujas en lugar de un gráfico de dispersión si los datos tienen tres series de datos que contienen un conjunto de valores. Los tamaños de las burbujas están determinados por los valores de la tercera serie de datos. Los gráficos de burbujas se usan a menudo para presentar datos financieros."
+Ejemplo: numero de productos, Ventas y % de cuota de mercado

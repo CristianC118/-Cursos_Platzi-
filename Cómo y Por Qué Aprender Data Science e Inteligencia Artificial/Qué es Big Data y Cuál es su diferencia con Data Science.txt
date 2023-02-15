@@ -1,0 +1,32 @@
+¿Qué es Big Data? ¿Cuál es su diferencia con Data Science?
+
+Big Data
+Es una grandísima cantidad de datos que tiene una empresa u organización para trabajar, estos datos generalmente no se pueden manejar de manera tradicional, debido a su enorme tamaño.
+
+5 V’s del Big Data
+Para que los datos sean considerados Big Data deben cumplir con las 5 V’s del Big Data. Que son las siguientes:
+
+Volumen
+Son toda la cantidad de datos que tiene la empresa, desde su funcionamiento hasta las interacciones de los usuarios.
+
+Velocidad
+Se refiere a que los datos de Big Data deben tener una velocidad en vivo, para poder procesar de manera adecuada, considerando su tamaño.
+
+Variedad
+Los datos que almacene o transaccione la empresa tienen distintos tipos de formatos.
+
+Veracidad
+Los datos que se tengan en Big Data deben ser confiables o verdaderos, porque en ellos se basarán importantes decisiones del negocio.
+
+Valor
+Estos datos que se almacenan deben brindar algún tipo de ventaja a la empresa para tomar decisiones o hacer productos para sus consumidores.
+
+Procesamiento de Big Data
+El almacenamiento, transformación, análisis e implementación de estos datos del negocio deben hacerse en distintas computadoras, debido a la gran cantidad y también a las diferentes estrategias que deben utilizarse para que funcione el Big Data.
+
+Algunos servicios que se encargan de dividir este gran problema en partes más pequeñas son: Spark, Hadoop y servicios de cómputo en la nube.
+
+Relación entre Data Science, inteligencia artificial y Big Data
+En el procedimiento de búsqueda de información valiosa que es encargado a la Data Science, se usa Big Data para aumentar las posibilidades de tener información más profunda y detallada del negocio.
+
+Además, se pueden emplear modelos entrenados de la rama de Machine Learning de inteligencia artificial para agilizar y encontrar patrones inesperados.

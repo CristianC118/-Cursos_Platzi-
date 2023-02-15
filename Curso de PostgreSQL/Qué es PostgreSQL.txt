@@ -1,0 +1,19 @@
+			¿Qué es Postgresql?
+
+Es un motor de base de datos. Tenemos que tener en cuenta 3 cosas importantes:
+
+Lenguaje
+Motor
+Servidor
+Postgres es el motor. Existe desde 1986. Usa Objeto Relacional.
+
+	¿Por qué PostgreSQL?
+
+Tipos de datos
+Integridad de datos
+Concurrencia, rendimiento
+Fiabilidad, recuperación antre desastres
+Seguridad
+Extensibilidad
+Internalización, búsqueda de texto
+Sitema de geolocalización
