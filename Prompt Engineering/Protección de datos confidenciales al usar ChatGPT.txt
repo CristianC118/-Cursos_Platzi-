@@ -1,0 +1,19 @@
+﻿Protección de datos confidenciales al usar ChatGPT
+
+Como usuario o usuaria de ChatGPT, es importante que tengas precaución al compartir información sensible o confidencial a través del chatbot. Aunque ChatGPT es una herramienta útil y segura para la mayoría de las interacciones, no es infalible y siempre existe la posibilidad de que tus datos puedan ser comprometidos.
+
+Aquí hay algunas precauciones que debes tomar al usar ChatGPT para proteger tu información sensible:
+
+No compartas información personal identificable con el chatbot. Evita compartir información como tu nombre completo, dirección, número de seguro social, número de tarjeta de crédito o cualquier otra información que pueda identificarte personalmente.
+
+No compartas información que esté protegida bajo un acuerdo de confidencialidad (ADC), acuerdo de no divulgación (en inglés Non-Disclosure Agreement o NDA). Esto podría meterte en problemas y afectar a la empresa u organizaciones con las que colabores.
+
+Ten cuidado con la información médica. Esta información es especialmente sensible y debe manejarse con precaución. Consulta con tu profesional de la salud para compartir información sobre tus condiciones médicas, medicamentos o tratamientos con ChatGPT.
+
+Evita compartir contraseñas. Los chatbots no necesitan esa información para proporcionarte ayuda.
+
+No compartas información financiera como números de cuenta o información de tarjetas de crédito o débito.
+
+Asegúrate de estar en un entorno seguro. Evita utilizar ChatGPT en redes públicas o abiertas de Wi-Fi. Utiliza una conexión segura y privada, como una red Wi-Fi doméstica, una conexión celular o una VPN.
+
+Revisa los términos y condiciones de uso de ChatGPT. Asegúrate de leer los términos y condiciones de uso de ChatGPT y comprende cómo se maneja y protege tu información. Si tienes preguntas o inquietudes, ponte en contacto con el equipo de soporte de ChatGPT.
