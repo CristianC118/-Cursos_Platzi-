@@ -1,6 +1,0 @@
-              Listas Desplegables
-              
-Para el uso de las listas desplegables es la clasificación de gastos personales en categorías como el pago de alimentos, servicios, vehículo, ocio, deudas, ropa, etc…
-
-Los intervalos con nombres no pueden contener en su nombre espacios, esto es una limitante porque a veces las opciones de nuestras listas pueden tener espacios. Ejemplo, si tenemos una lista de paises, la opcion “Estados Unidos” tendrá un espacio y esto será un problema cuando usemos la función indirecto. Una forma de solucionar este problema es ya sea escribir las opciones de una lista sin espacios, entonces la opción “Estados Unidos” quedaría así “EstadosUnidos”, cosa que algunas veces no vamos a querer. La otra opción es usar la función SUBSTITUTE para eliminar los espacios de una opción. La fórmula completa quedaría así: =INDIRECT(SUBSTITUTE($D3;" ";"")) D3 es una celda que contiene una lista desplegable.
-Entonces nosotros vamos a poder seguir viendo las opciones de las listas desplegables con espacios, ejemplo, “Estados Unidos”, pero excel internamente hará la búsqueda del intervalo con nombre sin espacios, osea, “EstadosUnidos”
