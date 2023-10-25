@@ -1,0 +1,13 @@
+	Clase 11 - Relaciones y Filtros
+
+En bases de datos nos encontramos con los conceptos de relaciones y filtros. Las relaciones se refieren a la correspondencia que hay entre tablas. Los filtros, por otro lado, se refieren a incluir (o no) ciertos registros al consultar una base de datos, en función de ciertos criterios.
+
+Relaciones de Tablas
+Cuando hablamos de relaciones entre tablas, tenemos dos conceptos claves:
+
+Llaves primarias (Primary Keys): definen la clave principal de la tabla. No pueden contener valores nulos ni duplicados.
+Llaves foráneas (Foreign Keys): es una columna, o conjunto de columnas, que contiene un valor que hace referencia a una fila de otra tabla.
+Tipos de Relaciones
+1 a 1 (1-1): ambas tablas se conectan con sus llaves primarias.
+1 a muchos (1-*): cuando se conecta una llave primaria con una llave foránea de otra tabla. Es la que se debe buscar en Power BI.
+Muchos a muchos (* - *): ocurre cuando ambas tablas se relacionan por sus llaves foráneas (ninguna de las columnas tiene valores únicos). Se recomienda evitar este tipo de relación.

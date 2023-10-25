@@ -1,0 +1,10 @@
+	Clase 10 - Modelado de Datos
+
+El Flujo de BI consiste en:
+
+ETL
+Modelado de Datos
+Visualización de Datos
+ETL se maneja con Power Query, mientras que el Modelado de Datos, se realiza con Power Pivot.
+
+El Modelado de Datos en Power BI se centra en realizar análisis complejos entre varias tablas conectadas por un campo en común.

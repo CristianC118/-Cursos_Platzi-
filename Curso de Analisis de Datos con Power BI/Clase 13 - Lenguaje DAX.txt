@@ -1,0 +1,21 @@
+	Clase 13 - Lenguaje DAX
+
+Data Analysis Expression, o DAX, nos permite crear fórmulas analíticas. Fue creado para manipular un modelo de datos tabular. Originalmente, fue generado como extensión de excel. Es una colección de funciones y operadores que pueden ser utilizados en expresiones que permiten calcular uno o más valores. También se encuentra en PBI, Excel y SSAS Tabular.
+
+Ventajas de DAX
+DAX tiene varias ventajas. Está pensado para usuarios BI, y posee una menor curva de aprendizaje para analistas de datos. Aprovecha el conocimiento de trabajar con fórmulas de Excel, añadiéndole más capacidades como:
+
+Relaciones de navegación.
+Cálculo dinámico de dimensiones.
+Manejo de dimensiones de tiempo (time intelligence).
+Formato de DAX
+‘Nombre de tabla’[Nombre de columna]
+Ejemplo: ‘Tabla Productos’[Precio]
+
+El nombre de la tabla puede ser omitido al usarse en columnas calculadas, más no se recomienda hacerlo por cuestiones de ambigüedad.
+¿Qué podemos generar con DAX?
+Columnas calculadas: crea nuevas columnas en el modelo de datos. Es un método para conectar tablas con múltiples columnas clave.
+
+Tablas Calculadas: crea una tabla derivada de otra tabla.
+
+Medidas: crea cálculos dinámicos guardados en memoria. Más eficientes que las columnas calculadas. Soportan la inteligencia de tiempo.

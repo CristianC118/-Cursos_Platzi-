@@ -1,0 +1,10 @@
+	Clase 12 - Corrigiendo problemas de modelado
+
+Recordemos que el flujo de Business Intelligence se compone de estos pasos: ETL, modelado de datos y reporting. El modelado de datos se refiere a transformar los datos a un formato que haga las labores de reporting más sencillas. Para esto hay varias opciones de modelos de datos.
+
+Modelos de datos
+Existen varios tipos de modelos de datos: estrella, copo de nieve, etc. En cuanto a Power BI, el modelo más eficiente es el de estrella, debido a que resulta en tablas con relaciones uno a muchos. El modelo de estrella se compone de:
+
+Tabla dimensión (de búsqueda): tiene descripciones de la tabla de hechos. Las dimensiones añaden contexto a los hechos. Por ejemplo: fechas, ubicación, etc.
+
+Tabla de hechos (transaccionales o fact): tiene el grueso de la información. Por ejemplo: ventas, subscripciones, órdenes, etc.

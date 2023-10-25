@@ -1,0 +1,5 @@
+ Clase 16 - Iteradores X
+
+Las funciones iterativas son especiales dentro de DAX. Nos permiten crear operaciones a nivel de fila y calcular el resultado. A las funciones iterativas también se les conoce como funciones X. Algunas de estas funciones son: SUMX, AVERAGEX, MAXX, MINX, STDEVX.S, PERCENTILEX.EXC y CONCATENATEX.
+
+Un caso de uso es multiplicar dos valores dentro de una misma fila y sumar los resultados de cada multiplicación. Esto lo hacemos con la función SUMX.

@@ -1,0 +1,22 @@
+	Clase 17 - Data Storytelling
+
+El storytelling es el arte de saber contar una historia. Si a este arte le añadimos datos, podemos hacer reportes que sean más dinámicos para los usuarios. El data storytelling ayuda a captar la atención del usuario y a que él mismo descubra nueva información mediante la interactividad.
+
+Una metodología dentro del data storytelling es SCRAP, que se refiere a:
+
+Spaced
+Espaciado: respetar espacios tanto dentro del gráfico como entre visualizaciones.
+
+Contrast
+Contraste: aplicar colores contrastantes para destacar algo en vez de tener informes monocromáticos ayudará a enfocar la atención del usuario en donde queremos.
+
+Repeat
+Repetición: aplicar de manera consistente tipografías, esquemas de diseño, tamaño de fuente, etc.
+
+Aligned
+Alineado: las visualizaciones deben estar ordenadas y alineadas. Un informe desordenado puede distraer la atención del usuario.
+
+Proximity
+Proximidad: los objetos visuales que estén relacionados deben estar próximos entre sí.
+
+SCRAP está relacionado con los principios de diseño de Gestalt.

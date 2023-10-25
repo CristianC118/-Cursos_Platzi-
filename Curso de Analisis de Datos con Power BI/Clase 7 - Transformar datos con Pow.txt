@@ -1,0 +1,18 @@
+	Clase 7 - Transformar datos con Power Query
+
+Power Query es una tecnología de conexión de datos que permite detectar, conectar, combinar y refinar distintos orígenes de datos para satisfacer las necesidades de análisis.
+
+¿Qué hace Power Query?
+En escencia, hace un proceso de ETL. Extrae, transforma y carga en Power BI los datos para su posterior análisis. Ojo, el objetivo de Power Query no es analizar los datos.
+
+En Power Query se habla de “Magia”, que es una colección de pasos para llegar a un resultado, que permite retroceder o avanzar sin modificar el origen de datos. Es similar a los macros de Excel.
+
+Usar Power Query
+Para entrar en Power Query, simplemente seleccionamos la tabla que queremos procesar y hacemos clic en “Transformar datos”.
+
+Una vez en Power Query, podemos observar el tipo de dato de cada columna:
+
+Power Query maneja distintos tipos de datos que Excel. Al conectarse a una fuente de datos, crea diversos pasos aplicados (Applied Steps):
+
+Uno de estos pasos aplicados es Tipo Cambiado/Changed Type, que asigna un tipo de dato a cada columna:
+

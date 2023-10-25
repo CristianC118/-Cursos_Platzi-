@@ -1,0 +1,13 @@
+	Clase 15 - Inteligencia de Tiempo
+
+Inteligencia de tiempo hace referencia a las técnicas, herramientas y metodologías que nos permiten analizar nuestras medidas minuciosamente a través del tiempo. Está presente en todas las soluciones de inteligencia de negocios como punto de partida para explorar la información.
+
+La inteligencia de tiempo permite analizar la evolución de nuestras medidas en tiempo, monitorear el crecimiento de manera detallada y realizar proyecciones.
+
+Funciones de inteligencia de tiempo
+Puedes encontrar una explicación de las diferentes funciones de inteligencia de tiempo en la documentación. Hay distintos tipos de funciones:
+
+Devuelven una sola fecha: FIRSTDATE, LASTDATE, STARTOFMONTH, etc.
+Devuelven una tabla de fechas: PARALLELPERIOD, DATEADD, DATEBETWEEN, etc.
+Evalúan expresiones a lo largo de un periodo de tiempo: TOTALMTD, TOTALQTD, TOTALYTD.
+Dan apoyo en análisis financieros: OPENINGBALANCEMONTH, OPENINGBALANCEYEAR, CLOSINGBALANCEMONTH, etc.
