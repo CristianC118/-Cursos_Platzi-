@@ -1,0 +1,21 @@
+﻿    Clase 2 - ¿Para qué sirve Excel?
+
+- Herramienta para organizar datos
+- Analizar información
+- Utilizar cálculos y fórmulas
+- Puedo poner formatos a las celdas
+- Poseo pestañas para separar datos y no que no este todo solo en uno
+- Puedo relacionar varios datos para poder combinarlos de la manera que se necesite
+- Se puede visualizar la información mediante gráficos alimentados por la información de las pestañas.
+
+    Atajos de teclado en Excel para Windows:
+Ctrl + C Copia la selección actual al portapapeles.
+Ctrl + V Pega el contenido del portapapeles en la ubicación seleccionada.
+Ctrl + S Guarda el archivo actual en su ubicación actual.
+Ctrl + Shift + + Inserta una fila en la posición actual.
+Ctrl + - Elimina la fila seleccionada.
+Ctrl + ↓ Selecciona la celda directamente debajo de la celda actual.
+Ctrl + 1 Abre el cuadro de diálogo de formato de celdas.
+Ctrl + B Aplica o quita el formato de negrita al texto seleccionado.
+Ctrl + I Aplica o quita el formato de cursiva al texto seleccionado.
+Ctrl + U Aplica o quita el formato de subrayado al texto seleccionado.
