@@ -1,0 +1,77 @@
+	Fórmulas de texto
+
+=NOMPROPIO( a ): Lo que hace esta función es que la primera letra de cualquier nombre pase de minúscula a mayúscula: EJ: andrés rodríguez = Andrés Rodríguez.
+
+=ESPACIOS( a ): Elimina los espacios de al final y al principio de un texto, no quita los espacios intermedios.
+
+=EXTRAE(texto; posicion_inicial_caracter, num_caracteres): Extrae una parte de un texto, tomando como argumentos la posición del texto y la posición inicial y número de caracteres que se desea extraer.
+
+=TEXTO(valor, “formato”): recibe un valor y podemos modificar este formato mediante un String con las características que deseamos que tenga.
+
+=CONCAT( texto; “-”; … ): Concatena distintas celdas, también puede concatenar Strings directamente.
+Se puede hacer directamente en &, EJ: =C4&”-”&E4&"-".
+
+
+
+Fórmulas de texto en Excel
+Las fórmulas de texto en Excel te permiten trabajar con texto en tus hojas de cálculo. Aquí te presentamos algunas de las fórmulas de texto más comunes en Excel:
+
+CONCATENAR
+La función CONCATENAR en Excel se utiliza para unir dos o más cadenas de texto en una sola celda. Por ejemplo, si tienes el nombre propio "Juan" en la celda A1 y el apellido "Pérez" en la celda B1, debes escribir la siguiente fórmula en cualquier otra celda para unir los dos nombres y añadir un espacio en blanco:
+
+
+
+=CONCATENAR(A1," ",B1)
+La fórmula CONCATENAR une el contenido de la celda A1, un espacio en blanco y el contenido de la celda B1 en una sola cadena de texto.
+
+IZQUIERDA
+La función IZQUIERDA en Excel se utiliza para extraer un número específico de caracteres desde el inicio de una cadena de texto. Por ejemplo, si tienes el número de teléfono "+1 (555) 555-5555" en la celda A1 y deseas extraer solo el código de país, debes escribir la siguiente fórmula en cualquier otra celda:
+
+
+
+=IZQUIERDA(A1,3)
+La fórmula IZQUIERDA extrae los primeros tres caracteres de la cadena de texto en la celda A1.
+
+DERECHA
+La función DERECHA en Excel se utiliza para extraer un número específico de caracteres desde el final de una cadena de texto. Por ejemplo, si tienes el número de teléfono "+1 (555) 555-5555" en la celda A1 y deseas extraer solo los últimos cuatro dígitos, debes escribir la siguiente fórmula en cualquier otra celda:
+
+
+
+=DERECHA(A1,4)
+La fórmula DERECHA extrae los últimos cuatro caracteres de la cadena de texto en la celda A1.
+
+LARGO
+La función LARGO en Excel se utiliza para contar el número de caracteres en una cadena de texto. Por ejemplo, si tienes el nombre propio "Pedro" en la celda A1, debes escribir la siguiente fórmula en cualquier otra celda para contar el número de caracteres:
+
+
+
+=LARGO(A1)
+La fórmula LARGO cuenta el número de caracteres en la cadena de texto en la celda A1.
+
+Recuerda que estas son solo algunas de las fórmulas de texto disponibles en Excel. Con estas fórmulas, puedes trabajar con texto de manera eficiente en tus hojas de cálculo. Además, puedes combinar estas fórmulas con otras funciones de Excel para realizar cálculos más avanzados con texto.
+
+ESPACIOS
+La función ESPACIOS en Excel se utiliza para eliminar los espacios innecesarios en una cadena de texto. Por ejemplo, si tienes el nombre propio " Juan " en la celda A1, debes escribir la siguiente fórmula en cualquier otra celda para eliminar los espacios innecesarios:
+
+
+
+=ESPACIOS(A1)
+La fórmula ESPACIOS elimina los espacios innecesarios en la cadena de texto en la celda A1.
+
+EXTRAER
+La función EXTRAER en Excel se utiliza para extraer una parte específica de una cadena de texto. Por ejemplo, si tienes el texto "Hola Mundo" en la celda A1 y deseas extraer solo la palabra "Mundo", debes escribir la siguiente fórmula en cualquier otra celda:
+
+
+
+=EXTRAER(A1,6,5)
+La fórmula EXTRAER extrae cinco caracteres a partir del sexto carácter de la cadena de texto en la celda A1.
+
+TEXTO
+La función TEXTO en Excel se utiliza para dar formato a los valores de las celdas como texto. Por ejemplo, si tienes el número 12345 en la celda A1 y deseas darle formato como "$12,345.00", debes escribir la siguiente fórmula en cualquier otra celda:
+
+
+
+=TEXTO(A1,"$#,##0.00")
+La fórmula TEXTO da formato al valor en la celda A1 como "$12,345.00".
+
+Recuerda que estas son algunas de las fórmulas de texto disponibles en Excel. Con estas fórmulas, puedes trabajar con texto de manera eficiente en tus hojas de cálculo. Además, puedes combinar estas fórmulas con otras funciones de Excel para realizar cálculos más avanzados con texto.

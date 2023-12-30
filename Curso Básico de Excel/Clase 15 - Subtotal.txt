@@ -1,0 +1,15 @@
+Subtotal en Excel
+La función Subtotal en Excel se utiliza para calcular el subtotal de un conjunto de datos en una hoja de cálculo. Esta función es especialmente útil cuando necesitas calcular totales parciales en una lista de datos.
+
+La función Subtotal realiza operaciones de suma, promedio, máximo, mínimo, entre otras, en un rango de celdas especificado. Además, también puede ignorar los valores ocultos en la lista de datos.
+
+Aquí te presentamos los pasos para utilizar la función Subtotal en Excel:
+
+Selecciona el rango de celdas que deseas calcular.
+En la pestaña "Datos" de la cinta de opciones de Excel, haz clic en "Subtotal".
+En el cuadro de diálogo "Subtotal", selecciona la columna en la que deseas calcular los subtotales y la función que deseas utilizar.
+En el cuadro de diálogo "Subtotal", asegúrate de que la opción "Reemplazar subtotales actuales" esté seleccionada si ya se han calculado subtotales previamente en la hoja de cálculo.
+Haz clic en "Aceptar" para aplicar la función Subtotal.
+La función Subtotal insertará filas adicionales en la hoja de cálculo con los subtotales calculados. También puedes utilizar la función Subtotal para calcular varios subtotales en una sola hoja de cálculo.
+
+Recuerda que la función Subtotal en Excel es una herramienta útil para calcular totales parciales en una lista de datos. Con esta función, puedes ahorrar tiempo y realizar cálculos precisos en tus hojas de cálculo.

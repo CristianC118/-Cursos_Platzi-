@@ -1,0 +1,26 @@
+Fórmulas lógicas en Excel
+Las fórmulas lógicas en Excel se utilizan para realizar operaciones basadas en la evaluación de valores verdaderos o falsos. Estas fórmulas son útiles para tomar decisiones basadas en los datos en una hoja de cálculo. A continuación, te presento algunas de las fórmulas lógicas más comunes en Excel:
+
+Función SI
+La función SI en Excel se utiliza para evaluar una condición y, si la condición es verdadera, devuelve un valor, y si es falsa, devuelve otro valor. Por ejemplo, si tienes el número 10 en la celda A1 y deseas evaluar si es mayor o menor que 5, debes escribir la siguiente fórmula en cualquier otra celda:
+
+
+
+=SI(A1>5,"Mayor que 5","Menor o igual que 5")
+La fórmula SI evalúa si el valor en la celda A1 es mayor que 5. Si es así, devuelve el texto "Mayor que 5", de lo contrario devuelve el texto "Menor o igual que 5". Esta fórmula utiliza una condición excluyente, ya que solo se cumplirá una de las dos opciones.
+
+Función Y
+La función Y en Excel se utiliza para evaluar si todas las condiciones especificadas son verdaderas. Por ejemplo, si tienes los valores 10 y 20 en las celdas A1 y B1, y deseas evaluar si ambos valores son mayores que 5, debes escribir la siguiente fórmula en cualquier otra celda:
+
+
+
+=Y(A1>5,B1>5)
+La fórmula Y evalúa si ambos valores en las celdas A1 y B1 son mayores que 5. Si es así, devuelve VERDADERO, de lo contrario devuelve FALSO. Esta fórmula utiliza una condición incluyente, ya que todas las condiciones deben ser verdaderas.
+
+Función O
+La función O en Excel se utiliza para evaluar si al menos una de las condiciones especificadas es verdadera. Por ejemplo, si tienes los valores 2 y 5 en las celdas A1 y B1, y deseas evaluar si al menos uno de los valores es mayor que 5, debes escribir la siguiente fórmula en cualquier otra celda:
+
+
+
+=O(A1>5,B1>5)
+La fórmula O evalúa si al menos uno de los valores en las celdas A1 y B1 es mayor que 5. Si es así, devuelve VERDADERO, de lo contrario devuelve FALSO. Esta fórmula también utiliza una condición incluyente, ya que al menos una de las condiciones debe ser verdadera.

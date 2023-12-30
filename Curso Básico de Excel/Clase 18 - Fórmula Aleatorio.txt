@@ -1,0 +1,17 @@
+	La función ALEATORIO en Excel
+La función ALEATORIO en Excel se utiliza para generar un número aleatorio entre 0 y 1. Para utilizar la función ALEATORIO, debes escribir la siguiente fórmula en cualquier celda:
+
+
+
+=ALEATORIO()
+Cada vez que presionas la tecla F9 o cambias cualquier otra celda en la hoja de cálculo, se generará un nuevo número aleatorio.
+
+Generar un número aleatorio en un rango específico
+Puedes utilizar la función ALEATORIO en combinación con otras funciones de Excel para generar números aleatorios en un rango específico. Por ejemplo, para generar un número aleatorio entre 1 y 100, puedes utilizar la siguiente fórmula:
+
+
+
+=ENTERO(ALEATORIO()*100)+1
+La función ALEATORIO genera un número entre 0 y 1, que luego se multiplica por 100. La función ENTERO redondea el resultado al número entero más cercano. Al sumar 1 al resultado final, obtienes un número aleatorio entre 1 y 100.
+
+Ten en cuenta que cada vez que presionas la tecla F9 o cambias cualquier otra celda en la hoja de cálculo, se generará un nuevo número aleatorio utilizando la fórmula ALEATORIO.
